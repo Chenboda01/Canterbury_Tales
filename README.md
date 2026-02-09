@@ -19,3 +19,19 @@ There was only 2 rooms in her cottage, one to sleep in and one to have meals in,
 
 ## Scene 3: 
 The pigs produced bacon, the cows produced milk, and the sheep produced wool. The widow would sell the bacon, milk, and wool in the market to earn money to support her family. 
+ever
+
+## Scene 4:
+Chanticleer lived in the yard of widow, and the yard was a dry and dusty place, and there was no grass in the yard. The yard was surrounded by a wooden fence, and there was a gate to enter the yard. The gate was always open, and the animals could go in and out of the yard freely.
+
+## Scene 5:
+Chanticleer was very buituful and proud of his feathers, and he would often strut around the yard to show off his feathers. He would crow loudly in the morning to wake up the widow and her daughters, and he would crow again in the evening to signal the end of the day.
+
+## Scene 6:
+Every morning Chanticleer would struck on the horizon and would crow loudly to wake up the widow and her daughters, and every evening he would crow again to signal the end of the day. The widow and her daughters would always thank Chanticleer for waking them up and for signaling the end of the day.
+
+## Scene 7:
+
+
+
+
