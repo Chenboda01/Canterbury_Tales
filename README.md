@@ -34,6 +34,7 @@ Every morning Chanticleer would struck on the horizon and would crow loudly to w
 Chanticleer has 7 hens, and he loved them very much. He would always take care of them and protect them from any danger. He would always crow loudly to warn them if there was any danger nearby. The hens would always thank Chanticleer for taking care of them and for warning them about any danger.
 
 ## Scene 8:
+Chanticleer also had lady-loves, and they were nearly as pretty as his own feathers, but the fairest of all of them was Dame Partlet. Dame Partlet was polite, sociable, and had altogether such a good air about herself ever since she was a week old. Chanticleer had quite lost his heart to Dame Partlet, and he would always crow loudly to show his love for her. Dame Partlet would always thank Chanticleer for showing his love for her and for being such a good rooster.
 
-
+## Scene 9:
 
