@@ -25,13 +25,15 @@ ever
 Chanticleer lived in the yard of widow, and the yard was a dry and dusty place, and there was no grass in the yard. The yard was surrounded by a wooden fence, and there was a gate to enter the yard. The gate was always open, and the animals could go in and out of the yard freely.
 
 ## Scene 5:
-Chanticleer was very buituful and proud of his feathers, and he would often strut around the yard to show off his feathers. He would crow loudly in the morning to wake up the widow and her daughters, and he would crow again in the evening to signal the end of the day.
+Chanticleer was very beautiful and proud of his feathers. His comb was redder than the reddest coral, and indented like the leaves of a tree. His wattles were redder than the reddest coral, and his beak was sharper than the sharpest knife. He had a long neck, and his legs were long and slender. 
 
 ## Scene 6:
 Every morning Chanticleer would struck on the horizon and would crow loudly to wake up the widow and her daughters, and every evening he would crow again to signal the end of the day. The widow and her daughters would always thank Chanticleer for waking them up and for signaling the end of the day.
 
 ## Scene 7:
+Chanticleer has 7 hens, and he loved them very much. He would always take care of them and protect them from any danger. He would always crow loudly to warn them if there was any danger nearby. The hens would always thank Chanticleer for taking care of them and for warning them about any danger.
 
+## Scene 8:
 
 
 
