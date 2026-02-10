@@ -37,6 +37,7 @@ Chanticleer has 7 hens, and he loved them very much. He would always take care o
 Chanticleer also had lady-loves, and they were nearly as pretty as his own feathers, but the fairest of all of them was Dame Partlet. Dame Partlet was polite, sociable, and had altogether such a good air about herself ever since she was a week old. Chanticleer had quite lost his heart to Dame Partlet, and he would always crow loudly to show his love for her. Dame Partlet would always thank Chanticleer for showing his love for her and for being such a good rooster.
 
 ## Scene 9:
- In old days beasts and birds, can talk, speak, and sing.
+ In old days beasts and birds, can talk, speak, sing, and communicate. They could understand each other, and they could understand human language as well. Chanticleer could speak and understand human language, and he could also speak and understand the language of the hens and the lady-loves. He would always talk to them and tell them stories, and they would always listen to him and enjoy his stories.
 
 ## Scene 10:
+
