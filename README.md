@@ -51,4 +51,13 @@ This will be a picture story book which will turn into a stop motion video later
   Partlet said, "Or else perhaps human are bilious when they go to bed and then they have black dreams. The dreamers often cries out loud in their sleep in fear of black bears that are going to toss him with their horns, or their black devil are going eat them up and carry him off altogether. "I could give you many instances if bodily ailments which cause horrible dreams, but I do not care to dwell on this topic. Cato, who is said to have been a very wise man, told us to take no account of dreams. As you, I dare say, may remember, my love. So you had better take some medicine to delete these black dreams out of your head, then you will be able to sleep well. Well, have you taken any medicine to clear these black dreams out of your head? "You must take some medicine at once, and as there is no doctor living in this village, I am giving you the best advice. I will myself prescribe two herbs which grow in this village and which do a deal of good."
 
 ## Scene 16:
+  "Madam -" said Chanticleer, "I am too overpowered by your learning. I hope I shall not have trouble you for any medicine just at present ; and as to Master Cato, who said just now, he may be a very wise man, but if he says that dreams are all fake, I beg leave to tell that there is many men of greater thinking than how Cato had ever think of. As men start reading books, they get more knowledge. Does Cato read books? I don't think so. I have read many books, and I have read many stories, and I know a lot of knowledge. For instance, in one of the greatest books of all times, the bible there had taught me a lot of knowledge."
+
+## Scene 17:
+  Partlet said, "So you had read the bible. Glad to hear that. But I am afraid you have not read it carefully enough for you to understand. Now go to the library and read the bible carefully, and then you will understand that there are many things in the bible that are not true, and that there are many things in the bible that are nonsense."
+
+## Scene 18:
+  "Madam -" said Chanticleer, "I am to overpowered by your learning. I hope I shall not have trouble you for any medicine just at present. As to the bible, I had read it carefully. Now I am not going to argue with you about the bible, and I don't need a doctor nor take any medicine at all."
+
+## Scene 19:
   
