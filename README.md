@@ -48,3 +48,7 @@ This will be a picture story book which will turn into a stop motion video later
   "Dear! Dear! And frightened at a dream too! Dreams are not real, and come from being not quite well. You eat too much for supper or drink more than is good for you ; there is a rush of blood to your head, and things that have to do with blood, such as arrows and red flashes of fire, and red beasts going to bite you, and fights, and dogs, great dogs and little dogs, such as come and bark at us sometimes." 
 
 ## Scene 15:
+  Partlet said, "Or else perhaps human are bilious when they go to bed and then they have black dreams. The dreamers often cries out loud in their sleep in fear of black bears that are going to toss him with their horns, or their black devil are going eat them up and carry him off altogether. "I could give you many instances if bodily ailments which cause horrible dreams, but I do not care to dwell on this topic. Cato, who is said to have been a very wise man, told us to take no account of dreams. As you, I dare say, may remember, my love. So you had better take some medicine to delete these black dreams out of your head, then you will be able to sleep well. Well, have you taken any medicine to clear these black dreams out of your head? "You must take some medicine at once, and as there is no doctor living in this village, I am giving you the best advice. I will myself prescribe two herbs which grow in this village and which do a deal of good."
+
+## Scene 16:
+  
