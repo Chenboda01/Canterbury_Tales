@@ -1,4 +1,4 @@
-Project: Canturbury tales  
+Project: Canterbury tales  
 
 This will be a picture story book which will turn into a stop motion video later. Now we are focusing on the picture story book.
 
@@ -13,7 +13,6 @@ This will be a picture story book which will turn into a stop motion video later
 
 ## Scene 3: 
   The pigs produced bacon, the cows produced milk, and the sheep produced wool. The widow would sell the bacon, milk, and wool in the market to earn money to support her family. 
-ever
 
 ## Scene 4:
   Chanticleer lived in the yard of widow, and the yard was a dry and dusty place, and there was no grass in the yard. The yard was surrounded by a wooden fence, and there was a gate to enter the yard. The gate was always open, and the animals could go in and out of the yard freely.
@@ -34,15 +33,15 @@ ever
   In old days beasts and birds, can talk, speak, sing, and communicate. They could understand each other, and they could understand human language as well. Chanticleer could speak and understand human language, and he could also speak and understand the language of the hens and the lady-loves. He would always talk to them and tell them stories, and they would always listen to him and enjoy his stories.
 
 ## Scene 10:
-  It took place when every early morning Chanticleer sat on his perch and his wives as usual in the widow's kitchen, and dear Partlet sat sleeping by his side. Chanticleer started to groan in a unusual way, and he was very sad in his dream so sad and that he woke up in a fright.
+  It took place when every early morning Chanticleer sat on his perch and his wives as usual in the widow's kitchen, and dear Partlet sat sleeping by his side. Chanticleer started to groan in an unusual way, and he was very sad in his dream, so sad that he woke up in a fright.
 
 ## Scene 11:
-  Dear Partlet woke up and said, "Dear heart!" "What ails you?" "You are groaning so loudly that you woke me up" "What is the matter?" Then Chanticleer said, "I had a dream where I was being chased by a fierce and hungry fox a soon as I woke up, I was so frighted that I couldn't stop groaning." 
+  Dear Partlet woke up and said, "Dear heart!" "What ails you?" "You are groaning so loudly that you woke me up" "What is the matter?" Then Chanticleer said, "I had a dream where I was being chased by a fierce and hungry fox as soon as I woke up, I was so frighted that I couldn't stop groaning." 
 
 ## Scene 12:
-  "Shame on you," said Dame Partlet, "Shame on you for a coward I tell you straitforwardly that you almost lost my love. I will never love a milk-sop. Whatever we women say, we all wish to have husbands who are brave, wise, and generous, and who know how to hold their tongues. We despite a man who is stupid, or frighted at the least thing that you could ever think of in your whole entire life. How dare you fore shame tell you lady-love that you are afraid of anything?"
+  "Shame on you," said Dame Partlet, "Shame on you for a coward I tell you straitforwardly that you almost lost my love. I will never love a milk-sop. Whatever we women say, we all wish to have husbands who are brave, wise, and generous, and who know how to hold their tongues. We despite a man who is stupid, or frighted at the least thing that they could ever think of in their whole entire lives. How dare you for shame tell your lady-love that you are afraid of anything?"
 
  ## Scene 13:
-  "I'm not a coward -", said Chanticleer, "and I will prove it to you. I will show you that I am brave and wise, and that I know how to hold my tongue. I will reveal that I am not afraid of anything, and that I am not a milk-sop."  Partlet said, "I don't care of what you say! You are not proving to me that you are brave and wise, and that you won't hold your tongue. Now go out of here and face the world and prove to me that you are brave and wise, and you can hold your tongue. If you are not brave and wise, and that you can't hold your tongue then I will never love you ever again in my life."
+  "I'm not a coward -", said Chanticleer, "and I will prove it to you. I will show you that I am brave and wise, and that I know how to hold my tongue. I will reveal that I am not afraid of anything at all, and that I am not a milk-sop."  Partlet said, "I don't care of what you say! You are not proving to me that you are brave and wise, and that you won't hold your tongue. Now go out of here and face the world and prove to me that you are brave and wise, and you can hold your tongue. If you are not brave and wise, and that you can't hold your tongue then I will never love you ever again in my whole entire life!"
 
 ## Scene 14:
