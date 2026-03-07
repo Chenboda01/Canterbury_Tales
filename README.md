@@ -45,3 +45,6 @@ This will be a picture story book which will turn into a stop motion video later
   "I'm not a coward -", said Chanticleer, "and I will prove it to you. I will show you that I am brave and wise, and that I know how to hold my tongue. I will reveal that I am not afraid of anything at all, and that I am not a milk-sop."  Partlet said, "I don't care of what you say! You are not proving to me that you are brave and wise, and that you won't hold your tongue. Now go out of here and face the world and prove to me that you are brave and wise, and you can hold your tongue. If you are not brave and wise, and that you can't hold your tongue then I will never love you ever again in my whole entire life!"
 
 ## Scene 14:
+  "Dear! Dear! And frightened at a dream too! Dreams are not real, and come from being not quite well. You eat too much for supper or drink more than is good for you ; there is a rush of blood to your head, and things that have to do with blood, such as arrows and red flashes of fire, and red beasts going to bite you, and fights, and dogs, great dogs and little dogs, such as come and bark at us sometimes." 
+
+## Scene 15:
