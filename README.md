@@ -3,7 +3,7 @@ Project: Canterbury tales
 This will be a picture story book which will turn into a stop motion video later. Now we are focusing on the picture story book.
 
 ## Scene 0:
-  The host and Chacer are talking to each other while Chaucer was riding an old lean, bony, and sorry horse but that does not hinder him from telling him a merry story.
+  The host and Chaucer are talking to each other while Chaucer was riding an old lean, bony, and sorry horse but that does not hinder him from telling him a merry story.
 
 ## Scene 1: 
   Once there was a poor widow who lived in a humble cottage by a wood-side in a valley. She was an honest old woman, and ever since the death of her husband, she had been living with her only 2 daughters. After the death of her husband, the widow had to work hard and cheerfully to support herself and her only 2 daughters. She had a small piece of land where she could produce food from their farm. She had 3 fat pigs, 3 cows, and a sheep, called Mally. She also had a rooster, called Chanticleer, and a hen, called Pertelote. The widow loved her animals and took good care of them, especially Chanticleer. 
