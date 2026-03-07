@@ -66,4 +66,4 @@ This will be a picture story book which will turn into a stop motion video later
   "I would give my spurs for you to read the legend of St. Kenelm as I have -" Said Chanticleer, ". I may tell you too, Dame Partlet, that Macrobius, who wrote the account of the vision of worthy Scipio in Africa, believes in dreams, and says they are warnings."
 
 ## Scene 21:
-  
+  "If you read general history you will fin many wonderful dreams that came true, - the dream of Crœsus, for instance, who dreamt of Androm-ache, the wife of Hector, who dreamt of his death this night before it happened. She warned him, but all in vain, and he was slain by Achilles." Said Chanticleer. 
