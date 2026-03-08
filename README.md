@@ -66,10 +66,10 @@ This will be a picture story book which will turn into a stop motion video later
   "I would give my spurs for you to read the legend of St. Kenelm as I have -" Said Chanticleer, ". I may tell you too, Dame Partlet, that Macrobius, who wrote the account of the vision of worthy Scipio in Africa, believes in dreams, and says they are warnings."
 
 ## Scene 21:
-  "If you read general history you will fin many wonderful dreams that came true, - the dream of Crœsus, for instance, who dreamt of Androm-ache, the wife of Hector, who dreamt of his death this night before it happened. She warned him, but all in vain, and he was slain by Achilles." Said Chanticleer. 
+  "If you read general history you will find many wonderful dreams that came true, - the dream of Crœsus, for instance, who dreamt of Andromache, the wife of Hector, who dreamt of his death the night before it happened. She warned him, but all in vain, and he was slain by Achilles." Said Chanticleer. 
 
 ## Scene 22:
-  Chanticleer flew down from the beam, for it had grown light while he was talking, and all hos hens flew down too.
+  Chanticleer flew down from the beam, for it had grown light while he was talking, and all his hens flew down too.
 
 ## Scene 23:
   Chanticleer went into the yard and soon began to cry chuck, chuck, to call his wives, for he had found a corn in the yard. Chanticleer was royal now, and no longer in the least afraid. He looked about him as grim as a lion, and marched up and down on his toes, without condescending to put his foot to the ground. Whenever he found a grain he would say chuck, chuck, chuck, and all his wives would run to him as fast as fast as possible. It was the 3rd day of May, and Chanticleer was in all his pride. He cast a glance at the bright sun, and knew by his natural wisdom that it was 6:00 ; so he crowed loudly to wake up the widow and her daughters. Ah, Madam Partlet, the joy of the world to me, hark how the happy birds are singing, and see the fresh flowers how they are all round us. I declare I am the happiest man alive!
