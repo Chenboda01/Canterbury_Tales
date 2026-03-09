@@ -82,5 +82,7 @@ This will be a picture story book which will turn into a stop motion video later
 
 
 
+  and if this tale were properly told in a book a writer might make a fine moral of it.h 
 ## Scene 24:
+  A wicked fox, a sly old sinner, who had been prowling about the neighboring wood for the last 3 years, had that very night burst though the hedge to the yard where Chanticleer and his wives were to take their exercise, and lay hidden in a bed of nettles until the evening, waiting for a good time to fall on Chanticleer. That is the mean way with these wicked foxes, always lie in wait to murder men. 
 
