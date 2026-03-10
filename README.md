@@ -87,4 +87,4 @@ This will be a picture story book which will turn into a stop motion video later
   A wicked fox, a sly old sinner, who had been prowling about the neighboring wood for the last 3 years, had that very night burst though the hedge to the yard where Chanticleer and his wives were to take their exercise, and lay hidden in a bed of nettles until the evening, waiting for a good time to fall on Chanticleer. That is the mean way with these wicked foxes, always lie in wait to murder men. 
 
 ## Scene 25:
-Oh, villain of fox! You are another Judas, and as great a deceiver as the Greek man Sinon, who caused the fall of Troy. Poor Chanticleer!
+Oh, villain of fox! You are another Judas, and as great a deceiver as the Greek man Sinon, who caused the fall of Troy. Poor Chanticleer! It was an unlucky day for you when you flew down from your perch on the beam to walk in the yard, when you had been so well warned beforehand in your dream. 
