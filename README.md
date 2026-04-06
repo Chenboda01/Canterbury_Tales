@@ -93,7 +93,9 @@ This will be a picture story book which will turn into a stop motion video later
   However, I must not say anything against women, for some folks may not like it.
 
 ## Scene 27:
-Dame Partlet and the other ladies were dusting themselves into the sand, enjoying the warm sunshine, Chanticleer was by himself, and sang as sweetly as a mermaid in the sea ; and as that happened, he glanced to look at a butterfly that had settled on the nettles, he was aware of the fox crouching down among them. 
+  Dame Partlet and the other ladies were dusting themselves into the sand, enjoying the warm sunshine, Chanticleer was by himself, and sang as sweetly as a mermaid in the sea ; and as that happened, he glanced to look at a butterfly that had settled on the nettles, he was aware of the fox crouching down among them. 
 
 ## Scene 28:
+  "Ah, my dear sir, I knew your father well - rest in his soul - and your mother too, bless her gentle heart. They often done me the great pleasure and honor to visit me at my own house, and I am sure I should respect your friendship and good opinion most highly"
+
 
