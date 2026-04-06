@@ -96,6 +96,15 @@ This will be a picture story book which will turn into a stop motion video later
   Dame Partlet and the other ladies were dusting themselves into the sand, enjoying the warm sunshine, Chanticleer was by himself, and sang as sweetly as a mermaid in the sea ; and as that happened, he glanced to look at a butterfly that had settled on the nettles, he was aware of the fox crouching down among them. 
 
 ## Scene 28:
-  "Ah, my dear sir, I knew your father well - rest in his soul - and your mother too, bless her gentle heart. They often done me the great pleasure and honor to visit me at my own house, and I am sure I should respect your friendship and good opinion most highly"
+  "Ah, my dear sir, I knew your father well - rest in his soul - and your mother too, bless her gentle heart. They often done me the great pleasure and honor to visit me at my own house, and I am sure I should respect your friendship and good opinion most highly" Said Dame Partlet.
 
+## Scene 29:
+  "I remember a fine poem of Master Brown's, the respected ass, which recounts how a cock in the flower of his youth received a knock on the leg from a priest's son, and how the cock succeeded in making the priest lose his living in consequence ; but this cock was not nearly such a clever man as your father. And now I beg you, my dear sir, do let me hear you sing, that I may see whether you have inherited your father's marvellous voice." Said Dame Partlet 
 
+## Scene 30:
+  Scene 31: 
+  Poor Chanticleer!!!! He had better have stayed on his perch.
+Note: sorry about the mess up!
+## Scene 31:
+  Scene 30:
+    He stood high on his toes and stretched out his neck and shut his eyes tight, and began to crow loudly enough - and Mr. Renard, the fox, took opportunity to catch him by the throat, towards the wood close by ; for as yet not a soul had seen him
