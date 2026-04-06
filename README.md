@@ -102,9 +102,24 @@ This will be a picture story book which will turn into a stop motion video later
   "I remember a fine poem of Master Brown's, the respected ass, which recounts how a cock in the flower of his youth received a knock on the leg from a priest's son, and how the cock succeeded in making the priest lose his living in consequence ; but this cock was not nearly such a clever man as your father. And now I beg you, my dear sir, do let me hear you sing, that I may see whether you have inherited your father's marvellous voice." Said Dame Partlet 
 
 ## Scene 30:
-  Scene 31: 
-  Poor Chanticleer!!!! He had better have stayed on his perch.
-Note: sorry about the mess up!
+  He stood high on his toes and stretched out his neck and shut his eyes tight, and began to crow loudly enough - and Mr. Renard, the fox, took opportunity to catch him by the throat, towards the wood close by ; for as yet not a soul had seen him.
+
 ## Scene 31:
-  Scene 30:
-    He stood high on his toes and stretched out his neck and shut his eyes tight, and began to crow loudly enough - and Mr. Renard, the fox, took opportunity to catch him by the throat, towards the wood close by ; for as yet not a soul had seen him
+  Poor Chanticleer! He had better have stayed on his perch.  
+
+## Scene 32:
+  They all cried out, "Mercy on us! Hi! the fox! the fox!" and of they went after him
+
+## Scene 33: 
+  When the fox saw he was gone, he said, "Poor dear Chanticleer, I beg you pardon, I did very wrong to frighten  you by talking hold of you and bringing you out of the yard, but indeed sir, I meant no harm. Come down and I will explain my motive. I declare I will tell you the truth" Said Dame Partlet. "No, no, no! - " said Chanticleer. " - Take once. You won't flatter me a second time into singing and winking my eyes. If a man fully shuts his eyes when he ought (I think another typo from passage) to keep them open, it serves him right if he comes to a bad end."
+
+## Scene 34:
+
+
+
+
+                                          Sources: 
+
+1. Canterbury tales passage Digitized by Google from the library of University of Michigan and uploaded to the Internet Archive by user tpb. The original book was published in 1904, and the author is Geoffrey Chaucer. The title of the book is "The Canterbury tales". The passage we are using is "The Nun's Priest's Tale".
+2. ChatGPT (Starting point)
+3. GitHub (Current repo)
