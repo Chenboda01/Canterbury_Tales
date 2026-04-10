@@ -9,7 +9,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       Repository: "https://github.com/Chenboda01/Canterbury_Tales",
-      Wiki: "https://github.com/Chenboda01/Canterbury_Tales/tree/master/wiki",
+      Wiki: "https://github.com/Chenboda01/Canterbury_Tales/tree/new-feature/wiki",
     },
   }),
 }
