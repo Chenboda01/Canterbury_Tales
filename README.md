@@ -177,7 +177,8 @@ To enable it in GitHub:
 
 1. Open **Settings → Pages**
 2. Set **Source** to **GitHub Actions**
-3. Merge/push the workflow to `master` or `new-feature` (or run it manually with **workflow_dispatch**)
+3. If this is the first publish on this repo, save the GitHub Pages settings once after making the source change.
+4. Merge/push the workflow to `master` or `new-feature` (or run it manually with **workflow_dispatch**)
 
 Expected site URL:
 
