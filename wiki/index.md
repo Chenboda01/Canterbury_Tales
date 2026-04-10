@@ -1,3 +1,7 @@
+---
+title: Wiki Index
+---
+
 # Wiki Index
 
 This index lists all pages currently maintained in the project wiki.
