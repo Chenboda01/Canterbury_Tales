@@ -1,0 +1,48 @@
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Quartz build output
+quartz-site/public/
+quartz-site/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Project specific
+.playwright-cli/
+.sisyphus/
+optimize_images.sh
+wiki/assets/scenes/originals/
+wiki/assets/scenes/optimized/
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
