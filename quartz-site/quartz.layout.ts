@@ -5,7 +5,11 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Chatbot({
+      position: "bottom-right"
+    })
+  ],
   footer: Component.Footer({
     links: {
       Repository: "https://github.com/Chenboda01/Canterbury_Tales",
