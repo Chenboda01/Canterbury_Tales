@@ -7,6 +7,7 @@ This repo currently contains a markdown-based retelling sequence for *The Nun's 
 ## Quick Navigation
 
 - [[Project-Overview]]
+- [[Chaucer]]
 - [[Story-Outline]]
 - [[Characters-and-Roles]]
 - [[Source-Notes]]
