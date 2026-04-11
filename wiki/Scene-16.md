@@ -1,5 +1,8 @@
 # Scene 16
 
+![Scene 16: **Source:** `../README.md#scene-16`](assets/scenes/scene-16.jpg)
+*"Madam -" said Chanticleer, "Am too overpowered by your learning.*
+
 **Source:** `../README.md#scene-16`
 
 **Status:** draft content (from source layer)

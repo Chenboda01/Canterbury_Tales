@@ -1,5 +1,8 @@
 # Scene 14
 
+![Scene 14: **Source:** `../README.md#scene-14`](assets/scenes/scene-14.jpg)
+*"Dear! Dear!*
+
 **Source:** `../README.md#scene-14`
 
 **Status:** draft content (from source layer)

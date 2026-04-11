@@ -1,5 +1,8 @@
 # Scene 13
 
+![Scene 13: **Source:** `../README.md#scene-13`](assets/scenes/scene-13.jpg)
+*"I'm not a coward -", said Chanticleer, "and I will prove it to you.*
+
 **Source:** `../README.md#scene-13`
 
 **Status:** draft content (from source layer)

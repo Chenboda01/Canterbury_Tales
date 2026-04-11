@@ -1,5 +1,8 @@
 # Scene 3
 
+![Scene 3: **Source:** `../README.md#scene-3`](assets/scenes/scene-03.jpg)
+*The pigs produced bacon, the cows produced milk, and the sheep produced wool.*
+
 **Source:** `../README.md#scene-3`
 
 **Status:** draft content (from source layer)

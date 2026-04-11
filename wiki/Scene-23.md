@@ -1,5 +1,8 @@
 # Scene 23
 
+![Scene 23: **Source:** `../README.md#scene-23`](assets/scenes/scene-23.jpg)
+*Chanticleer went into the yard and soon began to cry chuck, chuck, to call his wives, for he had found a corn in the yard.*
+
 **Source:** `../README.md#scene-23`
 
 **Status:** draft content (from source layer)

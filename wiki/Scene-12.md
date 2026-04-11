@@ -1,5 +1,8 @@
 # Scene 12
 
+![Scene 12: **Source:** `../README.md#scene-12`](assets/scenes/scene-12.jpg)
+*"Shame on you," said Dame Partlet, "Shame on you for a coward I tell you straitforwardly that you almost lost my love.*
+
 **Source:** `../README.md#scene-12`
 
 **Status:** draft content (from source layer)

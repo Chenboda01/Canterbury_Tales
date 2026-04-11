@@ -1,5 +1,8 @@
 # Scene 30
 
+![Scene 30: **Source:** `../README.md#scene-30`](assets/scenes/scene-30.jpg)
+*He stood high on his toes and stretched out his neck and shut his eyes tight, and began to crow loudly enough - and Mr.*
+
 **Source:** `../README.md#scene-30`
 
 **Status:** draft content (from source layer)

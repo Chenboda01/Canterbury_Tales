@@ -1,5 +1,8 @@
 # Scene 4
 
+![Scene 4: **Source:** `../README.md#scene-4`](assets/scenes/scene-04.jpg)
+*Chanticleer lived in the yard of widow, and the yard was a dry and dusty place, and there was no grass in the yard.*
+
 **Source:** `../README.md#scene-4`
 
 **Status:** draft content (from source layer)

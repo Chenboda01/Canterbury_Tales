@@ -1,5 +1,8 @@
 # Scene 2
 
+![Scene 2: **Source:** `../README.md#scene-2`](assets/scenes/scene-02.jpg)
+*There was only 2 rooms in her cottage, one to sleep in and one to have meals in, and both of the rooms were black with soot, for there was no proper fireplace in her cottage, and the smoke from the fire would fill the rooms.*
+
 **Source:** `../README.md#scene-2`
 
 **Status:** draft content (from source layer)

@@ -1,5 +1,8 @@
 # Scene 8
 
+![Scene 8: **Source:** `../README.md#scene-8`](assets/scenes/scene-08.jpg)
+*Chanticleer also had lady-loves, and they were nearly as pretty as his own feathers, but the fairest of all of them was Dame Partlet.*
+
 **Source:** `../README.md#scene-8`
 
 **Status:** draft content (from source layer)

@@ -1,5 +1,8 @@
 # Scene 17
 
+![Scene 17: **Source:** `../README.md#scene-17`](assets/scenes/scene-17.jpg)
+*Partlet said, "So you had read the bible!? Glad to hear that.*
+
 **Source:** `../README.md#scene-17`
 
 **Status:** draft content (from source layer)

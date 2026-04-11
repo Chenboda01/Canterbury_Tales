@@ -1,5 +1,8 @@
 # Scene 15
 
+![Scene 15: **Source:** `../README.md#scene-15`](assets/scenes/scene-15.jpg)
+*Partlet said, "Or else perhaps human are bilious when they go to bed and then they have black dreams.*
+
 **Source:** `../README.md#scene-15`
 
 **Status:** draft content (from source layer)

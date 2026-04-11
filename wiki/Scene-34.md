@@ -1,5 +1,8 @@
 # Scene 34
 
+![Scene 34: **Source:** `../README.md#scene-34`](assets/scenes/scene-34.jpg)
+*Sources: 1.*
+
 **Source:** `../README.md#scene-34`
 
 **Status:** draft content (from source layer)

@@ -1,5 +1,8 @@
 # Scene 27
 
+![Scene 27: **Source:** `../README.md#scene-27`](assets/scenes/scene-27.jpg)
+*Dame Partlet and the other ladies were dusting themselves into the sand, enjoying the warm sunshine, Chanticleer was by himself, and sang as sweetly as a mermaid in the sea ; and as that happened, he glanced to look at a butterfly that had settled on the nettles, he was aware of the fox crouching down among them.*
+
 **Source:** `../README.md#scene-27`
 
 **Status:** draft content (from source layer)

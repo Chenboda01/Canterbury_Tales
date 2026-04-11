@@ -1,5 +1,8 @@
 # Scene 33
 
+![Scene 33: **Source:** `../README.md#scene-33`](assets/scenes/scene-33.jpg)
+*When the fox saw he was gone, he said, "Poor dear Chanticleer, I beg you pardon, I did very wrong to frighten you by talking hold of you and bringing you out of the yard, but indeed sir, I meant no harm.*
+
 **Source:** `../README.md#scene-33`
 
 **Status:** draft content (from source layer)

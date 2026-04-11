@@ -1,5 +1,8 @@
 # Scene 1
 
+![Scene 1: **Source:** `../README.md#scene-1`](assets/scenes/scene-01.jpg)
+*Once there was a poor widow who lived in a humble cottage by a wood-side in a valley.*
+
 **Source:** `../README.md#scene-1`
 
 **Status:** draft content (from source layer)

@@ -1,5 +1,8 @@
 # Scene 19
 
+![Scene 19: **Source:** `../README.md#scene-19`](assets/scenes/scene-19.jpg)
+*"Let me tell you a true story -" Said Chanticleer, ".*
+
 **Source:** `../README.md#scene-19`
 
 **Status:** draft content (from source layer)

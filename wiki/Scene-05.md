@@ -1,5 +1,8 @@
 # Scene 5
 
+![Scene 5: **Source:** `../README.md#scene-5`](assets/scenes/scene-05.jpg)
+*Chanticleer was very beautiful and proud of his feathers.*
+
 **Source:** `../README.md#scene-5`
 
 **Status:** draft content (from source layer)

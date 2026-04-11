@@ -1,5 +1,8 @@
 # Scene 7
 
+![Scene 7: **Source:** `../README.md#scene-7`](assets/scenes/scene-07.jpg)
+*Chanticleer has 7 hens, and he loved them very much.*
+
 **Source:** `../README.md#scene-7`
 
 **Status:** draft content (from source layer)

@@ -1,5 +1,8 @@
 # Scene 6
 
+![Scene 6: **Source:** `../README.md#scene-6`](assets/scenes/scene-06.jpg)
+*Every morning Chanticleer would struck on the horizon and would crow loudly to wake up the widow and her daughters, and every evening he would crow again to signal the end of the day.*
+
 **Source:** `../README.md#scene-6`
 
 **Status:** draft content (from source layer)

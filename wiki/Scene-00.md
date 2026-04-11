@@ -1,5 +1,8 @@
 # Scene 0
 
+![Scene 0: **Source:** `../README.md#scene-0`](assets/scenes/scene-00.jpg)
+*The host and Chaucer are talking to each other while Chaucer was riding an old lean, bony, and sorry horse but that does not hinder him from telling him a merry story.*
+
 **Source:** `../README.md#scene-0`
 
 **Status:** draft content (from source layer)

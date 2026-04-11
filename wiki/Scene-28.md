@@ -1,5 +1,8 @@
 # Scene 28
 
+![Scene 28: **Source:** `../README.md#scene-28`](assets/scenes/scene-28.jpg)
+*"Ah, my dear sir, I knew your father well - rest in his soul - and your mother too, bless her gentle heart.*
+
 **Source:** `../README.md#scene-28`
 
 **Status:** draft content (from source layer)

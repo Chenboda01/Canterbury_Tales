@@ -1,5 +1,8 @@
 # Scene 32
 
+![Scene 32: **Source:** `../README.md#scene-32`](assets/scenes/scene-32.jpg)
+*They all cried out, "Mercy on us! Hi!*
+
 **Source:** `../README.md#scene-32`
 
 **Status:** draft content (from source layer)

@@ -1,5 +1,8 @@
 # Scene 29
 
+![Scene 29: **Source:** `../README.md#scene-29`](assets/scenes/scene-29.jpg)
+*"I remember a fine poem of Master Brown's, the respected ass, which recounts how a cock in the flower of his youth received a knock on the leg from a priest's son, and how the cock succeeded in making the priest lose his living in consequence ; but this cock was not nearly such a clever man as your father.*
+
 **Source:** `../README.md#scene-29`
 
 **Status:** draft content (from source layer)

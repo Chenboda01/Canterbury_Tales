@@ -1,5 +1,8 @@
 # Scene 25
 
+![Scene 25: **Source:** `../README.md#scene-25`](assets/scenes/scene-25.jpg)
+*Oh, villain of fox! You are another Judas, and as great a deceiver as the Greek man Sinon, who caused the fall of Troy.*
+
 **Source:** `../README.md#scene-25`
 
 **Status:** draft content (from source layer)

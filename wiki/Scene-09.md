@@ -1,5 +1,8 @@
 # Scene 9
 
+![Scene 9: **Source:** `../README.md#scene-9`](assets/scenes/scene-09.jpg)
+*In old days beasts and birds, can talk, speak, sing, and communicate.*
+
 **Source:** `../README.md#scene-9`
 
 **Status:** draft content (from source layer)

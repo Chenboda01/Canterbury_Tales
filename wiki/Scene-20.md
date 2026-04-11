@@ -1,5 +1,8 @@
 # Scene 20
 
+![Scene 20: **Source:** `../README.md#scene-20`](assets/scenes/scene-20.jpg)
+*"I would give my spurs for you to read the legend of St.*
+
 **Source:** `../README.md#scene-20`
 
 **Status:** draft content (from source layer)

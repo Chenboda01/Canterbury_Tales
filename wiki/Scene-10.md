@@ -1,5 +1,8 @@
 # Scene 10
 
+![Scene 10: **Source:** `../README.md#scene-10`](assets/scenes/scene-10.jpg)
+*It took place when every early morning Chanticleer sat on his perch and his wives as usual in the widow's kitchen, and dear Partlet sat sleeping by his side.*
+
 **Source:** `../README.md#scene-10`
 
 **Status:** draft content (from source layer)
