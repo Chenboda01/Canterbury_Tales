@@ -20,6 +20,7 @@ class CanterburyTalesChatbot {
   private currentQuizQuestion = 0
   private quizScore = 0
   private quizAnswers: number[] = []
+  private throbberElement: HTMLElement | null = null
   
   private quizQuestions = [
     {
@@ -241,29 +242,132 @@ class CanterburyTalesChatbot {
     return {letter: 'F', percentage}
   }
 
-  private endQuiz() {
+  private async endQuiz() {
     this.quizMode = false
     const grade = this.calculateGrade()
+    const finalPercentage = grade.percentage
     
-    let resultMessage = `📊 **Quiz Complete!**\n\n`
-    resultMessage += `**Score:** ${this.quizScore}/${this.quizQuestions.length} (${grade.percentage.toFixed(1)}%)\n`
-    resultMessage += `**Grade:** ${grade.letter}\n\n`
+    this.showThrobber(0)
     
-    if (grade.letter === 'A') {
-      resultMessage += `🏆 **Excellent!** You\'re a Canterbury Tales expert!`
-    } else if (grade.letter === 'B') {
-      resultMessage += `👍 **Good job!** You know the tale well.`
-    } else if (grade.letter === 'C') {
-      resultMessage += `👌 **Not bad!** You have a basic understanding.`
-    } else if (grade.letter === 'D') {
-      resultMessage += `📚 **Keep studying!** Review the story and try again.`
-    } else {
-      resultMessage += `📖 **Time to re-read!** The Nun's Priest's Tale awaits you.`
+    const animationDurationMs = 2000
+    const animationStartTime = Date.now()
+    const animationStartPercentage = 0
+    
+    const animateProgress = () => {
+      const elapsed = Date.now() - animationStartTime
+      const progress = Math.min(elapsed / animationDurationMs, 1)
+      
+      const easeOutCubic = 1 - Math.pow(1 - progress, 3)
+      const currentPercentage = animationStartPercentage + (finalPercentage - animationStartPercentage) * easeOutCubic
+      
+      this.updateThrobber(currentPercentage)
+      
+      if (progress < 1) {
+        requestAnimationFrame(animateProgress)
+      } else {
+        setTimeout(() => {
+          this.removeThrobber()
+          
+          let resultMessage = `📊 **Quiz Complete!**\n\n`
+          resultMessage += `**Score:** ${this.quizScore}/${this.quizQuestions.length} (${finalPercentage.toFixed(1)}%)\n`
+          resultMessage += `**Grade:** ${grade.letter}\n\n`
+          
+          if (grade.letter === 'A') {
+            resultMessage += `🏆 **Excellent!** You\'re a Canterbury Tales expert!`
+          } else if (grade.letter === 'B') {
+            resultMessage += `👍 **Good job!** You know the tale well.`
+          } else if (grade.letter === 'C') {
+            resultMessage += `👌 **Not bad!** You have a basic understanding.`
+          } else if (grade.letter === 'D') {
+            resultMessage += `📚 **Keep studying!** Review the story and try again.`
+          } else {
+            resultMessage += `📖 **Time to re-read!** The Nun's Priest's Tale awaits you.`
+          }
+          
+          resultMessage += `\n\nSay "start quiz" to try again!`
+          
+          this.addMessage('assistant', resultMessage)
+        }, 500)
+      }
     }
     
-    resultMessage += `\n\nSay "start quiz" to try again!`
+    requestAnimationFrame(animateProgress)
+  }
+
+  private showThrobber(initialPercentage: number = 0): void {
+    if (this.throbberElement) {
+      this.throbberElement.remove()
+    }
+
+    const throbberDiv = document.createElement('div')
+    throbberDiv.className = 'chatbot-throbber'
     
-    this.addMessage('assistant', resultMessage)
+    const containerDiv = document.createElement('div')
+    containerDiv.className = 'chatbot-throbber-container'
+    
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
+    svg.setAttribute('class', 'chatbot-throbber-svg')
+    svg.setAttribute('viewBox', '0 0 36 36')
+    
+    const circleBg = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
+    circleBg.setAttribute('class', 'chatbot-throbber-circle-bg')
+    circleBg.setAttribute('cx', '18')
+    circleBg.setAttribute('cy', '18')
+    circleBg.setAttribute('r', '15.9155')
+    
+    const circleProgress = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
+    circleProgress.setAttribute('class', 'chatbot-throbber-circle-progress')
+    circleProgress.setAttribute('cx', '18')
+    circleProgress.setAttribute('cy', '18')
+    circleProgress.setAttribute('r', '15.9155')
+    circleProgress.setAttribute('stroke-dasharray', '100')
+    circleProgress.setAttribute('stroke-dashoffset', '100')
+    
+    svg.appendChild(circleBg)
+    svg.appendChild(circleProgress)
+    
+    const percentageDiv = document.createElement('div')
+    percentageDiv.className = 'chatbot-throbber-percentage'
+    percentageDiv.textContent = `${Math.round(initialPercentage)}%`
+    
+    const textDiv = document.createElement('div')
+    textDiv.className = 'chatbot-throbber-text'
+    textDiv.textContent = 'Calculating score...'
+    
+    containerDiv.appendChild(svg)
+    containerDiv.appendChild(percentageDiv)
+    
+    throbberDiv.appendChild(containerDiv)
+    throbberDiv.appendChild(textDiv)
+    
+    this.messagesContainer.appendChild(throbberDiv)
+    this.throbberElement = throbberDiv
+    this.messagesContainer.scrollTop = this.messagesContainer.scrollHeight
+    
+    this.updateThrobber(initialPercentage)
+  }
+
+  private updateThrobber(percentage: number): void {
+    if (!this.throbberElement) return
+    
+    const circleProgress = this.throbberElement.querySelector('.chatbot-throbber-circle-progress') as SVGElement
+    const percentageDiv = this.throbberElement.querySelector('.chatbot-throbber-percentage') as HTMLElement
+    
+    if (circleProgress) {
+      const offset = 100 - percentage
+      circleProgress.setAttribute('stroke-dashoffset', offset.toString())
+    }
+    
+    if (percentageDiv) {
+      percentageDiv.textContent = `${Math.round(percentage)}%`
+    }
+  }
+
+  private removeThrobber(): void {
+    if (this.throbberElement) {
+      this.throbberElement.remove()
+      this.throbberElement = null
+    }
   }
 
   private toggleWindow() {
@@ -374,17 +478,37 @@ class CanterburyTalesChatbot {
   }
 
   private getRuleBasedResponse(userMessage: string): string {
-    const lowerMessage = userMessage.toLowerCase()
+    const lowerMessage = userMessage.toLowerCase().trim()
     
-    // Check for quiz-related commands
-    if (lowerMessage.includes('quiz') || lowerMessage.includes('test') || lowerMessage.includes('exam') || lowerMessage.includes('grade')) {
-      return this.handleQuizCommand(lowerMessage)
+    // More precise quiz detection - only for explicit quiz commands
+    const quizCommands = ['start quiz', 'take quiz', 'begin quiz', 'test me', 'quiz me']
+    
+    const isExactQuizCommand = lowerMessage === 'quiz' || quizCommands.some(cmd => lowerMessage === cmd)
+    const startsWithQuizCommand = quizCommands.some(cmd => 
+      lowerMessage.startsWith(cmd + ' ') || 
+      lowerMessage.startsWith(cmd + '!') || 
+      lowerMessage.startsWith(cmd + '?')
+    )
+    
+    if (isExactQuizCommand || startsWithQuizCommand) {
+      return 'QUIZ_MODE:START'
+    }
+    
+    // Allow canceling quiz during quiz mode
+    if (this.quizMode && (lowerMessage.includes('cancel') || lowerMessage.includes('stop') || lowerMessage.includes('exit'))) {
+      this.quizMode = false
+      return 'Quiz canceled. You can ask me questions about The Canterbury Tales again.'
+    }
+    
+    // Handle quiz help separately
+    if (lowerMessage.includes('quiz help') || lowerMessage.includes('help quiz')) {
+      return 'To start a quiz, say "start quiz". I\'ll ask 10 multiple-choice questions. During quiz, answer with numbers 1-4. Say "cancel quiz" to exit.'
     }
     
     const responses: Array<{keywords: string[], response: string}> = [
       {
         keywords: ['hello', 'hi', 'hey', 'greetings'],
-        response: 'Hello! I\'m your Canterbury Tales assistant. Ask me about the story, characters, or themes. You can also say "start quiz" to test your knowledge!'
+        response: 'Hello! I\'m your Canterbury Tales assistant. Ask me about the story, characters, or themes. Say "start quiz" for a knowledge test.'
       },
       {
         keywords: ['chanticleer', 'rooster', 'cock'],
@@ -407,7 +531,7 @@ class CanterburyTalesChatbot {
         response: 'Chanticleer dreams of a beast threatening him, which Pertelote dismisses. The dream comes true when the fox captures him, illustrating medieval debates about dream interpretation.'
       },
       {
-        keywords: ['story', 'plot', 'summary', 'happens'],
+        keywords: ['story', 'plot', 'summary', 'happens', 'scene'],
         response: 'In "The Nun\'s Priest\'s Tale," Chanticleer the rooster has a nightmare about being attacked. His wife Pertelote dismisses it. Later, a fox flatters Chanticleer into singing, captures him, but Chanticleer tricks the fox into letting him go.'
       },
       {
@@ -423,12 +547,8 @@ class CanterburyTalesChatbot {
         response: 'The story takes place in the widow\'s farmyard, with animals that can talk and reason like humans—a common device in medieval beast fables.'
       },
       {
-        keywords: ['start quiz', 'take quiz', 'begin quiz', 'test me'],
-        response: 'QUIZ_MODE:START'
-      },
-      {
         keywords: ['help', 'what can you do'],
-        response: 'I can answer questions about The Canterbury Tales and test your knowledge with a quiz! Try: "Who is Chanticleer?" or "Start quiz" to begin a test.'
+        response: 'I answer questions about The Canterbury Tales. Try: "Who is Chanticleer?" or "What happens in the story?" Say "start quiz" for a knowledge test.'
       }
     ]
 
@@ -438,7 +558,7 @@ class CanterburyTalesChatbot {
       }
     }
 
-    return 'I can only answer questions about The Canterbury Tales. Try asking about characters like Chanticleer or Pertelote, the plot, themes, or the author Geoffrey Chaucer. You can also say "start quiz" to test your knowledge!'
+    return 'I can only answer questions about The Canterbury Tales. Try asking about characters, plot, themes, or the author. Say "start quiz" for a knowledge test.'
   }
 
   private handleQuizCommand(command: string): string {
