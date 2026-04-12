@@ -245,7 +245,8 @@ class CanterburyTalesChatbot {
   private async endQuiz() {
     this.quizMode = false
     const grade = this.calculateGrade()
-    const finalPercentage = grade.percentage
+    const displayPercentage = grade.percentage  // Actual score for display
+    const finalPercentage = 100                 // Always animate to 100%
     
     this.showThrobber(0)
     
@@ -269,7 +270,7 @@ class CanterburyTalesChatbot {
           this.removeThrobber()
           
           let resultMessage = `📊 **Quiz Complete!**\n\n`
-          resultMessage += `**Score:** ${this.quizScore}/${this.quizQuestions.length} (${finalPercentage.toFixed(1)}%)\n`
+          resultMessage += `**Score:** ${this.quizScore}/${this.quizQuestions.length} (${displayPercentage.toFixed(1)}%)\n`
           resultMessage += `**Grade:** ${grade.letter}\n\n`
           
           if (grade.letter === 'A') {

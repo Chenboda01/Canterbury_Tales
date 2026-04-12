@@ -50,19 +50,15 @@ export default ((opts: Options) => {
         <div class="chatbot-container">
           <button class="chatbot-toggle" aria-label="Open Chatbot">
             <svg class="chatbot-logo" viewBox="0 0 100 100" width="40" height="40">
-              <defs>
-                <linearGradient id="chatbot-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#FF6B35" />
-                  <stop offset="33%" stop-color="#4ECDC4" />
-                  <stop offset="66%" stop-color="#FF6B9D" />
-                  <stop offset="100%" stop-color="#6A0572" />
-                </linearGradient>
-              </defs>
-               <polygon points="50,5 61,37 95,37 67,57 76,91 50,72 24,91 33,57 5,37 39,37" fill="url(#chatbot-gradient)" stroke="#fff" stroke-width="3"/>
-               <path d="M35,40 L65,40 L65,60 L35,60 Z" fill="#fff" opacity="0.9"/>
-               <circle cx="40" cy="50" r="5" fill="#fff" opacity="0.9"/>
-               <circle cx="60" cy="50" r="5" fill="#fff" opacity="0.9"/>
-               <path d="M40,70 Q50,80 60,70" fill="none" stroke="#fff" stroke-width="3" opacity="0.9"/>
+               <defs>
+                 <linearGradient id="chatbot-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                   <stop offset="0%" stop-color="#FF6B35" />
+                   <stop offset="33%" stop-color="#4ECDC4" />
+                   <stop offset="66%" stop-color="#FF6B9D" />
+                   <stop offset="100%" stop-color="#6A0572" />
+                 </linearGradient>
+               </defs>
+                 <polygon points="50,5 61,37 95,37 67,57 76,91 50,72 24,91 33,57 5,37 39,37" fill="url(#chatbot-gradient)" stroke="#fff" stroke-width="1"/>
             </svg>
           </button>
           
