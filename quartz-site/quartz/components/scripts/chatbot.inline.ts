@@ -579,19 +579,14 @@ class CanterburyTalesChatbot {
     avatar.className = 'chatbot-avatar'
     
     if (role === 'assistant' || role === 'system') {
-      const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
-      svg.setAttribute('viewBox', '0 0 100 100')
-      svg.setAttribute('width', '32')
-      svg.setAttribute('height', '32')
-      
-      const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
-      circle.setAttribute('cx', '50')
-      circle.setAttribute('cy', '50')
-      circle.setAttribute('r', '45')
-      circle.setAttribute('fill', 'url(#chatbot-gradient)')
-      
-      svg.appendChild(circle)
-      avatar.appendChild(svg)
+      const img = document.createElement('img')
+      img.src = '/static/Gemini_PROOF.png'
+      img.alt = 'AI Avatar'
+      img.width = 32
+      img.height = 32
+      img.style.borderRadius = '50%'
+      img.style.objectFit = 'cover'
+      avatar.appendChild(img)
     } else {
       avatar.textContent = '👤'
     }

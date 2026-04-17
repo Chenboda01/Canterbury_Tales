@@ -49,25 +49,27 @@ export default ((opts: Options) => {
       >
         <div class="chatbot-container">
           <button class="chatbot-toggle" aria-label="Open Chatbot">
-            <svg class="chatbot-logo" viewBox="0 0 100 100" width="40" height="40">
-               <defs>
-                 <linearGradient id="chatbot-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                   <stop offset="0%" stop-color="#FF6B35" />
-                   <stop offset="33%" stop-color="#4ECDC4" />
-                   <stop offset="66%" stop-color="#FF6B9D" />
-                   <stop offset="100%" stop-color="#6A0572" />
-                 </linearGradient>
-               </defs>
-                 <polygon points="50,5 61,37 95,37 67,57 76,91 50,72 24,91 33,57 5,37 39,37" fill="url(#chatbot-gradient)" stroke="#fff" stroke-width="1"/>
-            </svg>
+             <img 
+  class="chatbot-logo" 
+  src="/static/Gemini_PROOF.png" 
+  alt="Canterbury Tales AI Logo"
+  width="40"
+  height="40"
+  style={{ borderRadius: '50%', objectFit: 'cover' }}
+/>
           </button>
           
           <div class="chatbot-window hidden">
             <div class="chatbot-header">
               <div class="chatbot-title">
-                <svg class="chatbot-logo-small" viewBox="0 0 100 100" width="24" height="24">
-                   <polygon points="50,5 61,37 95,37 67,57 76,91 50,72 24,91 33,57 5,37 39,37" fill="url(#chatbot-gradient)"/>
-                </svg>
+                 <img 
+                   class="chatbot-logo-small" 
+                   src="/static/Gemini_PROOF.png" 
+                   alt="Canterbury Tales AI Logo"
+                   width="24"
+                   height="24"
+                   style={{ borderRadius: '50%', objectFit: 'cover' }}
+                 />
                 <span>Canterbury Tales AI</span>
               </div>
               <button class="chatbot-close" aria-label="Close Chatbot">×</button>
@@ -76,9 +78,13 @@ export default ((opts: Options) => {
             <div class="chatbot-messages">
               <div class="chatbot-message chatbot-system">
                 <div class="chatbot-avatar">
-                  <svg viewBox="0 0 100 100" width="32" height="32">
-                    <circle cx="50" cy="50" r="45" fill="url(#chatbot-gradient)"/>
-                  </svg>
+                   <img 
+                     src="/static/Gemini_PROOF.png" 
+                     alt="AI Avatar"
+                     width="32"
+                     height="32"
+                     style={{ borderRadius: '50%', objectFit: 'cover' }}
+                   />
                 </div>
                 <div class="chatbot-content">
                   <p>Hello! I'm your Canterbury Tales assistant. Ask me anything about Geoffrey Chaucer's classic work, characters, or themes.</p>

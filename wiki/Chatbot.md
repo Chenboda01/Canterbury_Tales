@@ -11,7 +11,7 @@ title: "AI Chatbot"
 ## Features
 
 - **Topic-Restricted**: Only answers questions about Geoffrey Chaucer's *The Canterbury Tales*, specifically *The Nun's Priest's Tale*
-- **Gradient Logo**: Orange → Blue → Pink → Purple gradient design (inspired by Gemini)
+- **Gradient Logo**: Orange → Blue → Pink → Purple gradient design
 - **Dual Mode**: Rule-based responses + optional OpenAI API integration
 - **Interactive Interface**: Floating chat window with message history
 - **Responsive Design**: Works on mobile and desktop devices
