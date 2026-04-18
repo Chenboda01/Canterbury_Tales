@@ -1,3 +1,4 @@
+console.log('Quiz script loaded');
 class Quiz {
   private quizQuestions = [
     {
@@ -170,6 +171,7 @@ class Quiz {
   private progressRingForeground: SVGCircleElement | null
 
   constructor(container: HTMLElement) {
+    console.log('Quiz constructor called for container:', container);
     this.container = container
     this.startScreen = container.querySelector('.quiz-start-screen')!
     this.questionScreen = container.querySelector('.quiz-question-screen')!
@@ -191,10 +193,15 @@ class Quiz {
     this.retryButton = container.querySelector('.quiz-retry-button')!
     this.progressRingForeground = container.querySelector('.quiz-progress-ring-foreground')
 
-    this.init()
+    try {
+      this.init()
+    } catch (error) {
+      console.error('Quiz initialization error:', error)
+    }
   }
 
   private init() {
+    console.log('Quiz init called, startButton:', this.startButton);
     this.startButton.addEventListener('click', () => this.startQuiz())
     this.submitButton.addEventListener('click', () => this.submitAnswer())
     this.nextButton.addEventListener('click', () => this.nextQuestion())
@@ -343,7 +350,26 @@ class Quiz {
   }
 }
 
-export default (function init() {
+// Export Quiz class to window for debugging
+(window as any).Quiz = Quiz;
+
+function initQuiz() {
+  console.log('Quiz init function called');
   const containers = document.querySelectorAll<HTMLElement>('[data-quiz="true"]')
-  containers.forEach(container => new Quiz(container))
-})
+  console.log('Found quiz containers:', containers.length);
+  containers.forEach((container, i) => {
+    console.log('Creating Quiz instance for container', i);
+    new Quiz(container);
+  })
+}
+
+// Try multiple initialization strategies
+document.addEventListener('nav', initQuiz);
+
+// Fallback for static pages without nav event
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initQuiz);
+} else {
+  // DOM already loaded, initialize immediately
+  setTimeout(initQuiz, 0);
+}
