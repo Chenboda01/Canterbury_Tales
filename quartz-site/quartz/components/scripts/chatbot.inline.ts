@@ -285,6 +285,17 @@ class CanterburyTalesChatbot {
             resultMessage += `📖 **Time to re-read!** The Nun's Priest's Tale awaits you.`
           }
           
+          if (grade.letter !== 'A') {
+            const encouragementMessages = [
+              "I'm ready to try again!",
+              "I'm ready for another attempt!",
+              "Let me try again - I'm prepared now!",
+              "Ready for round two!"
+            ]
+            const randomEncouragement = encouragementMessages[Math.floor(Math.random() * encouragementMessages.length)]
+            resultMessage += `\n\n${randomEncouragement}`
+          }
+          
           resultMessage += `\n\nSay "start quiz" to try again!`
           
           this.addMessage('assistant', resultMessage)
