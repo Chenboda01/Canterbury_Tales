@@ -29,7 +29,7 @@ Respond in a friendly, scholarly tone suitable for students and literature enthu
 export default ((opts: Options) => {
   const Chatbot: QuartzComponent = ({ displayClass, fileData: _fileData, cfg: _cfg }: QuartzComponentProps) => {
     const apiKey = opts.apiKey || ""
-    const model = opts.model || "gpt-4o-mini"
+    const model = opts.model || "qwen3.5-plus"
     const systemPrompt = opts.systemPrompt || defaultSystemPrompt
     const position = opts.position || "bottom-right"
 

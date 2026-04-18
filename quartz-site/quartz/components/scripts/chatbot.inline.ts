@@ -117,12 +117,59 @@ class CanterburyTalesChatbot {
       correctAnswer: 1,
       explanation: "Geoffrey Chaucer wrote The Canterbury Tales in the late 14th century (circa 1387-1400).",
       difficulty: "easy"
+    },
+    {
+      id: 11,
+      question: "How many tales are originally planned in The Canterbury Tales?",
+      options: ["24", "120", "100", "30"],
+      correctAnswer: 1,
+      explanation: "Chaucer originally planned 120 tales (two per pilgrim), but only completed 24.",
+      difficulty: "medium"
+    },
+    {
+      id: 12,
+      question: "What is the framing device of The Canterbury Tales?",
+      options: ["A royal banquet", "A pilgrimage to Canterbury", "A ship voyage", "A court trial"],
+      correctAnswer: 1,
+      explanation: "The tales are told by pilgrims traveling from London to Canterbury Cathedral to visit the shrine of Thomas Becket.",
+      difficulty: "easy"
+    },
+    {
+      id: 13,
+      question: "Which character tells 'The Nun's Priest's Tale'?",
+      options: ["The Nun's Priest", "The Knight", "The Wife of Bath", "The Pardoner"],
+      correctAnswer: 0,
+      explanation: "As the title indicates, 'The Nun's Priest's Tale' is told by the Nun's Priest, who accompanies the Prioress.",
+      difficulty: "easy"
+    },
+    {
+      id: 14,
+      question: "What is the moral of 'The Nun's Priest's Tale' according to the narrator?",
+      options: [
+        "Never trust flatterers",
+        "Dreams are meaningless",
+        "Women are always wrong",
+        "Pride goes before a fall"
+      ],
+      correctAnswer: 0,
+      explanation: "The explicit moral is to beware of flatterers, though the tale contains multiple layers of meaning.",
+      difficulty: "medium"
+    },
+    {
+      id: 15,
+      question: "What animal besides Chanticleer is mentioned as part of the widow's livestock?",
+      options: ["A horse", "A sheep named Mally", "A dog", "A cat"],
+      correctAnswer: 1,
+      explanation: "The widow owns a sheep named Mally, along with three cows, three pigs, and Chanticleer's hens.",
+      difficulty: "hard"
     }
   ]
 
+  private selectedQuizQuestions: any[] = []
+
   constructor(container: HTMLElement) {
     this.apiKey = container.dataset.apiKey || ''
-    this.model = container.dataset.model || 'gpt-4o-mini'
+    this.model = container.dataset.model || 'qwen3.5-plus'
     this.systemPrompt = container.dataset.systemPrompt || ''
 
     this.toggleButton = container.querySelector('.chatbot-toggle')!
@@ -158,24 +205,46 @@ class CanterburyTalesChatbot {
     })
   }
 
+  private shuffleQuestions() {
+    // Select 10 random questions from the pool for individual quiz experience
+    const pool = [...this.quizQuestions]; // copy
+    this.selectedQuizQuestions = [];
+    
+    // Fisher-Yates shuffle to pick random 10 questions
+    for (let i = 0; i < 10 && i < pool.length; i++) {
+      const j = i + Math.floor(Math.random() * (pool.length - i));
+      [pool[i], pool[j]] = [pool[j], pool[i]];
+      this.selectedQuizQuestions.push(pool[i]);
+    }
+    
+    // Shuffle the selected questions for random order
+    for (let i = this.selectedQuizQuestions.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [this.selectedQuizQuestions[i], this.selectedQuizQuestions[j]] = [this.selectedQuizQuestions[j], this.selectedQuizQuestions[i]];
+    }
+  }
+
   private startQuiz() {
     this.quizMode = true
     this.currentQuizQuestion = 0
     this.quizScore = 0
     this.quizAnswers = []
     
+    // Shuffle questions for individual experience
+    this.shuffleQuestions()
+    
     this.addMessage('assistant', '📝 **Canterbury Tales Quiz Started!**\n\nI\'ll ask you 10 multiple-choice questions. Answer with the number (1-4) or letter (A-D) of your choice.\n\n**Grading:** A (90-100%), B (80-89%), C (70-79%), D (60-69%), F (below 60%)\n\n*No E grade because "E stands for excellent" in this system!*\n\nReady? Here\'s question 1:')
     this.displayQuizQuestion(0)
   }
 
   private displayQuizQuestion(questionIndex: number) {
-    if (questionIndex >= this.quizQuestions.length) {
+    if (questionIndex >= this.selectedQuizQuestions.length) {
       this.endQuiz()
       return
     }
 
-    const question = this.quizQuestions[questionIndex]
-    let questionText = `**Question ${questionIndex + 1}/${this.quizQuestions.length}** (${question.difficulty})\n${question.question}\n\n`
+    const question = this.selectedQuizQuestions[questionIndex]
+    let questionText = `**Question ${questionIndex + 1}/${this.selectedQuizQuestions.length}** (${question.difficulty})\n${question.question}\n\n`
     
     question.options.forEach((option, index) => {
       questionText += `${index + 1}. ${option}\n`
@@ -186,7 +255,7 @@ class CanterburyTalesChatbot {
   }
 
   private handleQuizAnswer(answer: string) {
-    const question = this.quizQuestions[this.currentQuizQuestion]
+    const question = this.selectedQuizQuestions[this.currentQuizQuestion]
     let answerIndex = -1
     
     // Parse answer: could be "1", "A", "a", "option 1", etc.
@@ -223,7 +292,7 @@ class CanterburyTalesChatbot {
 
     this.currentQuizQuestion++
     
-    if (this.currentQuizQuestion < this.quizQuestions.length) {
+    if (this.currentQuizQuestion < this.selectedQuizQuestions.length) {
       setTimeout(() => this.displayQuizQuestion(this.currentQuizQuestion), 1000)
     } else {
       setTimeout(() => this.endQuiz(), 1000)
@@ -233,7 +302,7 @@ class CanterburyTalesChatbot {
   }
 
   private calculateGrade(): {letter: string, percentage: number} {
-    const percentage = (this.quizScore / this.quizQuestions.length) * 100
+    const percentage = (this.quizScore / this.selectedQuizQuestions.length) * 100
     
     if (percentage >= 90) return {letter: 'A', percentage}
     if (percentage >= 80) return {letter: 'B', percentage}
@@ -270,7 +339,7 @@ class CanterburyTalesChatbot {
           this.removeThrobber()
           
           let resultMessage = `📊 **Quiz Complete!**\n\n`
-          resultMessage += `**Score:** ${this.quizScore}/${this.quizQuestions.length} (${displayPercentage.toFixed(1)}%)\n`
+          resultMessage += `**Score:** ${this.quizScore}/${this.selectedQuizQuestions.length} (${displayPercentage.toFixed(1)}%)\n`
           resultMessage += `**Grade:** ${grade.letter}\n\n`
           
           if (grade.letter === 'A') {
@@ -462,7 +531,7 @@ class CanterburyTalesChatbot {
     ]
 
     try {
-      const response = await fetch('https://api.openai.com/v1/chat/completions', {
+      const response = await fetch('https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -484,7 +553,7 @@ class CanterburyTalesChatbot {
       const data = await response.json()
       return data.choices[0].message.content.trim()
     } catch (error) {
-      console.error('OpenAI API error:', error)
+      console.error('Qwen API error:', error)
       return this.getRuleBasedResponse(userMessage)
     }
   }
@@ -493,7 +562,7 @@ class CanterburyTalesChatbot {
     const lowerMessage = userMessage.toLowerCase().trim()
     
     // More precise quiz detection - only for explicit quiz commands
-    const quizCommands = ['start quiz', 'take quiz', 'begin quiz', 'test me', 'quiz me']
+    const quizCommands = ['start quiz', 'take quiz', 'begin quiz', 'test me', 'quiz me', 'i\'m ready', 'ready', 'try again', 'restart quiz', 'again', 'let\'s go']
     
     const isExactQuizCommand = lowerMessage === 'quiz' || quizCommands.some(cmd => lowerMessage === cmd)
     const startsWithQuizCommand = quizCommands.some(cmd => 
