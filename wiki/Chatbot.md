@@ -6,13 +6,13 @@ title: "AI Chatbot"
 
 **Topic-restricted AI assistant for The Canterbury Tales**
 
-![Chatbot Logo](assets/scenes/scene-00.jpg)
+![Chatbot Logo](static/Gemini_PROOF.png)
 
 ## Features
 
 - **Topic-Restricted**: Only answers questions about Geoffrey Chaucer's *The Canterbury Tales*, specifically *The Nun's Priest's Tale*
 - **Gradient Logo**: Orange → Blue → Pink → Purple gradient design
-- **Dual Mode**: Rule-based responses + optional OpenAI API integration
+- **Dual Mode**: Rule-based responses + optional QWEN 3.5 PRO MAX INTEGRATION
 - **Interactive Interface**: Floating chat window with message history
 - **Responsive Design**: Works on mobile and desktop devices
 
@@ -36,7 +36,7 @@ title: "AI Chatbot"
 ## Technology
 
 - **Frontend**: React component integrated into Quartz 4 layout
-- **Backend**: Rule-based system with optional OpenAI GPT-4 integration
+- **Backend**: Rule-based system with optional QWEN 3.5 PRO MAX integration
 - **Styling**: Custom CSS with gradient animations
 - **Searchable**: This page appears in site search results for "chatbot" or "AI"
 
