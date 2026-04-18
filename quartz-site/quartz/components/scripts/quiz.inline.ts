@@ -210,6 +210,8 @@ class Quiz {
     this.optionElements.forEach((option, index) => {
       option.addEventListener('click', () => this.selectOption(index))
     })
+
+    this.container.addEventListener('keydown', (e) => this.handleKeydown(e))
   }
 
   private shuffleQuestions() {
@@ -347,6 +349,16 @@ class Quiz {
   private retryQuiz() {
     this.resultsScreen.classList.add('hidden')
     this.startScreen.classList.remove('hidden')
+  }
+
+  private handleKeydown(e: KeyboardEvent) {
+    if (e.key === 'Enter') {
+      if (!this.questionScreen.classList.contains('hidden') && !this.submitButton.disabled) {
+        this.submitAnswer()
+      } else if (!this.feedbackScreen.classList.contains('hidden')) {
+        this.nextQuestion()
+      }
+    }
   }
 }
 
