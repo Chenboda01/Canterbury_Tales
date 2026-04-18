@@ -8,6 +8,7 @@
   border-radius: 12px;
   border: 1px solid #333333;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
 
 .quiz-container {
@@ -22,7 +23,7 @@
   h3 {
     margin: 0 0 0.5rem 0;
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #90ee90;
   }
   
   .quiz-subtitle {
@@ -326,6 +327,40 @@
   small {
     color: #888888;
     font-size: 0.85rem;
+  }
+}
+
+.quiz-throbber {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, 
+    rgba(144, 238, 144, 0.8) 0%, 
+    rgba(144, 238, 144, 1) 25%, 
+    rgba(144, 238, 144, 0.8) 50%, 
+    rgba(144, 238, 144, 1) 75%, 
+    rgba(144, 238, 144, 0.8) 100%);
+  background-size: 200% 100%;
+  z-index: 10;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  animation: quiz-throbber-shimmer 2s linear infinite;
+  animation-play-state: paused;
+}
+
+.quiz-throbber:not(.hidden) {
+  animation-play-state: running;
+}
+
+@keyframes quiz-throbber-shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
   }
 }
 

@@ -169,6 +169,8 @@ class Quiz {
   private quizPercentageSpan: HTMLElement
   private retryButton: HTMLElement
   private progressRingForeground: SVGCircleElement | null
+  private throbber: HTMLElement
+  private boundKeydownHandler: (e: KeyboardEvent) => void
 
   constructor(container: HTMLElement) {
     console.log('Quiz constructor called for container:', container);
@@ -191,6 +193,7 @@ class Quiz {
     this.quizScoreSpan = container.querySelector('.quiz-score')!
     this.quizPercentageSpan = container.querySelector('.quiz-percentage')!
     this.retryButton = container.querySelector('.quiz-retry-button')!
+    this.throbber = container.querySelector('.quiz-throbber')!
     this.progressRingForeground = container.querySelector('.quiz-progress-ring-foreground')
 
     try {
@@ -211,7 +214,13 @@ class Quiz {
       option.addEventListener('click', () => this.selectOption(index))
     })
 
+    // Add tabindex to make container focusable for keyboard navigation
+    this.container.setAttribute('tabindex', '-1')
     this.container.addEventListener('keydown', (e) => this.handleKeydown(e))
+    
+    // Also listen on document for Enter key regardless of focus
+    this.boundKeydownHandler = (e: KeyboardEvent) => this.handleKeydown(e)
+    document.addEventListener('keydown', this.boundKeydownHandler)
   }
 
   private shuffleQuestions() {
@@ -326,14 +335,36 @@ class Quiz {
     
     this.questionScreen.classList.add('hidden')
     this.feedbackScreen.classList.add('hidden')
-    this.resultsScreen.classList.remove('hidden')
+    
+    // Show throbber for loading effect
+    this.showThrobber()
+    
+    // After a short delay, show results and hide throbber
+    setTimeout(() => {
+      this.hideThrobber()
+      this.resultsScreen.classList.remove('hidden')
+      
+      this.quizScoreSpan.textContent = this.quizScore.toString()
+      this.quizPercentageSpan.textContent = `${grade.percentage.toFixed(1)}%`
+      this.gradePercentage.textContent = `${grade.percentage.toFixed(1)}%`
+      this.gradeLetter.textContent = grade.letter
 
-    this.quizScoreSpan.textContent = this.quizScore.toString()
-    this.quizPercentageSpan.textContent = `${grade.percentage.toFixed(1)}%`
-    this.gradePercentage.textContent = `${grade.percentage.toFixed(1)}%`
-    this.gradeLetter.textContent = grade.letter
+      this.animateGradeCircle(grade.percentage)
+    }, 800)
+  }
 
-    this.animateGradeCircle(grade.percentage)
+  private showThrobber() {
+    this.throbber.classList.remove('hidden')
+    // Force reflow to ensure transition works
+    void this.throbber.offsetWidth
+    this.throbber.style.transform = 'scaleX(1)'
+  }
+
+  private hideThrobber() {
+    this.throbber.style.transform = 'scaleX(0)'
+    setTimeout(() => {
+      this.throbber.classList.add('hidden')
+    }, 300) // Wait for transition to complete
   }
 
   private animateGradeCircle(targetPercentage: number) {
@@ -349,13 +380,18 @@ class Quiz {
   private retryQuiz() {
     this.resultsScreen.classList.add('hidden')
     this.startScreen.classList.remove('hidden')
+    this.hideThrobber()
   }
 
   private handleKeydown(e: KeyboardEvent) {
+    console.log('Quiz keydown:', e.key, 'isQuizActive:', this.isQuizActive, 'questionScreen hidden:', this.questionScreen.classList.contains('hidden'), 'feedbackScreen hidden:', this.feedbackScreen.classList.contains('hidden'))
     if (e.key === 'Enter') {
+      e.preventDefault() // Prevent default form submission behavior
       if (!this.questionScreen.classList.contains('hidden') && !this.submitButton.disabled) {
+        console.log('Enter key: submitting answer')
         this.submitAnswer()
       } else if (!this.feedbackScreen.classList.contains('hidden')) {
+        console.log('Enter key: moving to next question')
         this.nextQuestion()
       }
     }
