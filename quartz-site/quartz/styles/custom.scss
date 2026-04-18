@@ -20,7 +20,7 @@ body {
 .left.sidebar,
 .right.sidebar,
 footer {
-  backdrop-filter: blur(8px);
+  /* backdrop-filter: blur(8px); removed to prevent container blur interference with liquid glass scrollbar */
 }
 
 .center {
