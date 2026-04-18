@@ -9,7 +9,6 @@ type Options = {
   apiKey?: string
   model?: string
   systemPrompt?: string
-  position?: "bottom-right" | "bottom-left" | "top-right" | "top-left"
 }
 
 const defaultSystemPrompt = `You are a knowledgeable assistant specialized in Geoffrey Chaucer's "The Canterbury Tales," specifically "The Nun's Priest's Tale." Your purpose is to help users understand the story, characters, themes, and historical context.
@@ -31,48 +30,28 @@ export default ((opts: Options) => {
     const apiKey = opts.apiKey || ""
     const model = opts.model || "qwen3.5-plus"
     const systemPrompt = opts.systemPrompt || defaultSystemPrompt
-    const position = opts.position || "bottom-right"
-
-    const positionClasses = {
-      "bottom-right": "chatbot-bottom-right",
-      "bottom-left": "chatbot-bottom-left", 
-      "top-right": "chatbot-top-right",
-      "top-left": "chatbot-top-left"
-    }
 
     return (
       <div 
-        class={classNames(displayClass, "quartz-chatbot", positionClasses[position])}
+        class={classNames(displayClass, "quartz-chatbot", "chatbot-embedded")}
         data-api-key={apiKey}
         data-model={model}
         data-system-prompt={systemPrompt}
       >
         <div class="chatbot-container">
-          <button class="chatbot-toggle" aria-label="Open Chatbot">
-             <img 
-  class="chatbot-logo" 
-  src="/static/Gemini_PROOF.png" 
-  alt="Canterbury Tales AI Logo"
-  width="40"
-  height="40"
-  style={{ borderRadius: '50%', objectFit: 'cover' }}
-/>
-          </button>
-          
-          <div class="chatbot-window hidden">
+          <div class="chatbot-window">
             <div class="chatbot-header">
               <div class="chatbot-title">
                  <img 
                    class="chatbot-logo-small" 
                    src="/static/Gemini_PROOF.png" 
                    alt="Canterbury Tales AI Logo"
-                   width="24"
-                   height="24"
+                   width="32"
+                   height="32"
                    style={{ borderRadius: '50%', objectFit: 'cover' }}
                  />
-                <span>Canterbury Tales AI</span>
+                <span>Canterbury Tales AI Assistant</span>
               </div>
-              <button class="chatbot-close" aria-label="Close Chatbot">×</button>
             </div>
             
             <div class="chatbot-messages">
@@ -81,8 +60,8 @@ export default ((opts: Options) => {
                    <img 
                      src="/static/Gemini_PROOF.png" 
                      alt="AI Avatar"
-                     width="32"
-                     height="32"
+                     width="40"
+                     height="40"
                      style={{ borderRadius: '50%', objectFit: 'cover' }}
                    />
                 </div>
@@ -107,7 +86,7 @@ export default ((opts: Options) => {
             </div>
             
             <div class="chatbot-footer">
-              <small>Powered by AI • Only answers Canterbury Tales questions</small>
+              <small>Powered by QWEN 3.5 PRO MAX • Only answers Canterbury Tales questions</small>
             </div>
           </div>
         </div>

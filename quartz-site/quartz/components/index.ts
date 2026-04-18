@@ -24,6 +24,8 @@ import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import Chatbot from "./Chatbot"
+import CommentRelay from "./CommentRelay"
+import Quiz from "./Quiz"
 
 export {
   ArticleTitle,
@@ -52,4 +54,6 @@ export {
   Flex,
   ConditionalRender,
   Chatbot,
+  CommentRelay,
+  Quiz,
 }

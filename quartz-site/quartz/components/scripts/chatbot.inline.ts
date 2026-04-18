@@ -5,8 +5,6 @@ interface ChatMessage {
 }
 
 class CanterburyTalesChatbot {
-  private toggleButton: HTMLButtonElement
-  private closeButton: HTMLButtonElement
   private window: HTMLElement
   private messagesContainer: HTMLElement
   private input: HTMLTextAreaElement
@@ -15,7 +13,6 @@ class CanterburyTalesChatbot {
   private model: string
   private systemPrompt: string
   private conversation: ChatMessage[] = []
-  private isOpen = false
   private quizMode = false
   private currentQuizQuestion = 0
   private quizScore = 0
@@ -172,8 +169,6 @@ class CanterburyTalesChatbot {
     this.model = container.dataset.model || 'qwen3.5-plus'
     this.systemPrompt = container.dataset.systemPrompt || ''
 
-    this.toggleButton = container.querySelector('.chatbot-toggle')!
-    this.closeButton = container.querySelector('.chatbot-close')!
     this.window = container.querySelector('.chatbot-window')!
     this.messagesContainer = container.querySelector('.chatbot-messages')!
     this.input = container.querySelector('.chatbot-input')!
@@ -183,8 +178,6 @@ class CanterburyTalesChatbot {
   }
 
   private init() {
-    this.toggleButton.addEventListener('click', () => this.toggleWindow())
-    this.closeButton.addEventListener('click', () => this.closeWindow())
     this.sendButton.addEventListener('click', () => this.sendMessage())
     this.input.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' && !e.shiftKey) {
@@ -451,20 +444,7 @@ class CanterburyTalesChatbot {
     }
   }
 
-  private toggleWindow() {
-    this.isOpen = !this.isOpen
-    if (this.isOpen) {
-      this.window.classList.remove('hidden')
-      this.input.focus()
-    } else {
-      this.window.classList.add('hidden')
-    }
-  }
 
-  private closeWindow() {
-    this.isOpen = false
-    this.window.classList.add('hidden')
-  }
 
   private async sendMessage() {
     const message = this.input.value.trim()

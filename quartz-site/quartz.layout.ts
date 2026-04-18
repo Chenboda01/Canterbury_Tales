@@ -6,6 +6,8 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
+    Component.CommentRelay({ relayPort: 3333 }),
+    Component.Quiz(),
     Component.Chatbot({
       position: "bottom-right"
     })
