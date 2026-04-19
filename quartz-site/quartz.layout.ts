@@ -9,7 +9,7 @@ export const sharedPageComponents: SharedLayout = {
     Component.CommentRelay({ relayPort: 3333 }),
     Component.ConditionalRender({
       component: Component.Quiz(),
-      condition: (page) => page.fileData.slug.startsWith("Scene-")
+      condition: (page) => page.fileData.slug !== "index" && page.fileData.slug !== "Home" && page.fileData.slug !== "Chatbot" && !page.fileData.slug.startsWith("tags/")
     }),
     Component.Chatbot({})
   ],
