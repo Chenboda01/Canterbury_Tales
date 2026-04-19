@@ -5,9 +5,11 @@ interface ChatMessage {
 }
 
 class CanterburyTalesChatbot {
+  private container: HTMLElement
   private messagesContainer: HTMLElement
   private input: HTMLTextAreaElement
   private sendButton: HTMLButtonElement
+  private controlButtons: NodeListOf<HTMLButtonElement>
   private apiKey: string
   private model: string
   private systemPrompt: string
@@ -17,6 +19,7 @@ class CanterburyTalesChatbot {
 
 
    constructor(container: HTMLElement) {
+     this.container = container
      this.apiKey = container.dataset.apiKey || ''
      this.model = container.dataset.model || 'qwen3.5-pro-max'
      this.systemPrompt = container.dataset.systemPrompt || ''
@@ -24,11 +27,15 @@ class CanterburyTalesChatbot {
       this.messagesContainer = container.querySelector('.chatbot-messages')!
       this.input = container.querySelector('.chatbot-input')!
       this.sendButton = container.querySelector('.chatbot-send')!
+      this.controlButtons = container.querySelectorAll('.chatbot-control-button')
 
      this.init()
-   }
+    }
 
   private init() {
+    this.applyAppearancePreference('color', this.container.dataset.chatbotColor || 'gray')
+    this.applyAppearancePreference('size', this.container.dataset.chatbotSize || 'small')
+
     this.sendButton.addEventListener('click', () => this.sendMessage())
     this.input.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' && !e.shiftKey) {
@@ -42,10 +49,47 @@ class CanterburyTalesChatbot {
       this.input.style.height = Math.min(this.input.scrollHeight, 120) + 'px'
     })
 
+    this.controlButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const controlType = button.dataset.chatbotControl
+        const value = button.dataset.value
+
+        if (controlType === 'color' || controlType === 'size') {
+          this.applyAppearancePreference(controlType, value || '')
+        }
+      })
+    })
+
     this.conversation.push({
       role: 'system',
       content: this.systemPrompt,
       timestamp: new Date()
+    })
+  }
+
+  private applyAppearancePreference(type: 'color' | 'size', value: string) {
+    const allowedValues = type === 'color'
+      ? ['red', 'blue', 'green', 'white', 'gray']
+      : ['small', 'medium', 'large', 'extra-large']
+    const fallbackValue = type === 'color' ? 'gray' : 'small'
+    const nextValue = allowedValues.includes(value) ? value : fallbackValue
+    const prefix = type === 'color' ? 'chatbot-color-' : 'chatbot-size-'
+    const dataKey = type === 'color' ? 'chatbotColor' : 'chatbotSize'
+
+    allowedValues.forEach((option) => {
+      this.container.classList.remove(`${prefix}${option}`)
+    })
+
+    this.container.classList.add(`${prefix}${nextValue}`)
+    this.container.dataset[dataKey] = nextValue
+
+    this.controlButtons.forEach((button) => {
+      const isMatchingType = button.dataset.chatbotControl === type
+      if (!isMatchingType) return
+
+      const isActive = button.dataset.value === nextValue
+      button.classList.toggle('is-active', isActive)
+      button.setAttribute('aria-pressed', isActive ? 'true' : 'false')
     })
   }
 

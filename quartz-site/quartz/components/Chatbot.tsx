@@ -11,6 +11,21 @@ type Options = {
   systemPrompt?: string
 }
 
+const colorOptions = [
+  { value: "red", label: "Red", hex: "#ef4444" },
+  { value: "blue", label: "Blue", hex: "#3b82f6" },
+  { value: "green", label: "Green", hex: "#10b981" },
+  { value: "white", label: "White", hex: "#ffffff" },
+  { value: "gray", label: "Gray", hex: "#e5e7eb" },
+] as const
+
+const sizeOptions = [
+  { value: "small", label: "Small", px: "14px" },
+  { value: "medium", label: "Medium", px: "16px" },
+  { value: "large", label: "Large", px: "18px" },
+  { value: "extra-large", label: "Extra Large", px: "20px" },
+] as const
+
 const defaultSystemPrompt = `You are a knowledgeable assistant specialized in Geoffrey Chaucer's "The Canterbury Tales," specifically "The Nun's Priest's Tale." Your purpose is to help users understand the story, characters, themes, and historical context.
 
 IMPORTANT RULES:
@@ -32,17 +47,19 @@ Respond in a friendly, scholarly tone suitable for students and literature enthu
     const systemPrompt = opts.systemPrompt || defaultSystemPrompt
 
      return (
-       <div 
-         class={classNames(displayClass, "quartz-chatbot", "chatbot-embedded")}
-         data-api-key={apiKey}
-         data-model={model}
-         data-system-prompt={systemPrompt}
-        >
+        <div 
+          class={classNames(displayClass, "quartz-chatbot", "chatbot-embedded", "chatbot-color-gray", "chatbot-size-small")}
+          data-api-key={apiKey}
+          data-model={model}
+          data-system-prompt={systemPrompt}
+          data-chatbot-color="gray"
+          data-chatbot-size="small"
+         >
           <div class="chatbot-throbber hidden"></div>
           <div class="chatbot-container">
            <div class="chatbot-window">
              <div class="chatbot-header">
-              <div class="chatbot-title">
+               <div class="chatbot-title">
                   <div 
                     class="chatbot-logo-css chatbot-logo-small"
                     style={{
@@ -60,11 +77,54 @@ Respond in a friendly, scholarly tone suitable for students and literature enthu
                   >
                     CT
                   </div>
-                <span>Canterbury Tales AI Assistant</span>
-              </div>
-            </div>
-            
-            <div class="chatbot-messages">
+                 <span>Canterbury Tales AI Assistant</span>
+               </div>
+             </div>
+
+             <div class="chatbot-controls" aria-label="Assistant message appearance controls">
+               <fieldset class="chatbot-control-group">
+                 <legend>Text color</legend>
+                 <div class="chatbot-control-options" role="group" aria-label="Select assistant text color">
+                   {colorOptions.map((option) => (
+                     <button
+                       key={option.value}
+                       type="button"
+                       class={classNames("chatbot-control-button", "chatbot-color-option", option.value === "gray" ? "is-active" : undefined)}
+                       data-chatbot-control="color"
+                       data-value={option.value}
+                       aria-label={`${option.label} text (${option.hex})`}
+                       aria-pressed={option.value === "gray" ? "true" : "false"}
+                       title={`${option.label} (${option.hex})`}
+                     >
+                       <span class="chatbot-color-swatch" style={{ backgroundColor: option.hex }} aria-hidden="true"></span>
+                       <span>{option.label}</span>
+                     </button>
+                   ))}
+                 </div>
+               </fieldset>
+
+               <fieldset class="chatbot-control-group">
+                 <legend>Font size</legend>
+                 <div class="chatbot-control-options" role="group" aria-label="Select assistant font size">
+                   {sizeOptions.map((option) => (
+                     <button
+                       key={option.value}
+                       type="button"
+                       class={classNames("chatbot-control-button", "chatbot-size-option", option.value === "small" ? "is-active" : undefined)}
+                       data-chatbot-control="size"
+                       data-value={option.value}
+                       aria-label={`${option.label} text size (${option.px})`}
+                       aria-pressed={option.value === "small" ? "true" : "false"}
+                       title={`${option.label} (${option.px})`}
+                     >
+                       <span>{option.label}</span>
+                     </button>
+                   ))}
+                 </div>
+               </fieldset>
+             </div>
+             
+             <div class="chatbot-messages">
               <div class="chatbot-message chatbot-system">
                 <div class="chatbot-avatar">
                     <div 
