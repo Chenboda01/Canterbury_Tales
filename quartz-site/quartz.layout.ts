@@ -13,7 +13,7 @@ export const sharedPageComponents: SharedLayout = {
     }),
     Component.ConditionalRender({
       component: Component.Chatbot({}),
-      condition: (page) => page.fileData.slug.startsWith("Scene-")
+      condition: (page) => page.fileData.slug === "Chatbot"
     })
   ],
   footer: Component.Footer({
