@@ -5,9 +5,13 @@
 
 **Source:** `../README.md#scene-27`
 
-**Status:** draft content (from source layer)
+**Status:** aligned with source layer
 
 ## Summary
+
+As [[Pertelote]] and the other hens dust themselves in the warm sand, [[Chanticleer]] stands apart singing in pride. A glance toward a butterfly reveals the crouching [[Fox]] hidden among the nettles.
+
+## Scene description
 
 Dame Partlet and the other ladies were dusting themselves into the sand, enjoying the warm sunshine, Chanticleer was by himself, and sang as sweetly as a mermaid in the sea ; and as that happened, he glanced to look at a butterfly that had settled on the nettles, he was aware of the fox crouching down among them.
 
@@ -17,18 +21,17 @@ Dame Partlet and the other ladies were dusting themselves into the sand, enjoyin
 
 ## Entities
 
-- Chanticleer
-- Partlet
-- Fox
+- [[Pertelote]]
+- [[Hens]]
+- [[Chanticleer]]
+- [[Fox]]
 
 ## Clean-up notes
 
-- Normalize any OCR-like wording or spelling drift.
-- Confirm character-name consistency with adjacent scenes.
-- Validate that transitions into/out-of this scene are coherent.
+- Retain the butterfly and nettles details because they stage the discovery shot.
 
 ## Next actions
 
-- [ ] Confirm this scene in source and refine prose.
-- [ ] Update [[Story-Outline]] if scene beats shift.
-- [ ] Update [[Source-Notes]] with any major source edits affecting this scene.
+- [x] Source excerpt extracted from README.
+- [x] Scene summary updated with story-specific content.
+- [x] Relevant entity links added for scene continuity.

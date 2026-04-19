@@ -1,6 +1,6 @@
 # Characters and Roles
 
-*Each character also has a dedicated bio page: [[Chanticleer]], [[Pertelote]], [[Fox]], [[Widow]], [[Daughters]], [[Hens]], [[Farm‑Animals]].*
+*Each character also has a dedicated bio page: [[Chanticleer]], [[Pertelote]], [[Fox]], [[Widow]], [[Daughters]], [[Hens]], [[Farm-Animals]].*
 
 ## Chanticleer
 
@@ -63,7 +63,7 @@
 - **Role:** background animals in the widow's household.
 - **Function:** provide context for the rural setting; include pigs, cows, and sheep that contribute to the widow's livelihood.
 
-**Dedicated page:** [[Farm‑Animals]]
+**Dedicated page:** [[Farm-Animals]]
 
 ## Other household animals
 

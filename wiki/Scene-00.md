@@ -1,13 +1,17 @@
 # Scene 0
 
-![Scene 0: **Source:** `../README.md#scene-0`](assets/scenes/scene-00.jpg)
+![Scene 00: **Source:** `../README.md#scene-0`](assets/scenes/scene-00.jpg)
 *The host and Chaucer are talking to each other while Chaucer was riding an old lean, bony, and sorry horse but that does not hinder him from telling him a merry story.*
 
 **Source:** `../README.md#scene-0`
 
-**Status:** draft content (from source layer)
+**Status:** aligned with source layer
 
 ## Summary
+
+The tale opens with the Host speaking with [[Chaucer]], who rides a lean, sorry horse without losing his cheerful spirit. Even in this humble frame, Chaucer is ready to deliver a merry story.
+
+## Scene description
 
 The host and Chaucer are talking to each other while Chaucer was riding an old lean, bony, and sorry horse but that does not hinder him from telling him a merry story.
 
@@ -17,16 +21,14 @@ The host and Chaucer are talking to each other while Chaucer was riding an old l
 
 ## Entities
 
-- Chaucer
+- [[Chaucer]]
 
 ## Clean-up notes
 
-- Normalize any OCR-like wording or spelling drift.
-- Confirm character-name consistency with adjacent scenes.
-- Validate that transitions into/out-of this scene are coherent.
+- Keep the framing voice aligned with [[Story-Outline]] and [[Chaucer]].
 
 ## Next actions
 
-- [ ] Confirm this scene in source and refine prose.
-- [ ] Update [[Story-Outline]] if scene beats shift.
-- [ ] Update [[Source-Notes]] with any major source edits affecting this scene.
+- [x] Source excerpt extracted from README.
+- [x] Scene summary updated with story-specific content.
+- [x] Relevant entity links added for scene continuity.

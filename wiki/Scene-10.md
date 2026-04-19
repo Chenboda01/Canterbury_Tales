@@ -1,13 +1,17 @@
 # Scene 10
 
 ![Scene 10: **Source:** `../README.md#scene-10`](assets/scenes/scene-10.jpg)
-*It took place when every early morning Chanticleer sat on his perch and his wives as usual in the widow's kitchen, and dear Partlet sat sleeping by his side.*
+*It took place when every early morning Chanticleer sat on his perch and his wives as usual in the widow's kitchen, and dear Partlet sat sleeping by his side. Chanticleer started to groan in an unusual way, and he was very sad in his dream, so sad that he woke up in a fright.*
 
 **Source:** `../README.md#scene-10`
 
-**Status:** draft content (from source layer)
+**Status:** aligned with source layer
 
 ## Summary
+
+Before dawn, [[Chanticleer]] sleeps on his perch with [[Pertelote]] beside him in the widow's kitchen. A terrifying dream disturbs him so badly that he wakes groaning in fright.
+
+## Scene description
 
 It took place when every early morning Chanticleer sat on his perch and his wives as usual in the widow's kitchen, and dear Partlet sat sleeping by his side. Chanticleer started to groan in an unusual way, and he was very sad in his dream, so sad that he woke up in a fright.
 
@@ -17,18 +21,16 @@ It took place when every early morning Chanticleer sat on his perch and his wive
 
 ## Entities
 
-- Chanticleer
-- Partlet
-- Widow
+- [[Chanticleer]]
+- [[Pertelote]]
+- [[Widow]]
 
 ## Clean-up notes
 
-- Normalize any OCR-like wording or spelling drift.
-- Confirm character-name consistency with adjacent scenes.
-- Validate that transitions into/out-of this scene are coherent.
+- Keep the perch and kitchen staging consistent with the surrounding dream sequence.
 
 ## Next actions
 
-- [ ] Confirm this scene in source and refine prose.
-- [ ] Update [[Story-Outline]] if scene beats shift.
-- [ ] Update [[Source-Notes]] with any major source edits affecting this scene.
+- [x] Source excerpt extracted from README.
+- [x] Scene summary updated with story-specific content.
+- [x] Relevant entity links added for scene continuity.

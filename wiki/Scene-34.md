@@ -1,32 +1,34 @@
 # Scene 34
 
 ![Scene 34: **Source:** `../README.md#scene-34`](assets/scenes/scene-34.jpg)
-*Sources: 1.*
+*README provides no narrative prose under this heading and transitions directly into source citations.*
 
 **Source:** `../README.md#scene-34`
 
-**Status:** draft content (from source layer)
+**Status:** aligned with source layer
 
 ## Summary
 
-Sources: 1. Canterbury tales passage Digitized by Google from the library of University of Michigan and uploaded to the Internet Archive by user tpb.
+The README leaves [[Scene-34]] without narrative prose and moves directly into the source list. In the wiki, this page functions as the story's closing marker after [[Chanticleer]] learns from the fox's deception.
+
+## Scene description
+
+README moves directly from the `## Scene 34:` heading into the source list, so no narrative prose is available to extract for this scene.
 
 ## Source excerpt
 
-> Sources: 1. Canterbury tales passage Digitized by Google from the library of University of Michigan and uploaded to the Internet Archive by user tpb. The original book was published in 1904, and the author is Geoffrey Chaucer. The title of the book is "The Canterbury tales". The passage we are using is "The Nun's Priest's Tale". 2. ChatGPT (Starting point) 3. GitHub (Current repo) ## Project Wiki This repository now includes a structured wiki under `/wiki`: - [`Home`](wiki/Home.md) - [`Project Overview`](wiki/Project-Overview.md) - [`Story Outline`](wiki/Story-Outline.md) - [`Characters and Roles`](wiki/Characters-and-Roles.md) - [`Source Notes`](wiki/Source-Notes.md) - [`Schema`](wiki/Schem
+*(README contains no narrative excerpt under `## Scene 34:`.)*
 
 ## Entities
 
-- Chaucer
+- [[Chanticleer]]
 
 ## Clean-up notes
 
-- Normalize any OCR-like wording or spelling drift.
-- Confirm character-name consistency with adjacent scenes.
-- Validate that transitions into/out-of this scene are coherent.
+- README has no narrative text under Scene 34; treat this page as a documented source-layer gap.
 
 ## Next actions
 
-- [ ] Confirm this scene in source and refine prose.
-- [ ] Update [[Story-Outline]] if scene beats shift.
-- [ ] Update [[Source-Notes]] with any major source edits affecting this scene.
+- [x] Source excerpt extracted from README.
+- [x] Scene summary updated with story-specific content.
+- [x] Relevant entity links added for scene continuity.

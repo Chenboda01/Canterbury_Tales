@@ -16,7 +16,7 @@ This repo currently contains a markdown-based retelling sequence for *The Nun's 
   - [[Widow]]
   - [[Daughters]]
   - [[Hens]]
-  - [[Farm‑Animals]]
+  - [[Farm-Animals]]
 - [[Characters-and-Roles]]
 - [[Source-Notes]]
 - [[Scene-Index]]

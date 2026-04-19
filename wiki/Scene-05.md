@@ -1,15 +1,19 @@
 # Scene 5
 
-![Scene 5: **Source:** `../README.md#scene-5`](assets/scenes/scene-05.jpg)
-*Chanticleer was very beautiful and proud of his feathers.*
+![Scene 05: **Source:** `../README.md#scene-5`](assets/scenes/scene-05.jpg)
+*Chanticleer was very beautiful and proud of his feathers. His comb was redder than the reddest coral, and indented like the leaves of a tree. His wattles were redder than the reddest coral, and his beak was sharper than the sharpest knife. He had a long neck, and his legs were long and slender.*
 
 **Source:** `../README.md#scene-5`
 
-**Status:** draft content (from source layer)
+**Status:** aligned with source layer
 
 ## Summary
 
-Chanticleer was very beautiful and proud of his feathers. His comb was redder than the reddest coral, and indented like the leaves of a tree.
+This scene lingers on [[Chanticleer]]'s striking beauty and proud bearing. His coral-red comb and wattles, sharp beak, and elegant build mark him as the most splendid creature in the yard.
+
+## Scene description
+
+Chanticleer was very beautiful and proud of his feathers. His comb was redder than the reddest coral, and indented like the leaves of a tree. His wattles were redder than the reddest coral, and his beak was sharper than the sharpest knife. He had a long neck, and his legs were long and slender.
 
 ## Source excerpt
 
@@ -17,16 +21,14 @@ Chanticleer was very beautiful and proud of his feathers. His comb was redder th
 
 ## Entities
 
-- Chanticleer
+- [[Chanticleer]]
 
 ## Clean-up notes
 
-- Normalize any OCR-like wording or spelling drift.
-- Confirm character-name consistency with adjacent scenes.
-- Validate that transitions into/out-of this scene are coherent.
+- Preserve the ornamental physical details that define Chanticleer's visual design.
 
 ## Next actions
 
-- [ ] Confirm this scene in source and refine prose.
-- [ ] Update [[Story-Outline]] if scene beats shift.
-- [ ] Update [[Source-Notes]] with any major source edits affecting this scene.
+- [x] Source excerpt extracted from README.
+- [x] Scene summary updated with story-specific content.
+- [x] Relevant entity links added for scene continuity.

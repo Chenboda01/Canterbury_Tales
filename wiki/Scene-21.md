@@ -1,13 +1,17 @@
 # Scene 21
 
 ![Scene 21: **Source:** `../README.md#scene-21`](assets/scenes/scene-21.jpg)
-*"If you read general history you will find many wonderful dreams that came true, - the dream of Crœsus, for instance, who dreamt of Andromache, the wife of Hector, who dreamt of his death the night before it happened.*
+*"If you read general history you will find many wonderful dreams that came true, - the dream of Crœsus, for instance, who dreamt of Andromache, the wife of Hector, who dreamt of his death the night before it happened. She warned him, but all in vain, and he was slain by Achilles." Said Chanticleer.*
 
 **Source:** `../README.md#scene-21`
 
-**Status:** draft content (from source layer)
+**Status:** aligned with source layer
 
 ## Summary
+
+Still arguing his point, [[Chanticleer]] reaches into general history for more fulfilled dreams. These examples widen the debate from personal fear to the record of the past.
+
+## Scene description
 
 "If you read general history you will find many wonderful dreams that came true, - the dream of Crœsus, for instance, who dreamt of Andromache, the wife of Hector, who dreamt of his death the night before it happened. She warned him, but all in vain, and he was slain by Achilles." Said Chanticleer.
 
@@ -17,16 +21,15 @@
 
 ## Entities
 
-- Chanticleer
+- [[Chanticleer]]
+- [[Pertelote]]
 
 ## Clean-up notes
 
-- Normalize any OCR-like wording or spelling drift.
-- Confirm character-name consistency with adjacent scenes.
-- Validate that transitions into/out-of this scene are coherent.
+- Retain the historical examples as part of Chanticleer's learned performance.
 
 ## Next actions
 
-- [ ] Confirm this scene in source and refine prose.
-- [ ] Update [[Story-Outline]] if scene beats shift.
-- [ ] Update [[Source-Notes]] with any major source edits affecting this scene.
+- [x] Source excerpt extracted from README.
+- [x] Scene summary updated with story-specific content.
+- [x] Relevant entity links added for scene continuity.

@@ -21,10 +21,10 @@ This wiki and the accompanying picture‑book project are based on a retelling o
 ## Links
 
 - [[Home]] – Main wiki landing page
-- [[Project‑Overview]] – Project goals and scope
-- [[Story‑Outline]] – Summary of the adapted story
-- [[Characters‑and‑Roles]] – Key characters in the tale
-- [[Source‑Notes]] – Notes on source texts and adaptations
+- [[Project-Overview]] – Project goals and scope
+- [[Story-Outline]] – Summary of the adapted story
+- [[Characters-and-Roles]] – Key characters in the tale
+- [[Source-Notes]] – Notes on source texts and adaptations
 
 ---
 

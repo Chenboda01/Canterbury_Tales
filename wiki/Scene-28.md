@@ -1,13 +1,17 @@
 # Scene 28
 
 ![Scene 28: **Source:** `../README.md#scene-28`](assets/scenes/scene-28.jpg)
-*"Ah, my dear sir, I knew your father well - rest in his soul - and your mother too, bless her gentle heart.*
+*"Ah, my dear sir, I knew your father well - rest in his soul - and your mother too, bless her gentle heart. They often done me the great pleasure and honor to visit me at my own house, and I am sure I should respect your friendship and good opinion most highly" Said Dame Partlet.*
 
 **Source:** `../README.md#scene-28`
 
-**Status:** draft content (from source layer)
+**Status:** aligned with source layer
 
 ## Summary
+
+A flattering speech begins, praising [[Chanticleer]]'s parents and offering warm friendship. The source attribution is unstable, but the scene clearly advances the trap through praise and false familiarity.
+
+## Scene description
 
 "Ah, my dear sir, I knew your father well - rest in his soul - and your mother too, bless her gentle heart. They often done me the great pleasure and honor to visit me at my own house, and I am sure I should respect your friendship and good opinion most highly" Said Dame Partlet.
 
@@ -17,16 +21,16 @@
 
 ## Entities
 
-- Partlet
+- [[Chanticleer]]
+- [[Fox]]
+- [[Pertelote]]
 
 ## Clean-up notes
 
-- Normalize any OCR-like wording or spelling drift.
-- Confirm character-name consistency with adjacent scenes.
-- Validate that transitions into/out-of this scene are coherent.
+- Source attribution appears unstable here; preserve the exact excerpt but note the ambiguity.
 
 ## Next actions
 
-- [ ] Confirm this scene in source and refine prose.
-- [ ] Update [[Story-Outline]] if scene beats shift.
-- [ ] Update [[Source-Notes]] with any major source edits affecting this scene.
+- [x] Source excerpt extracted from README.
+- [x] Scene summary updated with story-specific content.
+- [x] Relevant entity links added for scene continuity.

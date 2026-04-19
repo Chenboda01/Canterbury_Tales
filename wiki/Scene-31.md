@@ -5,9 +5,13 @@
 
 **Source:** `../README.md#scene-31`
 
-**Status:** draft content (from source layer)
+**Status:** aligned with source layer
 
 ## Summary
+
+The narration breaks into a short lament for [[Chanticleer]]. His fall is summed up in the bitter thought that he should have remained safely on his perch.
+
+## Scene description
 
 Poor Chanticleer! He had better have stayed on his perch.
 
@@ -17,16 +21,14 @@ Poor Chanticleer! He had better have stayed on his perch.
 
 ## Entities
 
-- Chanticleer
+- [[Chanticleer]]
 
 ## Clean-up notes
 
-- Normalize any OCR-like wording or spelling drift.
-- Confirm character-name consistency with adjacent scenes.
-- Validate that transitions into/out-of this scene are coherent.
+- Keep this short lament terse and emphatic.
 
 ## Next actions
 
-- [ ] Confirm this scene in source and refine prose.
-- [ ] Update [[Story-Outline]] if scene beats shift.
-- [ ] Update [[Source-Notes]] with any major source edits affecting this scene.
+- [x] Source excerpt extracted from README.
+- [x] Scene summary updated with story-specific content.
+- [x] Relevant entity links added for scene continuity.

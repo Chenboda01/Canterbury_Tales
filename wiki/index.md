@@ -17,6 +17,23 @@ This index lists all pages currently maintained in the project wiki.
 - [[Log]] — append-only timeline of wiki changes.
 - [[Scene-Index]] — one-line inventory of all scene pages.
 
+## Character pages
+
+- [[Chaucer]] — author and frame-story context.
+- [[Chanticleer]] — proud rooster at the center of the tale.
+- [[Pertelote]] — Chanticleer's wife and conversational foil.
+- [[Fox]] — cunning antagonist also called Mr. Renard.
+- [[Widow]] — caretaker of the household.
+- [[Daughters]] — the widow's two daughters.
+- [[Hens]] — Chanticleer's flock.
+- [[Farm-Animals]] — pigs, cows, sheep, and other household animals.
+
+## Operations pages
+
+- [[Chatbot]] — chatbot/project assistant notes.
+- [[prompt-template]] — image prompt template reference.
+- [[scene-summary-checklist]] — generated scene summary checklist.
+
 ## Scene pages
 
 - [[Scene-00]] — Scene 0

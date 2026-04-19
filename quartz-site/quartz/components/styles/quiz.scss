@@ -123,6 +123,7 @@
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.2s;
+  color: #f9fafb;
   
   &:hover {
     background: #333333;
@@ -173,6 +174,8 @@
 
 .quiz-option-text {
   flex: 1;
+  color: #f9fafb;
+  font-weight: 500;
 }
 
 .quiz-controls {

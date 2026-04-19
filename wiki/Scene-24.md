@@ -1,13 +1,17 @@
 # Scene 24
 
 ![Scene 24: **Source:** `../README.md#scene-24`](assets/scenes/scene-24.jpg)
-*A wicked fox, a sly old sinner, who had been prowling about the neighboring wood for the last 3 years, had that very night burst though the hedge to the yard where Chanticleer and his wives were to take their exercise, and lay hidden in a bed of nettles until the evening, waiting for a good time to fall on Chanticleer.*
+*A wicked fox, a sly old sinner, who had been prowling about the neighboring wood for the last 3 years, had that very night burst though the hedge to the yard where Chanticleer and his wives were to take their exercise, and lay hidden in a bed of nettles until the evening, waiting for a good time to fall on Chanticleer. That is the mean way with these wicked foxes, always lie in wait to murder men.*
 
 **Source:** `../README.md#scene-24`
 
-**Status:** draft content (from source layer)
+**Status:** aligned with source layer
 
 ## Summary
+
+While the birds enjoy the yard, the [[Fox]] has already crept in from the neighboring wood and hidden among nettles. His long patience makes him an active, immediate threat to [[Chanticleer]].
+
+## Scene description
 
 A wicked fox, a sly old sinner, who had been prowling about the neighboring wood for the last 3 years, had that very night burst though the hedge to the yard where Chanticleer and his wives were to take their exercise, and lay hidden in a bed of nettles until the evening, waiting for a good time to fall on Chanticleer. That is the mean way with these wicked foxes, always lie in wait to murder men.
 
@@ -17,17 +21,16 @@ A wicked fox, a sly old sinner, who had been prowling about the neighboring wood
 
 ## Entities
 
-- Chanticleer
-- Fox
+- [[Fox]]
+- [[Chanticleer]]
+- [[Hens]]
 
 ## Clean-up notes
 
-- Normalize any OCR-like wording or spelling drift.
-- Confirm character-name consistency with adjacent scenes.
-- Validate that transitions into/out-of this scene are coherent.
+- Keep the fox's long surveillance and nettle-hiding details for visual continuity.
 
 ## Next actions
 
-- [ ] Confirm this scene in source and refine prose.
-- [ ] Update [[Story-Outline]] if scene beats shift.
-- [ ] Update [[Source-Notes]] with any major source edits affecting this scene.
+- [x] Source excerpt extracted from README.
+- [x] Scene summary updated with story-specific content.
+- [x] Relevant entity links added for scene continuity.

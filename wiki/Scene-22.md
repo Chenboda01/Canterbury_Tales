@@ -5,9 +5,13 @@
 
 **Source:** `../README.md#scene-22`
 
-**Status:** draft content (from source layer)
+**Status:** aligned with source layer
 
 ## Summary
+
+By the time the debate ends, morning has arrived. [[Chanticleer]] and all his hens descend from the beam into the waking day.
+
+## Scene description
 
 Chanticleer flew down from the beam, for it had grown light while he was talking, and all his hens flew down too.
 
@@ -17,17 +21,15 @@ Chanticleer flew down from the beam, for it had grown light while he was talking
 
 ## Entities
 
-- Chanticleer
-- Hens
+- [[Chanticleer]]
+- [[Hens]]
 
 ## Clean-up notes
 
-- Normalize any OCR-like wording or spelling drift.
-- Confirm character-name consistency with adjacent scenes.
-- Validate that transitions into/out-of this scene are coherent.
+- Keep this transition concise so the dawn debate flows into outdoor action.
 
 ## Next actions
 
-- [ ] Confirm this scene in source and refine prose.
-- [ ] Update [[Story-Outline]] if scene beats shift.
-- [ ] Update [[Source-Notes]] with any major source edits affecting this scene.
+- [x] Source excerpt extracted from README.
+- [x] Scene summary updated with story-specific content.
+- [x] Relevant entity links added for scene continuity.

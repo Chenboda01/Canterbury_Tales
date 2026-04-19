@@ -1,15 +1,19 @@
 # Scene 14
 
 ![Scene 14: **Source:** `../README.md#scene-14`](assets/scenes/scene-14.jpg)
-*"Dear! Dear!*
+*"Dear! Dear! And frightened at a dream too! Dreams are not real, and come from being not quite well. You eat too much for supper or drink more than is good for you ; there is a rush of blood to your head, and things that have to do with blood, such as arrows and red flashes of fire, and red beasts going to bite you, and fights, and dogs, great dogs and little dogs, such as come and bark at us sometimes."*
 
 **Source:** `../README.md#scene-14`
 
-**Status:** draft content (from source layer)
+**Status:** aligned with source layer
 
 ## Summary
 
-"Dear! Dear!
+[[Pertelote]] argues that dreams are only bodily disturbances, not true warnings. In her view, overeating and unhealthy humors fill sleep with violent images and false terrors.
+
+## Scene description
+
+"Dear! Dear! And frightened at a dream too! Dreams are not real, and come from being not quite well. You eat too much for supper or drink more than is good for you ; there is a rush of blood to your head, and things that have to do with blood, such as arrows and red flashes of fire, and red beasts going to bite you, and fights, and dogs, great dogs and little dogs, such as come and bark at us sometimes."
 
 ## Source excerpt
 
@@ -17,16 +21,15 @@
 
 ## Entities
 
-- _No clear named entities detected_
+- [[Pertelote]]
+- [[Chanticleer]]
 
 ## Clean-up notes
 
-- Normalize any OCR-like wording or spelling drift.
-- Confirm character-name consistency with adjacent scenes.
-- Validate that transitions into/out-of this scene are coherent.
+- Retain the bodily explanation of dreams as the core of Partlet's argument.
 
 ## Next actions
 
-- [ ] Confirm this scene in source and refine prose.
-- [ ] Update [[Story-Outline]] if scene beats shift.
-- [ ] Update [[Source-Notes]] with any major source edits affecting this scene.
+- [x] Source excerpt extracted from README.
+- [x] Scene summary updated with story-specific content.
+- [x] Relevant entity links added for scene continuity.

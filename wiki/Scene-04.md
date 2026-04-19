@@ -1,15 +1,19 @@
 # Scene 4
 
-![Scene 4: **Source:** `../README.md#scene-4`](assets/scenes/scene-04.jpg)
-*Chanticleer lived in the yard of widow, and the yard was a dry and dusty place, and there was no grass in the yard.*
+![Scene 04: **Source:** `../README.md#scene-4`](assets/scenes/scene-04.jpg)
+*Chanticleer lived in the yard of widow, and the yard was a dry and dusty place, and there was no grass in the yard. The yard was surrounded by a wooden fence, and there was a gate to enter the yard. The gate was always open, and the animals could go in and out of the yard freely.*
 
 **Source:** `../README.md#scene-4`
 
-**Status:** draft content (from source layer)
+**Status:** aligned with source layer
 
 ## Summary
 
-Chanticleer lived in the yard of widow, and the yard was a dry and dusty place, and there was no grass in the yard. The yard was surrounded by a wooden fence, and there was a gate to enter the yard.
+[[Chanticleer]] lives in a dry, dusty yard enclosed by a wooden fence. Its open gate lets the farm animals move freely in and out of the widow's space.
+
+## Scene description
+
+Chanticleer lived in the yard of widow, and the yard was a dry and dusty place, and there was no grass in the yard. The yard was surrounded by a wooden fence, and there was a gate to enter the yard. The gate was always open, and the animals could go in and out of the yard freely.
 
 ## Source excerpt
 
@@ -17,17 +21,16 @@ Chanticleer lived in the yard of widow, and the yard was a dry and dusty place, 
 
 ## Entities
 
-- Chanticleer
-- Widow
+- [[Chanticleer]]
+- [[Widow]]
+- [[Farm-Animals]]
 
 ## Clean-up notes
 
-- Normalize any OCR-like wording or spelling drift.
-- Confirm character-name consistency with adjacent scenes.
-- Validate that transitions into/out-of this scene are coherent.
+- Keep the yard geography clear for later fox-action scenes.
 
 ## Next actions
 
-- [ ] Confirm this scene in source and refine prose.
-- [ ] Update [[Story-Outline]] if scene beats shift.
-- [ ] Update [[Source-Notes]] with any major source edits affecting this scene.
+- [x] Source excerpt extracted from README.
+- [x] Scene summary updated with story-specific content.
+- [x] Relevant entity links added for scene continuity.

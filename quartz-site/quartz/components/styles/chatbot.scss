@@ -8,11 +8,59 @@
   border-radius: 12px;
   border: none;
   box-shadow: none;
+  --chatbot-assistant-background: #0f172a;
+  --chatbot-assistant-text-color: #f9fafb;
+  --chatbot-assistant-font-size: 14px;
   
   &.chatbot-embedded {
     position: relative;
     z-index: auto;
   }
+}
+
+.quartz-chatbot.chatbot-color-red,
+.chatbot-content.chatbot-color-red {
+  --chatbot-assistant-text-color: #ef4444;
+}
+
+.quartz-chatbot.chatbot-color-blue,
+.chatbot-content.chatbot-color-blue {
+  --chatbot-assistant-text-color: #3b82f6;
+}
+
+.quartz-chatbot.chatbot-color-green,
+.chatbot-content.chatbot-color-green {
+  --chatbot-assistant-text-color: #10b981;
+}
+
+.quartz-chatbot.chatbot-color-white,
+.chatbot-content.chatbot-color-white {
+  --chatbot-assistant-text-color: #ffffff;
+}
+
+.quartz-chatbot.chatbot-color-gray,
+.chatbot-content.chatbot-color-gray {
+  --chatbot-assistant-text-color: #e5e7eb;
+}
+
+.quartz-chatbot.chatbot-size-small,
+.chatbot-content.chatbot-size-small {
+  --chatbot-assistant-font-size: 14px;
+}
+
+.quartz-chatbot.chatbot-size-medium,
+.chatbot-content.chatbot-size-medium {
+  --chatbot-assistant-font-size: 16px;
+}
+
+.quartz-chatbot.chatbot-size-large,
+.chatbot-content.chatbot-size-large {
+  --chatbot-assistant-font-size: 18px;
+}
+
+.quartz-chatbot.chatbot-size-extra-large,
+.chatbot-content.chatbot-size-extra-large {
+  --chatbot-assistant-font-size: 20px;
 }
 
 .chatbot-container {
@@ -135,9 +183,11 @@
   
   &.chatbot-assistant, &.chatbot-system {
     .chatbot-content {
-      background: #374151;
-      color: #e5e7eb;
+      background: var(--chatbot-assistant-background);
+      color: var(--chatbot-assistant-text-color);
+      font-size: var(--chatbot-assistant-font-size);
       border-radius: 18px 18px 18px 4px;
+      border: 1px solid rgba(148, 163, 184, 0.22);
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     }
   }
@@ -185,7 +235,8 @@
 .chatbot-content {
   padding: 12px 16px;
   max-width: 280px;
-  line-height: 1.4;
+  line-height: 1.6;
+  color: #ffffff;
   
   p {
     margin: 0;
@@ -198,7 +249,7 @@
 
 .chatbot-hint {
   font-size: 12px;
-  color: #9ca3af;
+  color: #d1d5db;
   margin-top: 8px !important;
   font-style: italic;
 }
