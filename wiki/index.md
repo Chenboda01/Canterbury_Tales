@@ -33,6 +33,7 @@ This index lists all pages currently maintained in the project wiki.
 - [[Chatbot]] — chatbot/project assistant notes.
 - [[prompt-template]] — image prompt template reference.
 - [[scene-summary-checklist]] — generated scene summary checklist.
+- [[Lessons-Learned]] — project insights and process improvements.
 
 ## Scene pages
 
