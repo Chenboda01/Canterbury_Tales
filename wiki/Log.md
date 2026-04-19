@@ -40,3 +40,19 @@
 - Updated `index.md` to include all scene pages.
 - Updated wiki navigation links in `Home.md`/`Schema.md` to reduce dead links.
 - Ran `python wiki/lint_wiki.py` and resolved issues; lint now passes.
+
+## [2026-04-19] ui | Chatbot color and size selection controls
+
+- **UI controls**: Added interactive buttons for selecting assistant message appearance
+  - Color options: Red, Blue, Green, White, Gray with visual color swatches
+  - Font size options: Small, Medium, Large, Extra Large
+  - Active state styling with gradient accents matching Chatbot theme
+  - Accessible implementation (ARIA labels, keyboard navigation)
+- **Implementation**: Updated `Chatbot.tsx`, `chatbot.inline.ts`, and `chatbot.scss`
+- **Behavior**: Selection applies CSS classes immediately to new assistant messages
+- **Verification**: Build passes (`npm run wiki:build`), TypeScript diagnostics clean
+- **Lessons learned**:
+  - DeepSeek Reasoner subagent (category: deep) effective for UI implementation tasks
+  - UI controls should match existing aesthetic (dark theme, gradient accents)
+  - State management via data attributes and CSS class switching is straightforward
+  - Accessibility considerations (fieldset/legend, aria-pressed) improve usability

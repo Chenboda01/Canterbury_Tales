@@ -74,6 +74,22 @@
 - **Log Entries**: Update `wiki/Log.md` with date-stamped summaries of work completed
 - **Index Maintenance**: Keep `wiki/index.md` updated when adding new pages
 
+### 8. UI Controls Implementation
+- **Pattern**: Add interactive controls (buttons, dropdowns) for user customization
+- **Key Considerations**:
+  - Match existing aesthetic (color scheme, spacing, gradients)
+  - Ensure accessibility (fieldset/legend for grouping, ARIA labels, keyboard navigation)
+  - Use CSS class switching for state management rather than inline styles
+  - Store selection state in data attributes for persistence across interactions
+  - Provide visual feedback for active selections (gradient accents, border styling)
+- **Implementation Approach**:
+  - Define option arrays in TypeScript with labels, values, and visual properties
+  - Use fieldset/legend for semantic grouping of related controls
+  - Apply `aria-pressed` for toggle button states
+  - Handle events in JavaScript to update CSS classes and data attributes
+  - Style controls to match component theme (dark backgrounds, subtle borders)
+- **Verification**: Check build passes, TypeScript diagnostics clean, accessibility testing
+
 ---
 
 ## Recommended Skills for Future Use
@@ -113,6 +129,20 @@ steps:
   4. Avoid vague references to unavailable test frameworks
 ```
 
+### UI Controls Implementation Skill
+```yaml
+name: ui-controls-implementation
+description: Adds interactive controls for user customization that match existing aesthetic
+steps:
+  1. Study existing component styling and patterns
+  2. Define option arrays with labels, values, and visual properties
+  3. Implement semantic HTML (fieldset/legend, ARIA attributes)
+  4. Style controls to match component theme (colors, spacing, gradients)
+  5. Add JavaScript event handling for state management
+  6. Verify accessibility (keyboard navigation, screen reader compatibility)
+  7. Test functionality and update documentation
+```
+
 ---
 
 ## Checklist for Similar Projects
@@ -121,6 +151,7 @@ steps:
 - [ ] Delegate parallel tasks to appropriate subagents
 - [ ] Prepare Momus plan with executable verification steps
 - [ ] Test CSS contrast ratios against actual backgrounds
+- [ ] Implement UI controls for user customization (if required)
 - [ ] Use scripts for bulk file operations
 - [ ] Update logs and indexes
 - [ ] Trigger deployment workflow
@@ -130,7 +161,9 @@ steps:
 
 **Related Files**:
 - `.sisyphus/plans/review-plan.md` – Example Momus plan
-- `quartz-site/quartz/components/styles/chatbot.scss` – CSS improvements
+- `quartz-site/quartz/components/styles/chatbot.scss` – CSS improvements with control styling
+- `quartz-site/quartz/components/Chatbot.tsx` – React component with UI controls
+- `quartz-site/quartz/components/scripts/chatbot.inline.ts` – JavaScript for control handling
 - `wiki/Scene-00.md` through `Scene-34.md` – Populated scene files
 - `wiki/Log.md` – Project log with this entry
 - `.github/workflows/deploy-pages.yml` – Deployment configuration
