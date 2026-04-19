@@ -361,24 +361,24 @@ class Quiz {
   }
 
   private showThrobber() {
-    console.log('showThrobber called, throbber:', this.throbber)
+    console.warn('showThrobber called, throbber:', this.throbber)
     // Reset any inline styles
     this.throbber.style.opacity = ''
     this.throbber.style.transform = ''
     this.throbber.classList.remove('hidden')
-    console.log('hidden class removed, current classes:', this.throbber.className)
+    console.warn('hidden class removed, current classes:', this.throbber.className)
     // Force reflow to ensure transition works
     void this.throbber.offsetWidth
-    console.log('throbber shown')
+    console.warn('throbber shown')
   }
 
   private hideThrobber() {
-    console.log('hideThrobber called')
+    console.warn('hideThrobber called')
     // Start fade out
     this.throbber.style.opacity = '0'
-    console.log('opacity set to 0')
+    console.warn('opacity set to 0')
     setTimeout(() => {
-      console.log('adding hidden class')
+      console.warn('adding hidden class')
       this.throbber.classList.add('hidden')
       // Reset opacity for next show
       this.throbber.style.opacity = ''
