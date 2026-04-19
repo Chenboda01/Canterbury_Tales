@@ -14,6 +14,7 @@ export default ((opts: Options = {}) => {
         class={classNames(displayClass, "quartz-quiz")}
         data-quiz="true"
       >
+        <div class="quiz-throbber hidden"></div>
         <div class="quiz-container">
           <div class="quiz-header">
             <h3>📝 Canterbury Tales Quiz</h3>

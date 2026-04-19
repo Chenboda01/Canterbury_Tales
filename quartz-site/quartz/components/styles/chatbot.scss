@@ -275,15 +275,34 @@
 
 .chatbot-throbber {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background: linear-gradient(90deg, #FF6B35 0%, #4ECDC4 33%, #FF6B9D 66%, #6A0572 100%);
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  margin: -20px 0 0 -20px;
+  border: 4px solid rgba(255, 107, 53, 0.3);
+  border-top-color: #FF6B35;
+  border-radius: 50%;
   z-index: 10;
-  transform-origin: left;
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  animation: chatbot-throbber-spin 1s linear infinite;
+  animation-play-state: paused;
+  box-shadow: 0 0 12px rgba(255, 107, 53, 0.5);
+}
+
+.chatbot-throbber:not(.hidden) {
+  opacity: 1;
+  animation-play-state: running;
+}
+
+@keyframes chatbot-throbber-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes fadeIn {

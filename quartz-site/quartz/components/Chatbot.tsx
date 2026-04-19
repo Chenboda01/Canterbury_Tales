@@ -25,22 +25,23 @@ The story involves Chanticleer's prophetic dream, his debate with Pertelote, and
 
 Respond in a friendly, scholarly tone suitable for students and literature enthusiasts.`
 
-export default ((opts: Options) => {
+  export default ((opts: Options) => {
   const Chatbot: QuartzComponent = ({ displayClass, fileData: _fileData, cfg: _cfg }: QuartzComponentProps) => {
     const apiKey = opts.apiKey || ""
-    const model = opts.model || "qwen3.5-plus"
+    const model = opts.model || "qwen3.5-pro-max"
     const systemPrompt = opts.systemPrompt || defaultSystemPrompt
 
-    return (
-      <div 
-        class={classNames(displayClass, "quartz-chatbot", "chatbot-embedded")}
-        data-api-key={apiKey}
-        data-model={model}
-        data-system-prompt={systemPrompt}
-      >
-        <div class="chatbot-container">
-          <div class="chatbot-window">
-            <div class="chatbot-header">
+     return (
+       <div 
+         class={classNames(displayClass, "quartz-chatbot", "chatbot-embedded")}
+         data-api-key={apiKey}
+         data-model={model}
+         data-system-prompt={systemPrompt}
+       >
+         <div class="chatbot-throbber hidden"></div>
+         <div class="chatbot-container">
+           <div class="chatbot-window">
+             <div class="chatbot-header">
               <div class="chatbot-title">
                  <img 
                    class="chatbot-logo-small" 

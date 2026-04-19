@@ -12,12 +12,13 @@ class CanterburyTalesChatbot {
   private apiKey: string
   private model: string
   private systemPrompt: string
-  private conversation: ChatMessage[] = []
-  private quizMode = false
-  private currentQuizQuestion = 0
-  private quizScore = 0
-  private quizAnswers: number[] = []
-  private throbberElement: HTMLElement | null = null
+   private conversation: ChatMessage[] = []
+   private quizMode = false
+   private currentQuizQuestion = 0
+   private quizScore = 0
+   private quizAnswers: number[] = []
+   private throbberElement: HTMLElement | null = null
+   private cssThrobber: HTMLElement | null = null
   
   private quizQuestions = [
     {
@@ -164,18 +165,19 @@ class CanterburyTalesChatbot {
 
   private selectedQuizQuestions: any[] = []
 
-  constructor(container: HTMLElement) {
-    this.apiKey = container.dataset.apiKey || ''
-    this.model = container.dataset.model || 'qwen3.5-plus'
-    this.systemPrompt = container.dataset.systemPrompt || ''
+   constructor(container: HTMLElement) {
+     this.apiKey = container.dataset.apiKey || ''
+     this.model = container.dataset.model || 'qwen3.5-pro-max'
+     this.systemPrompt = container.dataset.systemPrompt || ''
 
-    this.window = container.querySelector('.chatbot-window')!
-    this.messagesContainer = container.querySelector('.chatbot-messages')!
-    this.input = container.querySelector('.chatbot-input')!
-    this.sendButton = container.querySelector('.chatbot-send')!
+     this.window = container.querySelector('.chatbot-window')!
+     this.messagesContainer = container.querySelector('.chatbot-messages')!
+     this.input = container.querySelector('.chatbot-input')!
+     this.sendButton = container.querySelector('.chatbot-send')!
+     this.cssThrobber = container.querySelector('.chatbot-throbber')
 
-    this.init()
-  }
+     this.init()
+   }
 
   private init() {
     this.sendButton.addEventListener('click', () => this.sendMessage())
@@ -304,145 +306,78 @@ class CanterburyTalesChatbot {
     return {letter: 'F', percentage}
   }
 
-  private async endQuiz() {
-    this.quizMode = false
-    const grade = this.calculateGrade()
-    const displayPercentage = grade.percentage  // Actual score for display
-    const finalPercentage = 100                 // Always animate to 100%
-    
-    this.showThrobber(0)
-    
-    const animationDurationMs = 2000
-    const animationStartTime = Date.now()
-    const animationStartPercentage = 0
-    
-    const animateProgress = () => {
-      const elapsed = Date.now() - animationStartTime
-      const progress = Math.min(elapsed / animationDurationMs, 1)
-      
-      const easeOutCubic = 1 - Math.pow(1 - progress, 3)
-      const currentPercentage = animationStartPercentage + (finalPercentage - animationStartPercentage) * easeOutCubic
-      
-      this.updateThrobber(currentPercentage)
-      
-      if (progress < 1) {
-        requestAnimationFrame(animateProgress)
-      } else {
-        setTimeout(() => {
-          this.removeThrobber()
-          
-          let resultMessage = `📊 **Quiz Complete!**\n\n`
-          resultMessage += `**Score:** ${this.quizScore}/${this.selectedQuizQuestions.length} (${displayPercentage.toFixed(1)}%)\n`
-          resultMessage += `**Grade:** ${grade.letter}\n\n`
-          
-          if (grade.letter === 'A') {
-            resultMessage += `🏆 **Excellent!** You\'re a Canterbury Tales expert!`
-          } else if (grade.letter === 'B') {
-            resultMessage += `👍 **Good job!** You know the tale well.`
-          } else if (grade.letter === 'C') {
-            resultMessage += `👌 **Not bad!** You have a basic understanding.`
-          } else if (grade.letter === 'D') {
-            resultMessage += `📚 **Keep studying!** Review the story and try again.`
-          } else {
-            resultMessage += `📖 **Time to re-read!** The Nun's Priest's Tale awaits you.`
-          }
-          
-          if (grade.letter !== 'A') {
-            const encouragementMessages = [
-              "I'm ready to try again!",
-              "I'm ready for another attempt!",
-              "Let me try again - I'm prepared now!",
-              "Ready for round two!"
-            ]
-            const randomEncouragement = encouragementMessages[Math.floor(Math.random() * encouragementMessages.length)]
-            resultMessage += `\n\n${randomEncouragement}`
-          }
-          
-          resultMessage += `\n\nSay "start quiz" to try again!`
-          
-          this.addMessage('assistant', resultMessage)
-        }, 500)
+   private async endQuiz() {
+     this.quizMode = false
+     const grade = this.calculateGrade()
+     const displayPercentage = grade.percentage  // Actual score for display
+     
+     this.showThrobber()
+     
+     // Show throbber for 1.5 seconds, then show results
+     setTimeout(() => {
+       this.removeThrobber()
+       
+       let resultMessage = `📊 **Quiz Complete!**\n\n`
+       resultMessage += `**Score:** ${this.quizScore}/${this.selectedQuizQuestions.length} (${displayPercentage.toFixed(1)}%)\n`
+       resultMessage += `**Grade:** ${grade.letter}\n\n`
+       
+       if (grade.letter === 'A') {
+         resultMessage += `🏆 **Excellent!** You\'re a Canterbury Tales expert!`
+       } else if (grade.letter === 'B') {
+         resultMessage += `👍 **Good job!** You know the tale well.`
+       } else if (grade.letter === 'C') {
+         resultMessage += `👌 **Not bad!** You have a basic understanding.`
+       } else if (grade.letter === 'D') {
+         resultMessage += `📚 **Keep studying!** Review the story and try again.`
+       } else {
+         resultMessage += `📖 **Time to re-read!** The Nun's Priest's Tale awaits you.`
+       }
+       
+       if (grade.letter !== 'A') {
+         const encouragementMessages = [
+           "I'm ready to try again!",
+           "I'm ready for another attempt!",
+           "Let me try again - I'm prepared now!",
+           "Ready for round two!"
+         ]
+         const randomEncouragement = encouragementMessages[Math.floor(Math.random() * encouragementMessages.length)]
+         resultMessage += `\n\n${randomEncouragement}`
+       }
+       
+       resultMessage += `\n\nSay "start quiz" to try again!`
+       
+       this.addMessage('assistant', resultMessage)
+     }, 1500)
+   }
+
+    private showThrobber(): void {
+      console.log('Chatbot: showThrobber called')
+      if (this.cssThrobber) {
+        this.cssThrobber.style.opacity = ''
+        this.cssThrobber.style.transform = ''
+        this.cssThrobber.classList.remove('hidden')
+        console.log('Chatbot: hidden class removed')
+        void this.cssThrobber.offsetWidth
+        console.log('Chatbot: throbber shown')
       }
     }
-    
-    requestAnimationFrame(animateProgress)
-  }
 
-  private showThrobber(initialPercentage: number = 0): void {
-    if (this.throbberElement) {
-      this.throbberElement.remove()
+    private updateThrobber(percentage: number): void {
+      console.log('Chatbot: updateThrobber called with', percentage)
     }
 
-    const throbberDiv = document.createElement('div')
-    throbberDiv.className = 'chatbot-throbber'
-    
-    const containerDiv = document.createElement('div')
-    containerDiv.className = 'chatbot-throbber-container'
-    
-    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
-    svg.setAttribute('class', 'chatbot-throbber-svg')
-    svg.setAttribute('viewBox', '0 0 36 36')
-    
-    const circleBg = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
-    circleBg.setAttribute('class', 'chatbot-throbber-circle-bg')
-    circleBg.setAttribute('cx', '18')
-    circleBg.setAttribute('cy', '18')
-    circleBg.setAttribute('r', '15.9155')
-    
-    const circleProgress = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
-    circleProgress.setAttribute('class', 'chatbot-throbber-circle-progress')
-    circleProgress.setAttribute('cx', '18')
-    circleProgress.setAttribute('cy', '18')
-    circleProgress.setAttribute('r', '15.9155')
-    circleProgress.setAttribute('stroke-dasharray', '100')
-    circleProgress.setAttribute('stroke-dashoffset', '100')
-    
-    svg.appendChild(circleBg)
-    svg.appendChild(circleProgress)
-    
-    const percentageDiv = document.createElement('div')
-    percentageDiv.className = 'chatbot-throbber-percentage'
-    percentageDiv.textContent = `${Math.round(initialPercentage)}%`
-    
-    const textDiv = document.createElement('div')
-    textDiv.className = 'chatbot-throbber-text'
-    textDiv.textContent = 'Calculating score...'
-    
-    containerDiv.appendChild(svg)
-    containerDiv.appendChild(percentageDiv)
-    
-    throbberDiv.appendChild(containerDiv)
-    throbberDiv.appendChild(textDiv)
-    
-    this.messagesContainer.appendChild(throbberDiv)
-    this.throbberElement = throbberDiv
-    this.messagesContainer.scrollTop = this.messagesContainer.scrollHeight
-    
-    this.updateThrobber(initialPercentage)
-  }
-
-  private updateThrobber(percentage: number): void {
-    if (!this.throbberElement) return
-    
-    const circleProgress = this.throbberElement.querySelector('.chatbot-throbber-circle-progress') as SVGElement
-    const percentageDiv = this.throbberElement.querySelector('.chatbot-throbber-percentage') as HTMLElement
-    
-    if (circleProgress) {
-      const offset = 100 - percentage
-      circleProgress.setAttribute('stroke-dashoffset', offset.toString())
+    private removeThrobber(): void {
+      console.log('Chatbot: removeThrobber called')
+      if (this.cssThrobber) {
+        this.cssThrobber.style.opacity = '0'
+        console.log('Chatbot: opacity set to 0')
+        setTimeout(() => {
+          console.log('Chatbot: adding hidden class')
+          this.cssThrobber!.classList.add('hidden')
+          this.cssThrobber!.style.opacity = ''
+        }, 300)
+      }
     }
-    
-    if (percentageDiv) {
-      percentageDiv.textContent = `${Math.round(percentage)}%`
-    }
-  }
-
-  private removeThrobber(): void {
-    if (this.throbberElement) {
-      this.throbberElement.remove()
-      this.throbberElement = null
-    }
-  }
 
 
 

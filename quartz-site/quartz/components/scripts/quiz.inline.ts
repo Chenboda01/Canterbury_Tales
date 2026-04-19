@@ -174,6 +174,7 @@ class Quiz {
 
   constructor(container: HTMLElement) {
     console.log('Quiz constructor called for container:', container);
+    (window as any)._quizInstance = this;
     this.container = container
     this.startScreen = container.querySelector('.quiz-start-screen')!
     this.questionScreen = container.querySelector('.quiz-question-screen')!
@@ -195,6 +196,7 @@ class Quiz {
     this.retryButton = container.querySelector('.quiz-retry-button')!
     this.throbber = container.querySelector('.quiz-throbber')!
     this.progressRingForeground = container.querySelector('.quiz-progress-ring-foreground')
+    console.log('Quiz throbber element:', this.throbber)
 
     try {
       this.init()
@@ -330,40 +332,56 @@ class Quiz {
   }
 
   private endQuiz() {
-    this.isQuizActive = false
-    const grade = this.calculateGrade()
-    
-    this.questionScreen.classList.add('hidden')
-    this.feedbackScreen.classList.add('hidden')
-    
-    // Show throbber for loading effect
-    this.showThrobber()
-    
-    // After a short delay, show results and hide throbber
-    setTimeout(() => {
-      this.hideThrobber()
-      this.resultsScreen.classList.remove('hidden')
+    console.warn('endQuiz called');
+    try {
+      this.isQuizActive = false
+      // Show throbber for loading effect
+      this.showThrobber()
       
-      this.quizScoreSpan.textContent = this.quizScore.toString()
-      this.quizPercentageSpan.textContent = `${grade.percentage.toFixed(1)}%`
-      this.gradePercentage.textContent = `${grade.percentage.toFixed(1)}%`
-      this.gradeLetter.textContent = grade.letter
+      const grade = this.calculateGrade()
+      
+      this.questionScreen.classList.add('hidden')
+      this.feedbackScreen.classList.add('hidden')
+      
+      // After a short delay, show results and hide throbber
+      setTimeout(() => {
+        this.hideThrobber()
+        this.resultsScreen.classList.remove('hidden')
+        
+        this.quizScoreSpan.textContent = this.quizScore.toString()
+        this.quizPercentageSpan.textContent = `${grade.percentage.toFixed(1)}%`
+        this.gradePercentage.textContent = `${grade.percentage.toFixed(1)}%`
+        this.gradeLetter.textContent = grade.letter
 
-      this.animateGradeCircle(grade.percentage)
-    }, 800)
+        this.animateGradeCircle(grade.percentage)
+      }, 800)
+    } catch (error) {
+      console.error('Error in endQuiz:', error)
+    }
   }
 
   private showThrobber() {
+    console.log('showThrobber called, throbber:', this.throbber)
+    // Reset any inline styles
+    this.throbber.style.opacity = ''
+    this.throbber.style.transform = ''
     this.throbber.classList.remove('hidden')
+    console.log('hidden class removed, current classes:', this.throbber.className)
     // Force reflow to ensure transition works
     void this.throbber.offsetWidth
-    this.throbber.style.transform = 'scaleX(1)'
+    console.log('throbber shown')
   }
 
   private hideThrobber() {
-    this.throbber.style.transform = 'scaleX(0)'
+    console.log('hideThrobber called')
+    // Start fade out
+    this.throbber.style.opacity = '0'
+    console.log('opacity set to 0')
     setTimeout(() => {
+      console.log('adding hidden class')
       this.throbber.classList.add('hidden')
+      // Reset opacity for next show
+      this.throbber.style.opacity = ''
     }, 300) // Wait for transition to complete
   }
 
