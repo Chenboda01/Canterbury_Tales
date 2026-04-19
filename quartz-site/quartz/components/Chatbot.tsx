@@ -37,20 +37,29 @@ Respond in a friendly, scholarly tone suitable for students and literature enthu
          data-api-key={apiKey}
          data-model={model}
          data-system-prompt={systemPrompt}
-       >
-         <div class="chatbot-throbber hidden"></div>
-         <div class="chatbot-container">
+        >
+          <div class="chatbot-throbber hidden"></div>
+          <div class="chatbot-container">
            <div class="chatbot-window">
              <div class="chatbot-header">
               <div class="chatbot-title">
-                 <img 
-                   class="chatbot-logo-small" 
-                   src="/static/Gemini_PROOF.png" 
-                   alt="Canterbury Tales AI Logo"
-                   width="32"
-                   height="32"
-                   style={{ borderRadius: '50%', objectFit: 'cover' }}
-                 />
+                  <div 
+                    class="chatbot-logo-css chatbot-logo-small"
+                    style={{
+                      width: '32px',
+                      height: '32px',
+                      borderRadius: '50%',
+                      background: 'linear-gradient(90deg, #FF6B35 0%, #4ECDC4 33%, #FF6B9D 66%, #6A0572 100%)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      color: 'white',
+                      fontWeight: 'bold',
+                      fontSize: '14px'
+                    }}
+                  >
+                    CT
+                  </div>
                 <span>Canterbury Tales AI Assistant</span>
               </div>
             </div>
@@ -58,13 +67,23 @@ Respond in a friendly, scholarly tone suitable for students and literature enthu
             <div class="chatbot-messages">
               <div class="chatbot-message chatbot-system">
                 <div class="chatbot-avatar">
-                   <img 
-                     src="/static/Gemini_PROOF.png" 
-                     alt="AI Avatar"
-                     width="40"
-                     height="40"
-                     style={{ borderRadius: '50%', objectFit: 'cover' }}
-                   />
+                    <div 
+                      style={{
+                        width: '40px',
+                        height: '40px',
+                        borderRadius: '50%',
+                        background: 'linear-gradient(135deg, #FF6B35 0%, #4ECDC4 50%, #FF6B9D 100%)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        color: 'white',
+                        fontWeight: 'bold',
+                        fontSize: '16px',
+                        boxShadow: '0 2px 8px rgba(0, 0, 0, 0.3)'
+                      }}
+                    >
+                      AI
+                    </div>
                 </div>
                 <div class="chatbot-content">
                   <p>Hello! I'm your Canterbury Tales assistant. Ask me anything about Geoffrey Chaucer's classic work, characters, or themes.</p>

@@ -1,0 +1,483 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - heading "Canterbury Tales Wiki" [level=2] [ref=e5]:
+      - link "Canterbury Tales Wiki" [ref=e6] [cursor=pointer]:
+        - /url: .
+    - generic [ref=e7]:
+      - button "Search Search" [ref=e10] [cursor=pointer]:
+        - img "Search" [ref=e11]
+        - paragraph [ref=e15]: Search
+      - button "Dark mode" [ref=e17] [cursor=pointer]:
+        - img "Dark mode" [ref=e18]
+      - button "Reader mode" [ref=e21] [cursor=pointer]:
+        - img "Reader mode" [ref=e22]
+    - generic [ref=e25]:
+      - button "Explorer" [expanded] [ref=e26] [cursor=pointer]:
+        - heading "Explorer" [level=2] [ref=e27]
+        - img [ref=e28]
+      - group [ref=e29]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Chanticleer" [ref=e32] [cursor=pointer]:
+              - /url: ./Chanticleer
+          - listitem [ref=e33]:
+            - link "Characters-and-Roles" [ref=e34] [cursor=pointer]:
+              - /url: ./Characters-and-Roles
+          - listitem [ref=e35]:
+            - link "Chaucer" [ref=e36] [cursor=pointer]:
+              - /url: ./Chaucer
+          - listitem [ref=e37]:
+            - link "Daughters" [ref=e38] [cursor=pointer]:
+              - /url: ./Daughters
+          - listitem [ref=e39]:
+            - link "Farm-Animals" [ref=e40] [cursor=pointer]:
+              - /url: ./Farm-Animals
+          - listitem [ref=e41]:
+            - link "Fox" [ref=e42] [cursor=pointer]:
+              - /url: ./Fox
+          - listitem [ref=e43]:
+            - link "Hens" [ref=e44] [cursor=pointer]:
+              - /url: ./Hens
+          - listitem [ref=e45]:
+            - link "Home" [ref=e46] [cursor=pointer]:
+              - /url: ./Home
+          - listitem [ref=e47]:
+            - link "Log" [ref=e48] [cursor=pointer]:
+              - /url: ./Log
+          - listitem [ref=e49]:
+            - link "Pertelote" [ref=e50] [cursor=pointer]:
+              - /url: ./Pertelote
+          - listitem [ref=e51]:
+            - link "Project-Overview" [ref=e52] [cursor=pointer]:
+              - /url: ./Project-Overview
+          - listitem [ref=e53]:
+            - link "prompt-template" [ref=e54] [cursor=pointer]:
+              - /url: ./prompt-template
+          - listitem [ref=e55]:
+            - link "Scene-00" [ref=e56] [cursor=pointer]:
+              - /url: ./Scene-00
+          - listitem [ref=e57]:
+            - link "Scene-01" [ref=e58] [cursor=pointer]:
+              - /url: ./Scene-01
+          - listitem [ref=e59]:
+            - link "Scene-02" [ref=e60] [cursor=pointer]:
+              - /url: ./Scene-02
+          - listitem [ref=e61]:
+            - link "Scene-03" [ref=e62] [cursor=pointer]:
+              - /url: ./Scene-03
+          - listitem [ref=e63]:
+            - link "Scene-04" [ref=e64] [cursor=pointer]:
+              - /url: ./Scene-04
+          - listitem [ref=e65]:
+            - link "Scene-05" [ref=e66] [cursor=pointer]:
+              - /url: ./Scene-05
+          - listitem [ref=e67]:
+            - link "Scene-06" [ref=e68] [cursor=pointer]:
+              - /url: ./Scene-06
+          - listitem [ref=e69]:
+            - link "Scene-07" [ref=e70] [cursor=pointer]:
+              - /url: ./Scene-07
+          - listitem [ref=e71]:
+            - link "Scene-08" [ref=e72] [cursor=pointer]:
+              - /url: ./Scene-08
+          - listitem [ref=e73]:
+            - link "Scene-09" [ref=e74] [cursor=pointer]:
+              - /url: ./Scene-09
+          - listitem [ref=e75]:
+            - link "Scene-10" [ref=e76] [cursor=pointer]:
+              - /url: ./Scene-10
+          - listitem [ref=e77]:
+            - link "Scene-11" [ref=e78] [cursor=pointer]:
+              - /url: ./Scene-11
+          - listitem [ref=e79]:
+            - link "Scene-12" [ref=e80] [cursor=pointer]:
+              - /url: ./Scene-12
+          - listitem [ref=e81]:
+            - link "Scene-13" [ref=e82] [cursor=pointer]:
+              - /url: ./Scene-13
+          - listitem [ref=e83]:
+            - link "Scene-14" [ref=e84] [cursor=pointer]:
+              - /url: ./Scene-14
+          - listitem [ref=e85]:
+            - link "Scene-15" [ref=e86] [cursor=pointer]:
+              - /url: ./Scene-15
+          - listitem [ref=e87]:
+            - link "Scene-16" [ref=e88] [cursor=pointer]:
+              - /url: ./Scene-16
+          - listitem [ref=e89]:
+            - link "Scene-17" [ref=e90] [cursor=pointer]:
+              - /url: ./Scene-17
+          - listitem [ref=e91]:
+            - link "Scene-18" [ref=e92] [cursor=pointer]:
+              - /url: ./Scene-18
+          - listitem [ref=e93]:
+            - link "Scene-19" [ref=e94] [cursor=pointer]:
+              - /url: ./Scene-19
+          - listitem [ref=e95]:
+            - link "Scene-20" [ref=e96] [cursor=pointer]:
+              - /url: ./Scene-20
+          - listitem [ref=e97]:
+            - link "Scene-21" [ref=e98] [cursor=pointer]:
+              - /url: ./Scene-21
+          - listitem [ref=e99]:
+            - link "Scene-22" [ref=e100] [cursor=pointer]:
+              - /url: ./Scene-22
+          - listitem [ref=e101]:
+            - link "Scene-23" [ref=e102] [cursor=pointer]:
+              - /url: ./Scene-23
+          - listitem [ref=e103]:
+            - link "Scene-24" [ref=e104] [cursor=pointer]:
+              - /url: ./Scene-24
+          - listitem [ref=e105]:
+            - link "Scene-25" [ref=e106] [cursor=pointer]:
+              - /url: ./Scene-25
+          - listitem [ref=e107]:
+            - link "Scene-26" [ref=e108] [cursor=pointer]:
+              - /url: ./Scene-26
+          - listitem [ref=e109]:
+            - link "Scene-27" [ref=e110] [cursor=pointer]:
+              - /url: ./Scene-27
+          - listitem [ref=e111]:
+            - link "Scene-28" [ref=e112] [cursor=pointer]:
+              - /url: ./Scene-28
+          - listitem [ref=e113]:
+            - link "Scene-29" [ref=e114] [cursor=pointer]:
+              - /url: ./Scene-29
+          - listitem [ref=e115]:
+            - link "Scene-30" [ref=e116] [cursor=pointer]:
+              - /url: ./Scene-30
+          - listitem [ref=e117]:
+            - link "Scene-31" [ref=e118] [cursor=pointer]:
+              - /url: ./Scene-31
+          - listitem [ref=e119]:
+            - link "Scene-32" [ref=e120] [cursor=pointer]:
+              - /url: ./Scene-32
+          - listitem [ref=e121]:
+            - link "Scene-33" [ref=e122] [cursor=pointer]:
+              - /url: ./Scene-33
+          - listitem [ref=e123]:
+            - link "Scene-34" [ref=e124] [cursor=pointer]:
+              - /url: ./Scene-34
+          - listitem [ref=e125]:
+            - link "Scene-Index" [ref=e126] [cursor=pointer]:
+              - /url: ./Scene-Index
+          - listitem [ref=e127]:
+            - link "scene-summary-checklist" [ref=e128] [cursor=pointer]:
+              - /url: ./scene-summary-checklist
+          - listitem [ref=e129]:
+            - link "Schema" [ref=e130] [cursor=pointer]:
+              - /url: ./Schema
+          - listitem [ref=e131]:
+            - link "Source-Notes" [ref=e132] [cursor=pointer]:
+              - /url: ./Source-Notes
+          - listitem [ref=e133]:
+            - link "Story-Outline" [ref=e134] [cursor=pointer]:
+              - /url: ./Story-Outline
+          - listitem [ref=e135]:
+            - link "Widow" [ref=e136] [cursor=pointer]:
+              - /url: ./Widow
+          - listitem [ref=e137]
+  - generic [ref=e138]:
+    - generic [ref=e140]:
+      - heading "Wiki Index" [level=1] [ref=e141]
+      - paragraph [ref=e142]:
+        - time [ref=e143]: Apr 10, 2026,
+        - text: 2 min read
+    - article [ref=e144]:
+      - heading "Wiki Index" [level=1] [ref=e145]:
+        - text: Wiki Index
+        - link [ref=e146] [cursor=pointer]:
+          - /url: "#wiki-index"
+          - img [ref=e147]
+      - paragraph [ref=e150]: This index lists all pages currently maintained in the project wiki.
+      - heading "Project pages" [level=2] [ref=e151]:
+        - text: Project pages
+        - link [ref=e152] [cursor=pointer]:
+          - /url: "#project-pages"
+          - img [ref=e153]
+      - list [ref=e156]:
+        - listitem [ref=e157]:
+          - link "Home" [ref=e158] [cursor=pointer]:
+            - /url: ./Home
+          - text: — entry point and context.
+        - listitem [ref=e159]:
+          - link "Project-Overview" [ref=e160] [cursor=pointer]:
+            - /url: ./Project-Overview
+          - text: — goals, scope, and assumptions.
+        - listitem [ref=e161]:
+          - link "Story-Outline" [ref=e162] [cursor=pointer]:
+            - /url: ./Story-Outline
+          - text: — scene-level progression and structure.
+        - listitem [ref=e163]:
+          - link "Characters-and-Roles" [ref=e164] [cursor=pointer]:
+            - /url: ./Characters-and-Roles
+          - text: — entities, traits, and relationships.
+        - listitem [ref=e165]:
+          - link "Source-Notes" [ref=e166] [cursor=pointer]:
+            - /url: ./Source-Notes
+          - text: — provenance and editorial notes.
+        - listitem [ref=e167]:
+          - link "Schema" [ref=e168] [cursor=pointer]:
+            - /url: ./Schema
+          - text: — how this wiki is maintained.
+        - listitem [ref=e169]:
+          - link "Log" [ref=e170] [cursor=pointer]:
+            - /url: ./Log
+          - text: — append-only timeline of wiki changes.
+        - listitem [ref=e171]:
+          - link "Scene-Index" [ref=e172] [cursor=pointer]:
+            - /url: ./Scene-Index
+          - text: — one-line inventory of all scene pages.
+      - heading "Scene pages" [level=2] [ref=e173]:
+        - text: Scene pages
+        - link [ref=e174] [cursor=pointer]:
+          - /url: "#scene-pages"
+          - img [ref=e175]
+      - list [ref=e178]:
+        - listitem [ref=e179]:
+          - link "Scene-00" [ref=e180] [cursor=pointer]:
+            - /url: ./Scene-00
+          - text: — Scene 0
+        - listitem [ref=e181]:
+          - link "Scene-01" [ref=e182] [cursor=pointer]:
+            - /url: ./Scene-01
+          - text: — Scene 1
+        - listitem [ref=e183]:
+          - link "Scene-02" [ref=e184] [cursor=pointer]:
+            - /url: ./Scene-02
+          - text: — Scene 2
+        - listitem [ref=e185]:
+          - link "Scene-03" [ref=e186] [cursor=pointer]:
+            - /url: ./Scene-03
+          - text: — Scene 3
+        - listitem [ref=e187]:
+          - link "Scene-04" [ref=e188] [cursor=pointer]:
+            - /url: ./Scene-04
+          - text: — Scene 4
+        - listitem [ref=e189]:
+          - link "Scene-05" [ref=e190] [cursor=pointer]:
+            - /url: ./Scene-05
+          - text: — Scene 5
+        - listitem [ref=e191]:
+          - link "Scene-06" [ref=e192] [cursor=pointer]:
+            - /url: ./Scene-06
+          - text: — Scene 6
+        - listitem [ref=e193]:
+          - link "Scene-07" [ref=e194] [cursor=pointer]:
+            - /url: ./Scene-07
+          - text: — Scene 7
+        - listitem [ref=e195]:
+          - link "Scene-08" [ref=e196] [cursor=pointer]:
+            - /url: ./Scene-08
+          - text: — Scene 8
+        - listitem [ref=e197]:
+          - link "Scene-09" [ref=e198] [cursor=pointer]:
+            - /url: ./Scene-09
+          - text: — Scene 9
+        - listitem [ref=e199]:
+          - link "Scene-10" [ref=e200] [cursor=pointer]:
+            - /url: ./Scene-10
+          - text: — Scene 10
+        - listitem [ref=e201]:
+          - link "Scene-11" [ref=e202] [cursor=pointer]:
+            - /url: ./Scene-11
+          - text: — Scene 11
+        - listitem [ref=e203]:
+          - link "Scene-12" [ref=e204] [cursor=pointer]:
+            - /url: ./Scene-12
+          - text: — Scene 12
+        - listitem [ref=e205]:
+          - link "Scene-13" [ref=e206] [cursor=pointer]:
+            - /url: ./Scene-13
+          - text: — Scene 13
+        - listitem [ref=e207]:
+          - link "Scene-14" [ref=e208] [cursor=pointer]:
+            - /url: ./Scene-14
+          - text: — Scene 14
+        - listitem [ref=e209]:
+          - link "Scene-15" [ref=e210] [cursor=pointer]:
+            - /url: ./Scene-15
+          - text: — Scene 15
+        - listitem [ref=e211]:
+          - link "Scene-16" [ref=e212] [cursor=pointer]:
+            - /url: ./Scene-16
+          - text: — Scene 16
+        - listitem [ref=e213]:
+          - link "Scene-17" [ref=e214] [cursor=pointer]:
+            - /url: ./Scene-17
+          - text: — Scene 17
+        - listitem [ref=e215]:
+          - link "Scene-18" [ref=e216] [cursor=pointer]:
+            - /url: ./Scene-18
+          - text: — Scene 18
+        - listitem [ref=e217]:
+          - link "Scene-19" [ref=e218] [cursor=pointer]:
+            - /url: ./Scene-19
+          - text: — Scene 19
+        - listitem [ref=e219]:
+          - link "Scene-20" [ref=e220] [cursor=pointer]:
+            - /url: ./Scene-20
+          - text: — Scene 20
+        - listitem [ref=e221]:
+          - link "Scene-21" [ref=e222] [cursor=pointer]:
+            - /url: ./Scene-21
+          - text: — Scene 21
+        - listitem [ref=e223]:
+          - link "Scene-22" [ref=e224] [cursor=pointer]:
+            - /url: ./Scene-22
+          - text: — Scene 22
+        - listitem [ref=e225]:
+          - link "Scene-23" [ref=e226] [cursor=pointer]:
+            - /url: ./Scene-23
+          - text: — Scene 23
+        - listitem [ref=e227]:
+          - link "Scene-24" [ref=e228] [cursor=pointer]:
+            - /url: ./Scene-24
+          - text: — Scene 24
+        - listitem [ref=e229]:
+          - link "Scene-25" [ref=e230] [cursor=pointer]:
+            - /url: ./Scene-25
+          - text: — Scene 25
+        - listitem [ref=e231]:
+          - link "Scene-26" [ref=e232] [cursor=pointer]:
+            - /url: ./Scene-26
+          - text: — Scene 26
+        - listitem [ref=e233]:
+          - link "Scene-27" [ref=e234] [cursor=pointer]:
+            - /url: ./Scene-27
+          - text: — Scene 27
+        - listitem [ref=e235]:
+          - link "Scene-28" [ref=e236] [cursor=pointer]:
+            - /url: ./Scene-28
+          - text: — Scene 28
+        - listitem [ref=e237]:
+          - link "Scene-29" [ref=e238] [cursor=pointer]:
+            - /url: ./Scene-29
+          - text: — Scene 29
+        - listitem [ref=e239]:
+          - link "Scene-30" [ref=e240] [cursor=pointer]:
+            - /url: ./Scene-30
+          - text: — Scene 30
+        - listitem [ref=e241]:
+          - link "Scene-31" [ref=e242] [cursor=pointer]:
+            - /url: ./Scene-31
+          - text: — Scene 31
+        - listitem [ref=e243]:
+          - link "Scene-32" [ref=e244] [cursor=pointer]:
+            - /url: ./Scene-32
+          - text: — Scene 32
+        - listitem [ref=e245]:
+          - link "Scene-33" [ref=e246] [cursor=pointer]:
+            - /url: ./Scene-33
+          - text: — Scene 33
+        - listitem [ref=e247]:
+          - link "Scene-34" [ref=e248] [cursor=pointer]:
+            - /url: ./Scene-34
+          - text: — Scene 34
+      - heading "Notes" [level=2] [ref=e249]:
+        - text: Notes
+        - link [ref=e250] [cursor=pointer]:
+          - /url: "#notes"
+          - img [ref=e251]
+      - list [ref=e254]:
+        - listitem [ref=e255]: Keep this file updated when adding new wiki pages.
+        - listitem [ref=e256]:
+          - text: "If a new page category is introduced, group it by purpose:"
+          - list [ref=e257]:
+            - listitem [ref=e258]:
+              - code [ref=e259]: Project
+              - text: (scope and decisions)
+            - listitem [ref=e260]:
+              - code [ref=e261]: Narrative
+              - text: (story content summaries)
+            - listitem [ref=e262]:
+              - code [ref=e263]: Operations
+              - text: (process or tooling)
+    - separator [ref=e264]
+    - generic [ref=e265]:
+      - generic [ref=e267]:
+        - generic [ref=e268]:
+          - heading "📝 Canterbury Tales Quiz" [level=3] [ref=e269]
+          - paragraph [ref=e270]: Test your knowledge of The Nun's Priest's Tale
+        - generic [ref=e340]:
+          - generic [ref=e342]: Question 3 of 10
+          - generic [ref=e343]:
+            - heading "What is the framing device of The Canterbury Tales?" [level=4] [ref=e362]
+            - generic [ref=e345]:
+              - generic [ref=e346] [cursor=pointer]:
+                - generic [ref=e347]: "1"
+                - generic [ref=e348]: A royal banquet
+              - generic [ref=e349] [cursor=pointer]:
+                - generic [ref=e350]: "2"
+                - generic [ref=e351]: A pilgrimage to Canterbury
+              - generic [ref=e352] [cursor=pointer]:
+                - generic [ref=e353]: "3"
+                - generic [ref=e354]: A ship voyage
+              - generic [ref=e355] [cursor=pointer]:
+                - generic [ref=e356]: "4"
+                - generic [ref=e357]: A court trial
+          - button "Submit Answer" [disabled] [ref=e359]
+        - generic [ref=e277]: Individual quiz experience • Questions randomly selected
+      - generic [ref=e280]:
+        - generic [ref=e282]:
+          - img "Canterbury Tales AI Logo" [ref=e283]
+          - generic [ref=e284]: Canterbury Tales AI Assistant
+        - generic [ref=e286]:
+          - img "AI Avatar" [ref=e288]
+          - generic [ref=e289]:
+            - paragraph [ref=e290]: Hello! I'm your Canterbury Tales assistant. Ask me anything about Geoffrey Chaucer's classic work, characters, or themes.
+            - paragraph [ref=e291]: "Try: \"Who is Chanticleer?\" or \"What happens in The Nun's Priest's Tale?\""
+        - generic [ref=e292]:
+          - textbox "Ask about Canterbury Tales..." [ref=e293]
+          - button "Send message" [ref=e294] [cursor=pointer]:
+            - img [ref=e295]
+        - generic [ref=e297]: Powered by QWEN 3.5 PRO MAX • Only answers Canterbury Tales questions
+  - generic [ref=e298]:
+    - generic [ref=e299]:
+      - heading "Graph View" [level=3] [ref=e300]
+      - button "Global Graph" [ref=e304] [cursor=pointer]:
+        - img [ref=e305]
+    - generic [ref=e307]:
+      - button "Table of Contents" [expanded] [ref=e308] [cursor=pointer]:
+        - heading "Table of Contents" [level=3] [ref=e309]
+        - img [ref=e310]
+      - list [ref=e312]:
+        - listitem [ref=e313]:
+          - link "Wiki Index" [ref=e314] [cursor=pointer]:
+            - /url: "#wiki-index"
+        - listitem [ref=e315]:
+          - link "Project pages" [ref=e316] [cursor=pointer]:
+            - /url: "#project-pages"
+        - listitem [ref=e317]:
+          - link "Scene pages" [ref=e318] [cursor=pointer]:
+            - /url: "#scene-pages"
+        - listitem [ref=e319]:
+          - link "Notes" [ref=e320] [cursor=pointer]:
+            - /url: "#notes"
+        - listitem [ref=e321]
+    - generic [ref=e322]:
+      - heading "Backlinks" [level=3] [ref=e323]
+      - list [ref=e324]:
+        - listitem [ref=e325]:
+          - link "Home" [ref=e326] [cursor=pointer]:
+            - /url: ./Home
+        - listitem [ref=e327]:
+          - link "Log" [ref=e328] [cursor=pointer]:
+            - /url: ./Log
+        - listitem [ref=e329]:
+          - link "Schema" [ref=e330] [cursor=pointer]:
+            - /url: ./Schema
+        - listitem [ref=e331]
+  - contentinfo [ref=e332]:
+    - paragraph [ref=e333]:
+      - text: Created with
+      - link "Quartz v4.5.2" [ref=e334] [cursor=pointer]:
+        - /url: https://quartz.jzhao.xyz/
+      - text: © 2026
+    - list [ref=e335]:
+      - listitem [ref=e336]:
+        - link "Repository" [ref=e337] [cursor=pointer]:
+          - /url: https://github.com/Chenboda01/Canterbury_Tales
+      - listitem [ref=e338]:
+        - link "Wiki" [ref=e339] [cursor=pointer]:
+          - /url: https://github.com/Chenboda01/Canterbury_Tales/tree/new-feature/wiki

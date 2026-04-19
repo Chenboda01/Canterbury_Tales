@@ -8,11 +8,13 @@ import styles from "./styles/quiz.scss"
 type Options = {}
 
 export default ((opts: Options = {}) => {
-  const Quiz: QuartzComponent = ({ displayClass, fileData: _fileData, cfg: _cfg }: QuartzComponentProps) => {
+  const Quiz: QuartzComponent = ({ displayClass, fileData, cfg: _cfg }: QuartzComponentProps) => {
+    const slug = fileData.slug || ''
     return (
       <div 
         class={classNames(displayClass, "quartz-quiz")}
         data-quiz="true"
+        data-slug={slug}
       >
         <div class="quiz-throbber hidden"></div>
         <div class="quiz-container">

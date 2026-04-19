@@ -7,10 +7,11 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [
     Component.CommentRelay({ relayPort: 3333 }),
-    Component.Quiz(),
-    Component.Chatbot({
-      position: "bottom-right"
-    })
+    Component.ConditionalRender({
+      component: Component.Quiz(),
+      condition: (page) => page.fileData.slug !== "index" && !page.fileData.slug.startsWith("tags/")
+    }),
+    Component.Chatbot({})
   ],
   footer: Component.Footer({
     links: {

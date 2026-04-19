@@ -1,42 +1,46 @@
 console.log('Quiz script loaded');
 class Quiz {
   private quizQuestions = [
-    {
-      id: 1,
-      question: "Who is the main protagonist in 'The Nun's Priest's Tale'?",
-      options: ["The Widow", "Chanticleer (the rooster)", "Pertelote (the hen)", "The Fox (Don Russel)"],
-      correctAnswer: 1,
-      explanation: "Chanticleer, the proud rooster, is the main protagonist whose dream and capture drive the story.",
-      difficulty: "easy"
-    },
-    {
-      id: 2,
-      question: "What does Chanticleer dream about?",
-      options: ["Finding a golden egg", "Being attacked by a beast/fox", "Flying away from the farm", "Becoming human"],
-      correctAnswer: 1,
-      explanation: "Chanticleer dreams of a beast threatening him, which Pertelote dismisses but later comes true when the fox captures him.",
-      difficulty: "easy"
-    },
-    {
-      id: 3,
-      question: "How does Pertelote respond to Chanticleer's dream?",
-      options: [
-        "She believes it's prophetic and warns him",
-        "She dismisses it as indigestion and recommends herbs",
-        "She suggests they leave the farm immediately",
-        "She laughs and tells him he's being silly"
-      ],
-      correctAnswer: 1,
-      explanation: "Pertelote dismisses the dream as meaningless, attributing it to indigestion and recommending herbal remedies.",
-      difficulty: "medium"
-    },
+     {
+       id: 1,
+       question: "Who is the main protagonist in 'The Nun's Priest's Tale'?",
+       options: ["The Widow", "Chanticleer (the rooster)", "Pertelote (the hen)", "The Fox (Don Russel)"],
+       correctAnswer: 1,
+       explanation: "Chanticleer, the proud rooster, is the main protagonist whose dream and capture drive the story.",
+       difficulty: "easy",
+       scenes: Array.from({length: 35}, (_, i) => i)
+     },
+     {
+       id: 2,
+       question: "What does Chanticleer dream about?",
+       options: ["Finding a golden egg", "Being attacked by a beast/fox", "Flying away from the farm", "Becoming human"],
+       correctAnswer: 1,
+       explanation: "Chanticleer dreams of a beast threatening him, which Pertelote dismisses but later comes true when the fox captures him.",
+       difficulty: "easy",
+       scenes: Array.from({length: 35}, (_, i) => i)
+     },
+     {
+       id: 3,
+       question: "How does Pertelote respond to Chanticleer's dream?",
+       options: [
+         "She believes it's prophetic and warns him",
+         "She dismisses it as indigestion and recommends herbs",
+         "She suggests they leave the farm immediately",
+         "She laughs and tells him he's being silly"
+       ],
+       correctAnswer: 1,
+       explanation: "Pertelote dismisses the dream as meaningless, attributing it to indigestion and recommending herbal remedies.",
+       difficulty: "medium",
+       scenes: Array.from({length: 35}, (_, i) => i)
+     },
     {
       id: 4,
       question: "How does the fox capture Chanticleer?",
       options: ["By digging under the fence", "By flattering him into singing", "By disguising himself as a farmer", "By attacking at night"],
       correctAnswer: 1,
       explanation: "The fox flatters Chanticleer, asking to hear his beautiful singing voice, and when Chanticleer closes his eyes to sing, the fox grabs him.",
-      difficulty: "medium"
+      difficulty: "medium",
+      scenes: Array.from({length: 35}, (_, i) => i)
     },
     {
       id: 5,
@@ -49,7 +53,8 @@ class Quiz {
       ],
       correctAnswer: 1,
       explanation: "Chanticleer tells the fox to taunt his pursuers, and when the fox opens his mouth to speak, Chanticleer escapes.",
-      difficulty: "medium"
+      difficulty: "medium",
+      scenes: Array.from({length: 35}, (_, i) => i)
     },
     {
       id: 6,
@@ -57,7 +62,8 @@ class Quiz {
       options: ["Wealthy noblewoman", "Middle-class merchant", "Poor but content peasant", "Royal court member"],
       correctAnswer: 2,
       explanation: "The widow is poor but content, living simply with her two daughters in a humble cottage.",
-      difficulty: "easy"
+      difficulty: "easy",
+      scenes: Array.from({length: 35}, (_, i) => i)
     },
     {
       id: 7,
@@ -65,7 +71,8 @@ class Quiz {
       options: ["Romance", "Beast fable", "Epic poem", "Tragedy"],
       correctAnswer: 1,
       explanation: "The tale is a beast fable—animals act like humans to teach moral lessons—mixed with philosophical debate.",
-      difficulty: "hard"
+      difficulty: "hard",
+      scenes: Array.from({length: 35}, (_, i) => i)
     },
     {
       id: 8,
@@ -73,7 +80,8 @@ class Quiz {
       options: ["The dangers of pride and flattery", "The importance of wealth", "The joys of country life", "The power of love"],
       correctAnswer: 0,
       explanation: "The tale explores pride (Chanticleer's vanity), flattery (the fox's deception), and the relationship between dreams and reality.",
-      difficulty: "medium"
+      difficulty: "medium",
+      scenes: Array.from({length: 35}, (_, i) => i)
     },
     {
       id: 9,
@@ -86,7 +94,8 @@ class Quiz {
       ],
       correctAnswer: 2,
       explanation: "The tale engages with medieval debates about whether dreams are prophetic (as Chanticleer believes) or just bodily disturbances (as Pertelote argues).",
-      difficulty: "hard"
+      difficulty: "hard",
+      scenes: Array.from({length: 35}, (_, i) => i)
     },
     {
       id: 10,
@@ -94,7 +103,8 @@ class Quiz {
       options: ["12th century", "14th century", "16th century", "18th century"],
       correctAnswer: 1,
       explanation: "Geoffrey Chaucer wrote The Canterbury Tales in the late 14th century (circa 1387-1400).",
-      difficulty: "easy"
+      difficulty: "easy",
+      scenes: Array.from({length: 35}, (_, i) => i)
     },
     {
       id: 11,
@@ -102,7 +112,8 @@ class Quiz {
       options: ["24", "120", "100", "30"],
       correctAnswer: 1,
       explanation: "Chaucer originally planned 120 tales (two per pilgrim), but only completed 24.",
-      difficulty: "medium"
+      difficulty: "medium",
+      scenes: Array.from({length: 35}, (_, i) => i)
     },
     {
       id: 12,
@@ -110,7 +121,8 @@ class Quiz {
       options: ["A royal banquet", "A pilgrimage to Canterbury", "A ship voyage", "A court trial"],
       correctAnswer: 1,
       explanation: "The tales are told by pilgrims traveling from London to Canterbury Cathedral to visit the shrine of Thomas Becket.",
-      difficulty: "easy"
+      difficulty: "easy",
+      scenes: Array.from({length: 35}, (_, i) => i)
     },
     {
       id: 13,
@@ -118,7 +130,8 @@ class Quiz {
       options: ["The Nun's Priest", "The Knight", "The Wife of Bath", "The Pardoner"],
       correctAnswer: 0,
       explanation: "As the title indicates, 'The Nun's Priest's Tale' is told by the Nun's Priest, who accompanies the Prioress.",
-      difficulty: "easy"
+      difficulty: "easy",
+      scenes: Array.from({length: 35}, (_, i) => i)
     },
     {
       id: 14,
@@ -131,7 +144,8 @@ class Quiz {
       ],
       correctAnswer: 0,
       explanation: "The explicit moral is to beware of flatterers, though the tale contains multiple layers of meaning.",
-      difficulty: "medium"
+      difficulty: "medium",
+      scenes: Array.from({length: 35}, (_, i) => i)
     },
     {
       id: 15,
@@ -139,7 +153,8 @@ class Quiz {
       options: ["A horse", "A sheep named Mally", "A dog", "A cat"],
       correctAnswer: 1,
       explanation: "The widow owns a sheep named Mally, along with three cows, three pigs, and Chanticleer's hens.",
-      difficulty: "hard"
+      difficulty: "hard",
+      scenes: Array.from({length: 35}, (_, i) => i)
     }
   ]
 
@@ -150,6 +165,7 @@ class Quiz {
   private isQuizActive = false
 
   private container: HTMLElement
+  private slug: string
   private startScreen: HTMLElement
   private questionScreen: HTMLElement
   private feedbackScreen: HTMLElement
@@ -176,6 +192,8 @@ class Quiz {
     console.log('Quiz constructor called for container:', container);
     (window as any)._quizInstance = this;
     this.container = container
+    this.slug = container.getAttribute('data-slug') || ''
+    console.log('Quiz slug:', this.slug)
     this.startScreen = container.querySelector('.quiz-start-screen')!
     this.questionScreen = container.querySelector('.quiz-question-screen')!
     this.feedbackScreen = container.querySelector('.quiz-feedback-screen')!
@@ -225,16 +243,43 @@ class Quiz {
     document.addEventListener('keydown', this.boundKeydownHandler)
   }
 
-  private shuffleQuestions() {
-    const pool = [...this.quizQuestions]
+   private shuffleQuestions() {
+    // Extract scene number from slug (e.g., "Scene-00" -> 0)
+    let sceneNumber = -1
+    if (this.slug.startsWith('Scene-')) {
+      const sceneStr = this.slug.replace('Scene-', '')
+      sceneNumber = parseInt(sceneStr, 10)
+      if (isNaN(sceneNumber)) sceneNumber = -1
+    }
+    
+    // Filter questions for this scene
+    let pool = [...this.quizQuestions]
+    if (sceneNumber >= 0) {
+      pool = pool.filter(q => {
+        // If question has scenes property, check if it includes this scene
+        if (q.scenes && Array.isArray(q.scenes)) {
+          return q.scenes.includes(sceneNumber)
+        }
+        // If no scenes property, include for all scenes
+        return true
+      })
+    }
+    
+    // If filtered pool is empty, use all questions
+    if (pool.length === 0) {
+      pool = [...this.quizQuestions]
+    }
+    
     this.selectedQuizQuestions = []
     
+    // Select up to 10 questions from filtered pool
     for (let i = 0; i < 10 && i < pool.length; i++) {
       const j = i + Math.floor(Math.random() * (pool.length - i))
       ;[pool[i], pool[j]] = [pool[j], pool[i]]
       this.selectedQuizQuestions.push(pool[i])
     }
     
+    // Shuffle the selected questions
     for (let i = this.selectedQuizQuestions.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1))
       ;[this.selectedQuizQuestions[i], this.selectedQuizQuestions[j]] = [this.selectedQuizQuestions[j], this.selectedQuizQuestions[i]]
@@ -323,6 +368,10 @@ class Quiz {
   }
 
   private calculateGrade(): {letter: string, percentage: number} {
+    // Handle case where quiz hasn't started or has no questions
+    if (this.selectedQuizQuestions.length === 0) {
+      return {letter: 'F', percentage: 0}
+    }
     const percentage = (this.quizScore / this.selectedQuizQuestions.length) * 100
     if (percentage >= 90) return {letter: 'A', percentage}
     if (percentage >= 80) return {letter: 'B', percentage}

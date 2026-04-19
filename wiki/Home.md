@@ -20,6 +20,7 @@ This repo currently contains a markdown-based retelling sequence for *The Nun's 
 - [[Characters-and-Roles]]
 - [[Source-Notes]]
 - [[Scene-Index]]
+- [[Chatbot]]
 - [[index]]
 - [[Log]]
 - [[Schema]]
