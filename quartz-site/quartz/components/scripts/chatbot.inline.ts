@@ -212,7 +212,7 @@ class CanterburyTalesChatbot {
         response: 'Chanticleer dreams of a beast threatening him, which Pertelote dismisses. The dream comes true when the fox captures him, illustrating medieval debates about dream interpretation.'
       },
       {
-        keywords: ['story', 'plot', 'summary', 'happens', 'scene'],
+        keywords: ['story', 'plot', 'summary', 'happens', 'scene', 'about', 'what is', 'what\'s', 'explain', 'tell me'],
         response: 'In "The Nun\'s Priest\'s Tale," Chanticleer the rooster has a nightmare about being attacked. His wife Pertelote dismisses it. Later, a fox flatters Chanticleer into singing, captures him, but Chanticleer tricks the fox into letting him go.'
       },
       {
