@@ -11,7 +11,10 @@ export const sharedPageComponents: SharedLayout = {
       component: Component.Quiz(),
       condition: (page) => page.fileData.slug !== "index" && page.fileData.slug !== "Home" && page.fileData.slug !== "Chatbot" && !page.fileData.slug.startsWith("tags/")
     }),
-    Component.Chatbot({})
+    Component.ConditionalRender({
+      component: Component.Chatbot({}),
+      condition: (page) => page.fileData.slug.startsWith("Scene-")
+    })
   ],
   footer: Component.Footer({
     links: {
