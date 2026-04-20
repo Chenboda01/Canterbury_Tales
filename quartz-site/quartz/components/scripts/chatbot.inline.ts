@@ -4,6 +4,21 @@ interface ChatMessage {
   timestamp: Date
 }
 
+const CHATBOT_COLOR_VALUES: Record<string, string> = {
+  red: '#ef4444',
+  blue: '#3b82f6',
+  green: '#10b981',
+  white: '#ffffff',
+  gray: '#e5e7eb',
+}
+
+const CHATBOT_SIZE_VALUES: Record<string, string> = {
+  small: '14px',
+  medium: '16px',
+  large: '18px',
+  'extra-large': '20px',
+}
+
 class CanterburyTalesChatbot {
   private container: HTMLElement
   private messagesContainer: HTMLElement
@@ -83,6 +98,14 @@ class CanterburyTalesChatbot {
     this.container.classList.add(`${prefix}${nextValue}`)
     this.container.dataset[dataKey] = nextValue
 
+    if (type === 'color') {
+      this.container.style.setProperty('--chatbot-assistant-text-color', CHATBOT_COLOR_VALUES[nextValue])
+    } else {
+      this.container.style.setProperty('--chatbot-assistant-font-size', CHATBOT_SIZE_VALUES[nextValue])
+    }
+
+    this.syncAssistantMessageAppearance()
+
     this.controlButtons.forEach((button) => {
       const isMatchingType = button.dataset.chatbotControl === type
       if (!isMatchingType) return
@@ -90,6 +113,25 @@ class CanterburyTalesChatbot {
       const isActive = button.dataset.value === nextValue
       button.classList.toggle('is-active', isActive)
       button.setAttribute('aria-pressed', isActive ? 'true' : 'false')
+    })
+  }
+
+  private syncAssistantMessageAppearance() {
+    const colorValue = this.container.dataset.chatbotColor || 'gray'
+    const sizeValue = this.container.dataset.chatbotSize || 'small'
+    const appearanceTargets = this.messagesContainer.querySelectorAll<HTMLElement>('.chatbot-message.chatbot-assistant .chatbot-content, .chatbot-message.chatbot-system .chatbot-content')
+
+    appearanceTargets.forEach((target) => {
+      Object.keys(CHATBOT_COLOR_VALUES).forEach((option) => {
+        target.classList.remove(`chatbot-color-${option}`)
+      })
+
+      Object.keys(CHATBOT_SIZE_VALUES).forEach((option) => {
+        target.classList.remove(`chatbot-size-${option}`)
+      })
+
+      target.classList.add(`chatbot-color-${colorValue}`)
+      target.classList.add(`chatbot-size-${sizeValue}`)
     })
   }
 
@@ -271,6 +313,11 @@ class CanterburyTalesChatbot {
 
     const contentDiv = document.createElement('div')
     contentDiv.className = 'chatbot-content'
+
+    if (role === 'assistant' || role === 'system') {
+      contentDiv.classList.add(`chatbot-color-${this.container.dataset.chatbotColor || 'gray'}`)
+      contentDiv.classList.add(`chatbot-size-${this.container.dataset.chatbotSize || 'small'}`)
+    }
     
     const p = document.createElement('p')
     p.textContent = content
