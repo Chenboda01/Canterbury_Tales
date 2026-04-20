@@ -1,0 +1,96 @@
+[     766ms] [LOG] Quiz script loaded @ http://localhost:8888/postscript.js:1
+[     862ms] [LOG] Quiz init function called @ http://localhost:8888/postscript.js:1
+[     863ms] [LOG] Found quiz containers: 1 @ http://localhost:8888/postscript.js:1
+[     863ms] [LOG] Creating Quiz instance for container 0 @ http://localhost:8888/postscript.js:1
+[     863ms] [LOG] Quiz constructor called for container: JSHandle@node @ http://localhost:8888/postscript.js:1
+[     864ms] [LOG] Quiz throbber element: JSHandle@node @ http://localhost:8888/postscript.js:1
+[     864ms] [LOG] Quiz init called, startButton: JSHandle@node @ http://localhost:8888/postscript.js:1
+[    1069ms] [LOG] Quiz init function called @ http://localhost:8888/postscript.js:1
+[    1069ms] [LOG] Found quiz containers: 1 @ http://localhost:8888/postscript.js:1
+[    1070ms] [LOG] Creating Quiz instance for container 0 @ http://localhost:8888/postscript.js:1
+[    1070ms] [LOG] Quiz constructor called for container: JSHandle@node @ http://localhost:8888/postscript.js:1
+[    1071ms] [LOG] Quiz throbber element: JSHandle@node @ http://localhost:8888/postscript.js:1
+[    1072ms] [LOG] Quiz init called, startButton: JSHandle@node @ http://localhost:8888/postscript.js:1
+[    1163ms] [WARNING] No available adapters. @ http://localhost:8888/index.html:0
+[  195342ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: false feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  195342ms] [LOG] Enter key: submitting answer @ http://localhost:8888/postscript.js:1
+[  195344ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: false @ http://localhost:8888/postscript.js:1
+[  195344ms] [LOG] Enter key: moving to next question @ http://localhost:8888/postscript.js:1
+[  237364ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: false feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  237364ms] [LOG] Enter key: submitting answer @ http://localhost:8888/postscript.js:1
+[  237364ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: false @ http://localhost:8888/postscript.js:1
+[  237364ms] [LOG] Enter key: moving to next question @ http://localhost:8888/postscript.js:1
+[  250949ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: false feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  250952ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: false feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  284306ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: false feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  284310ms] [LOG] Enter key: submitting answer @ http://localhost:8888/postscript.js:1
+[  284312ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: false @ http://localhost:8888/postscript.js:1
+[  284312ms] [LOG] Enter key: moving to next question @ http://localhost:8888/postscript.js:1
+[  284317ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: false feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  284320ms] [LOG] Enter key: submitting answer @ http://localhost:8888/postscript.js:1
+[  284322ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: false @ http://localhost:8888/postscript.js:1
+[  284323ms] [LOG] Enter key: moving to next question @ http://localhost:8888/postscript.js:1
+[  284327ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: false feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  284328ms] [LOG] Enter key: submitting answer @ http://localhost:8888/postscript.js:1
+[  284329ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: false @ http://localhost:8888/postscript.js:1
+[  284331ms] [LOG] Enter key: moving to next question @ http://localhost:8888/postscript.js:1
+[  284332ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: false feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  284332ms] [LOG] Enter key: submitting answer @ http://localhost:8888/postscript.js:1
+[  284332ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: false @ http://localhost:8888/postscript.js:1
+[  284332ms] [LOG] Enter key: moving to next question @ http://localhost:8888/postscript.js:1
+[  284336ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: false feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  284337ms] [LOG] Enter key: submitting answer @ http://localhost:8888/postscript.js:1
+[  284338ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: false @ http://localhost:8888/postscript.js:1
+[  284339ms] [LOG] Enter key: moving to next question @ http://localhost:8888/postscript.js:1
+[  343865ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: false feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343865ms] [LOG] Enter key: submitting answer @ http://localhost:8888/postscript.js:1
+[  343866ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: false @ http://localhost:8888/postscript.js:1
+[  343866ms] [LOG] Enter key: moving to next question @ http://localhost:8888/postscript.js:1
+[  343867ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: false feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343867ms] [LOG] Enter key: submitting answer @ http://localhost:8888/postscript.js:1
+[  343867ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: false @ http://localhost:8888/postscript.js:1
+[  343868ms] [LOG] Enter key: moving to next question @ http://localhost:8888/postscript.js:1
+[  343869ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: false feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343869ms] [LOG] Enter key: submitting answer @ http://localhost:8888/postscript.js:1
+[  343869ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: false @ http://localhost:8888/postscript.js:1
+[  343869ms] [LOG] Enter key: moving to next question @ http://localhost:8888/postscript.js:1
+[  343870ms] [LOG] showThrobber called, throbber: JSHandle@node @ http://localhost:8888/postscript.js:1
+[  343871ms] [LOG] hidden class removed, current classes: quiz-throbber @ http://localhost:8888/postscript.js:1
+[  343873ms] [LOG] transform set to scaleX(1), current transform: scaleX(1) @ http://localhost:8888/postscript.js:1
+[  343874ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343874ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343875ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343875ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343875ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343876ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343877ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343877ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343877ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343878ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343878ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343878ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343879ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343879ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343879ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343879ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343879ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343880ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343880ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343880ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343880ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343880ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343881ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343881ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343881ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343882ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343882ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343882ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343884ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343885ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343885ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343885ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343890ms] [LOG] Quiz keydown: Enter isQuizActive: true questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  343890ms] [LOG] Quiz keydown: Enter isQuizActive: false questionScreen hidden: true feedbackScreen hidden: true @ http://localhost:8888/postscript.js:1
+[  344679ms] [LOG] hideThrobber called @ http://localhost:8888/postscript.js:1
+[  344679ms] [LOG] transform set to scaleX(0) @ http://localhost:8888/postscript.js:1
+[  344980ms] [LOG] adding hidden class @ http://localhost:8888/postscript.js:1

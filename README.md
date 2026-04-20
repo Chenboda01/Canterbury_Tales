@@ -123,3 +123,63 @@ This will be a picture story book which will turn into a stop motion video later
 1. Canterbury tales passage Digitized by Google from the library of University of Michigan and uploaded to the Internet Archive by user tpb. The original book was published in 1904, and the author is Geoffrey Chaucer. The title of the book is "The Canterbury tales". The passage we are using is "The Nun's Priest's Tale".
 2. ChatGPT (Starting point)
 3. GitHub (Current repo)
+
+
+## Project Wiki
+
+This repository now includes a structured wiki under `/wiki`:
+
+- [`Home`](wiki/Home.md)
+- [`Project Overview`](wiki/Project-Overview.md)
+- [`Story Outline`](wiki/Story-Outline.md)
+- [`Characters and Roles`](wiki/Characters-and-Roles.md)
+- [`Source Notes`](wiki/Source-Notes.md)
+- [`Schema`](wiki/Schema.md)
+- [`Log`](wiki/Log.md)
+- [`Scene Index`](wiki/Scene-Index.md)
+
+You can keep wiki content synchronized by:
+
+- updating `README.md` (source layer)
+- running `python wiki/lint_wiki.py` from repo root before sharing updates
+
+If you want to publish this as a GitHub Wiki, copy the `/wiki/*.md` files into a separate wiki repo and keep this `README` as the source layer.
+
+## GitHub Pages visualization with Quartz 4
+
+This repo is also set up to publish the `/wiki` folder as a **Quartz 4** site on GitHub Pages, including:
+
+- graph view
+- backlinks
+- search
+- wiki-link navigation for `[[Page]]` links
+
+### Local preview
+
+```bash
+cd quartz-site
+npm install
+npm run wiki:dev
+```
+
+### Production build
+
+```bash
+cd quartz-site
+npm run wiki:build
+```
+
+### GitHub Pages
+
+The GitHub Actions workflow at `.github/workflows/deploy-pages.yml` deploys the Quartz site from `/wiki` to GitHub Pages.
+
+To enable it in GitHub:
+
+1. Open **Settings → Pages**
+2. Set **Source** to **GitHub Actions**
+3. If this is the first publish on this repo, save the GitHub Pages settings once after making the source change.
+4. Merge/push the workflow to `master` or `new-feature` (or run it manually with **workflow_dispatch**)
+
+Expected site URL:
+
+- `https://Chenboda01.github.io/Canterbury_Tales`

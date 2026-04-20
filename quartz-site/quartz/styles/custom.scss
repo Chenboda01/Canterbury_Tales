@@ -1,0 +1,102 @@
+@use "./base.scss";
+
+// Canterbury Tales Quartz polish
+
+:root {
+  --page-radius: 14px;
+  --panel-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(132, 165, 157, 0.14), transparent 28%),
+    radial-gradient(circle at top right, rgba(40, 75, 99, 0.12), transparent 30%),
+    var(--light);
+}
+
+.page>
+  .page-header,
+.center,
+.left.sidebar,
+.right.sidebar,
+footer {
+  /* backdrop-filter: blur(8px); removed to prevent container blur interference with liquid glass scrollbar */
+}
+
+.center {
+  background: color-mix(in srgb, var(--light) 92%, white 8%);
+  border: 1px solid color-mix(in srgb, var(--lightgray) 82%, var(--secondary) 18%);
+  border-radius: var(--page-radius);
+  box-shadow: var(--panel-shadow);
+  padding: 1.5rem 2rem;
+}
+
+.left.sidebar,
+.right.sidebar {
+  gap: 1rem;
+}
+
+.left.sidebar > *,
+.right.sidebar > * {
+  background: color-mix(in srgb, var(--light) 94%, white 6%);
+  border: 1px solid color-mix(in srgb, var(--lightgray) 82%, var(--secondary) 18%);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  padding: 0.9rem 1rem;
+}
+
+.page-title {
+  letter-spacing: -0.02em;
+}
+
+.page-title a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+article {
+  line-height: 1.72;
+}
+
+article h1 {
+  font-size: clamp(2rem, 3vw, 2.6rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.75rem;
+}
+
+article h2,
+article h3 {
+  letter-spacing: -0.02em;
+}
+
+article ul li + li,
+article ol li + li {
+  margin-top: 0.35rem;
+}
+
+a.internal {
+  font-weight: 600;
+}
+
+.graph .graph-outer,
+.backlinks,
+.explorer,
+.toc {
+  background: transparent;
+}
+
+footer {
+  margin-top: 1rem;
+  padding: 1rem 1.25rem;
+  background: color-mix(in srgb, var(--light) 94%, white 6%);
+  border: 1px solid color-mix(in srgb, var(--lightgray) 82%, var(--secondary) 18%);
+  border-radius: 12px;
+}
+
+@media all and (max-width: 800px) {
+  .center {
+    padding: 1.1rem 1rem;
+    border-radius: 12px;
+  }
+}

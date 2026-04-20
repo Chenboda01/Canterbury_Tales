@@ -1,0 +1,132 @@
+.comment-relay {
+  /* no layout footprint */
+}
+
+.comment-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(3px);
+  transition: opacity 0.15s ease;
+
+  &.hidden {
+    display: none;
+  }
+}
+
+.comment-box {
+  width: min(540px, 90vw);
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 12px;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  animation: comment-slide-up 0.15s ease;
+}
+
+@keyframes comment-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--lightgray);
+  background: var(--lightgray);
+}
+
+.comment-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--dark);
+}
+
+.comment-page-label {
+  font-size: 0.8rem;
+  color: var(--gray);
+  background: var(--light);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-family: var(--codeFont);
+}
+
+.comment-close {
+  margin-left: auto;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--gray);
+  line-height: 1;
+  padding: 0 4px;
+
+  &:hover {
+    color: var(--dark);
+  }
+}
+
+.comment-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 16px;
+  border: none;
+  outline: none;
+  resize: vertical;
+  font-family: var(--bodyFont);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--dark);
+  background: var(--light);
+  min-height: 100px;
+
+  &::placeholder {
+    color: var(--gray);
+  }
+}
+
+.comment-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  border-top: 1px solid var(--lightgray);
+}
+
+.comment-status {
+  font-size: 0.8rem;
+  color: var(--gray);
+}
+
+.comment-send {
+  background: var(--secondary);
+  color: var(--light);
+  border: none;
+  border-radius: 6px;
+  padding: 6px 16px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.1s;
+
+  &:hover {
+    opacity: 0.85;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
