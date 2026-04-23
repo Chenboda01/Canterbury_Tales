@@ -119,6 +119,8 @@ class CanterburyTalesChatbot {
   private syncAssistantMessageAppearance() {
     const colorValue = this.container.dataset.chatbotColor || 'gray'
     const sizeValue = this.container.dataset.chatbotSize || 'small'
+    const resolvedColor = CHATBOT_COLOR_VALUES[colorValue] || CHATBOT_COLOR_VALUES.gray
+    const resolvedFontSize = CHATBOT_SIZE_VALUES[sizeValue] || CHATBOT_SIZE_VALUES.small
     const appearanceTargets = this.messagesContainer.querySelectorAll<HTMLElement>('.chatbot-message.chatbot-assistant .chatbot-content, .chatbot-message.chatbot-system .chatbot-content')
 
     appearanceTargets.forEach((target) => {
@@ -132,6 +134,10 @@ class CanterburyTalesChatbot {
 
       target.classList.add(`chatbot-color-${colorValue}`)
       target.classList.add(`chatbot-size-${sizeValue}`)
+      target.style.setProperty('--chatbot-assistant-text-color', resolvedColor)
+      target.style.setProperty('--chatbot-assistant-font-size', resolvedFontSize)
+      target.style.color = resolvedColor
+      target.style.fontSize = resolvedFontSize
     })
   }
 
@@ -315,8 +321,17 @@ class CanterburyTalesChatbot {
     contentDiv.className = 'chatbot-content'
 
     if (role === 'assistant' || role === 'system') {
-      contentDiv.classList.add(`chatbot-color-${this.container.dataset.chatbotColor || 'gray'}`)
-      contentDiv.classList.add(`chatbot-size-${this.container.dataset.chatbotSize || 'small'}`)
+      const colorValue = this.container.dataset.chatbotColor || 'gray'
+      const sizeValue = this.container.dataset.chatbotSize || 'small'
+      const resolvedColor = CHATBOT_COLOR_VALUES[colorValue] || CHATBOT_COLOR_VALUES.gray
+      const resolvedFontSize = CHATBOT_SIZE_VALUES[sizeValue] || CHATBOT_SIZE_VALUES.small
+
+      contentDiv.classList.add(`chatbot-color-${colorValue}`)
+      contentDiv.classList.add(`chatbot-size-${sizeValue}`)
+      contentDiv.style.setProperty('--chatbot-assistant-text-color', resolvedColor)
+      contentDiv.style.setProperty('--chatbot-assistant-font-size', resolvedFontSize)
+      contentDiv.style.color = resolvedColor
+      contentDiv.style.fontSize = resolvedFontSize
     }
     
     const p = document.createElement('p')
