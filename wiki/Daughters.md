@@ -1,4 +1,7 @@
-# The Widow's Daughters
+---
+title: "👧 The Widow's Daughters"
+---
+# 👧 The Widow's Daughters
 
 ![The Widow's Daughters](assets/Kids.png)
 

@@ -1,4 +1,7 @@
-# Hens
+---
+title: "🐔 Hens"
+---
+# 🐔 Hens
 
 ![The Hens](assets/Hens.png)
 

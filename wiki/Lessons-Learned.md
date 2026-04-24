@@ -1,4 +1,7 @@
-# Lessons Learned
+---
+title: "💡 Lessons Learned"
+---
+# 💡 Lessons Learned
 
 ## Project: Canterbury Tales Picture Book & AI Chatbot Improvements
 **Date**: 2026-04-19  

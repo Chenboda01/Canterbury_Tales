@@ -1,4 +1,7 @@
-# Wiki Log
+---
+title: "📓 Wiki Log"
+---
+# 📓 Wiki Log
 
 ## [2026-04-10] ingest | Initial wiki scaffold
 

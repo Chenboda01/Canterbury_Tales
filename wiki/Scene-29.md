@@ -1,3 +1,6 @@
+---
+title: "🎤 Scene 29"
+---
 # 🎤 Scene 29
 
 ![Scene 29: **Source:** `../README.md#scene-29`](assets/scenes/scene-29.jpg)

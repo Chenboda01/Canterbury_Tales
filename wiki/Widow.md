@@ -1,4 +1,7 @@
-# The Widow
+---
+title: "👩 The Widow"
+---
+# 👩 The Widow
 
 ![The Widow](assets/The_Widow.png)
 

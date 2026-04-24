@@ -1,4 +1,7 @@
-# Scene Index
+---
+title: "🎬 Scene Index"
+---
+# 🎬 Scene Index
 
 ## Scene pages
 

@@ -1,3 +1,6 @@
+---
+title: "💊 Scene 15"
+---
 # 💊 Scene 15
 
 ![Scene 15: **Source:** `../README.md#scene-15`](assets/scenes/scene-15.jpg)

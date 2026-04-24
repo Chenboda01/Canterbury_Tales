@@ -1,4 +1,7 @@
-# Pertelote (Partlet / Dame Partlet)
+---
+title: "🕊️ Pertelote (Partlet / Dame Partlet)"
+---
+# 🕊️ Pertelote (Partlet / Dame Partlet)
 
 ![Pertelote the hen](assets/Pertelote.png)
 

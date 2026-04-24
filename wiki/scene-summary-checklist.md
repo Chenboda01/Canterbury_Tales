@@ -1,4 +1,7 @@
-# Scene Summary Checklist
+---
+title: "✅ Scene Summary Checklist"
+---
+# ✅ Scene Summary Checklist
 
 Use this list to verify each scene's summary and generate prompts.
 

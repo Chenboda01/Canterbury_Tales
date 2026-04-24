@@ -1,4 +1,7 @@
-# Chanticleer
+---
+title: "🐓 Chanticleer"
+---
+# 🐓 Chanticleer
 
 ![Chanticleer the rooster](assets/Chanticleer.png)
 

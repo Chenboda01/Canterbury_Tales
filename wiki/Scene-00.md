@@ -1,3 +1,6 @@
+---
+title: "🎭 Scene 0"
+---
 # 🎭 Scene 0
 
 ![Scene 00: **Source:** `../README.md#scene-0`](assets/scenes/scene-00.jpg)

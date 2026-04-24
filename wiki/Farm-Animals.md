@@ -1,4 +1,7 @@
-# Farm Animals
+---
+title: "🐑 Farm Animals"
+---
+# 🐑 Farm Animals
 
 ![Farm Animals](assets/Farm_Animals.png)
 

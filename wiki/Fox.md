@@ -1,4 +1,7 @@
-# Fox (Mr. Renard)
+---
+title: "🦊 Fox (Mr. Renard)"
+---
+# 🦊 Fox (Mr. Renard)
 
 ![Don Russel the fox](assets/Don_Russel.png)
 

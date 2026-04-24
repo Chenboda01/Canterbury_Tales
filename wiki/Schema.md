@@ -1,4 +1,7 @@
-# Wiki Schema
+---
+title: "🗺️ Wiki Schema"
+---
+# 🗺️ Wiki Schema
 
 ## Why this schema
 

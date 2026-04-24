@@ -1,4 +1,7 @@
-# Scene Illustration Prompt Template
+---
+title: "✏️ Scene Illustration Prompt Template"
+---
+# ✏️ Scene Illustration Prompt Template
 
 This template generates consistent **Ink and Wash Medieval** style images for each scene, optimized for black‑and‑white printing.
 

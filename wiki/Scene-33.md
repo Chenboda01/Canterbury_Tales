@@ -1,3 +1,6 @@
+---
+title: "🧠 Scene 33"
+---
 # 🧠 Scene 33
 
 ![Scene 33: **Source:** `../README.md#scene-33`](assets/scenes/scene-33.jpg)

@@ -1,4 +1,7 @@
-# Characters and Roles
+---
+title: "👥 Characters and Roles"
+---
+# 👥 Characters and Roles
 
 *Each character also has a dedicated bio page: [[Chanticleer]], [[Pertelote]], [[Fox]], [[Widow]], [[Daughters]], [[Hens]], [[Farm-Animals]].*
 

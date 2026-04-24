@@ -1,4 +1,7 @@
-# Source Notes
+---
+title: "📝 Source Notes"
+---
+# 📝 Source Notes
 
 ## Primary source
 

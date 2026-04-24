@@ -1,4 +1,7 @@
-# Canterbury Tales Wiki
+---
+title: "🏠 Canterbury Tales Wiki"
+---
+# 🏠 Canterbury Tales Wiki
 
 Welcome to the **Canterbury_Tales** project wiki.
 

@@ -1,4 +1,7 @@
-# Story Outline
+---
+title: "📋 Story Outline"
+---
+# 📋 Story Outline
 
 ## Arc 1: Setup and characterization (Scenes 0–8)
 

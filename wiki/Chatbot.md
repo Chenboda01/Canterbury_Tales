@@ -1,5 +1,5 @@
 ---
-title: "AI Chatbot"
+title: "🤖 AI Chatbot"
 ---
 
 # AI Chatbot

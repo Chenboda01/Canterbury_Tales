@@ -1,5 +1,5 @@
 ---
-title: Wiki Index
+title: "🗂️ Wiki Index"
 ---
 
 # Wiki Index

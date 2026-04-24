@@ -1,4 +1,7 @@
-# Geoffrey Chaucer
+---
+title: "✍️ Geoffrey Chaucer"
+---
+# ✍️ Geoffrey Chaucer
 
 ![Geoffrey Chaucer](assets/Chaucer.png)
 

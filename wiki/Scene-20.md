@@ -1,3 +1,6 @@
+---
+title: "📜 Scene 20"
+---
 # 📜 Scene 20
 
 ![Scene 20: **Source:** `../README.md#scene-20`](assets/scenes/scene-20.jpg)

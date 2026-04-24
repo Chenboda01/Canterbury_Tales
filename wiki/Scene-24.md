@@ -1,3 +1,6 @@
+---
+title: "🦊 Scene 24"
+---
 # 🦊 Scene 24
 
 ![Scene 24: **Source:** `../README.md#scene-24`](assets/scenes/scene-24.jpg)
