@@ -240,6 +240,10 @@ class CanterburyTalesChatbot {
         response: 'Hello! I\'m your Canterbury Tales assistant. Ask me about the story, characters, or themes.'
       },
       {
+        keywords: ['escape', 'trick', 'tricked', 'get away', 'break free'],
+        response: 'Chanticleer escapes from the fox (Don Russel) by using his own wits. After the fox captures him by flattery, Chanticleer tricks the fox into opening his mouth — he tells the fox to taunt their pursuers. When the fox opens his mouth to speak, Chanticleer breaks free and flies to safety in a tree. He learns his lesson, saying he will never again shut his eyes while singing and trust flattery.'
+      },
+      {
         keywords: ['chanticleer', 'rooster', 'cock'],
         response: 'Chanticleer is the proud rooster protagonist in "The Nun\'s Priest\'s Tale." He has a prophetic dream about a fox, debates with his wife Pertelote about dreams, and is eventually captured by the fox but escapes using his wits.'
       },
