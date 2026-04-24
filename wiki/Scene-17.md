@@ -1,4 +1,4 @@
-# Scene 17
+# 📖 Scene 17
 
 ![Scene 17: **Source:** `../README.md#scene-17`](assets/scenes/scene-17.jpg)
 *Partlet said, "So you had read the bible!? Glad to hear that. But I am afraid you have not read it carefully enough for you to understand. Now go to the library and read the bible carefully, and then you will understand that there are things in the bible that are not true, and that there are things in the bible that are nonsense."*

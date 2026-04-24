@@ -1,4 +1,4 @@
-# Scene 13
+# 💪 Scene 13
 
 ![Scene 13: **Source:** `../README.md#scene-13`](assets/scenes/scene-13.jpg)
 *No scene prose is present under this heading in README.*

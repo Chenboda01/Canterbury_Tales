@@ -1,4 +1,4 @@
-# Scene 31
+# 😔 Scene 31
 
 ![Scene 31: **Source:** `../README.md#scene-31`](assets/scenes/scene-31.jpg)
 *Poor Chanticleer! He had better have stayed on his perch.*

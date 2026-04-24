@@ -1,4 +1,4 @@
-# Scene 18
+# 🙄 Scene 18
 
 ![Scene 18: **Source:** `../README.md#scene-18`](assets/scenes/scene-18.jpg)
 *"Madam -" said Chanticleer, "I am to overpowered by your learning. I hope I shall not have trouble you for any medicine just at present. As to the bible, I had read it carefully. Now I am not going to argue with you about the bible, and I don't need a doctor nor take any medicine at all."*

@@ -1,4 +1,4 @@
-# Scene 21
+# 🌙 Scene 21
 
 ![Scene 21: **Source:** `../README.md#scene-21`](assets/scenes/scene-21.jpg)
 *"If you read general history you will find many wonderful dreams that came true, - the dream of Crœsus, for instance, who dreamt of Andromache, the wife of Hector, who dreamt of his death the night before it happened. She warned him, but all in vain, and he was slain by Achilles." Said Chanticleer.*

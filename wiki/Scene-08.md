@@ -1,4 +1,4 @@
-# Scene 8
+# 💕 Scene 8
 
 ![Scene 08: **Source:** `../README.md#scene-8`](assets/scenes/scene-08.jpg)
 *Chanticleer also had lady-loves, and they were nearly as pretty as his own feathers, but the fairest of all of them was Dame Partlet. Dame Partlet was polite, sociable, and had altogether such a good air about herself ever since she was a week old. Chanticleer had quite lost his heart to Dame Partlet, and he would always crow loudly to show his love for her. Dame Partlet would always thank Chanticleer for showing his love for her and for being such a good rooster.*

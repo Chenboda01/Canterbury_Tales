@@ -1,4 +1,4 @@
-# Scene 25
+# 😈 Scene 25
 
 ![Scene 25: **Source:** `../README.md#scene-25`](assets/scenes/scene-25.jpg)
 *Oh, villain of fox! You are another Judas, and as great a deceiver as the Greek man Sinon, who caused the fall of Troy. Poor Chanticleer! It was an unlucky day for you when you flew down from your perch on the beam to walk in the yard, when you had been so well warned beforehand in your dream. It was by his wife's advice that Chanticleer despised his dream, and walked as usual in the yard.*

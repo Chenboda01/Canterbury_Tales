@@ -1,4 +1,4 @@
-# Scene 3
+# 🐷 Scene 3
 
 ![Scene 03: **Source:** `../README.md#scene-3`](assets/scenes/scene-03.jpg)
 *The pigs produced bacon, the cows produced milk, and the sheep produced wool. The widow would sell the bacon, milk, and wool in the market to earn money to support her family.*

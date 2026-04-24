@@ -1,4 +1,4 @@
-# Scene 7
+# ❤️ Scene 7
 
 ![Scene 07: **Source:** `../README.md#scene-7`](assets/scenes/scene-07.jpg)
 *Chanticleer has 7 hens, and he loved them very much. He would always take care of them and protect them from any danger. He would always crow loudly to warn them if there was any danger nearby. The hens would always thank Chanticleer for taking care of them and for warning them about any danger.*

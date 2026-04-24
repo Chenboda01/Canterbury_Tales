@@ -1,4 +1,4 @@
-# Scene 22
+# 🐓 Scene 22
 
 ![Scene 22: **Source:** `../README.md#scene-22`](assets/scenes/scene-22.jpg)
 *Chanticleer flew down from the beam, for it had grown light while he was talking, and all his hens flew down too.*

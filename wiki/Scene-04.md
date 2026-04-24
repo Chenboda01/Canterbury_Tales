@@ -1,4 +1,4 @@
-# Scene 4
+# 🐓 Scene 4
 
 ![Scene 04: **Source:** `../README.md#scene-4`](assets/scenes/scene-04.jpg)
 *Chanticleer lived in the yard of widow, and the yard was a dry and dusty place, and there was no grass in the yard. The yard was surrounded by a wooden fence, and there was a gate to enter the yard. The gate was always open, and the animals could go in and out of the yard freely.*

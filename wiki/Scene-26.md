@@ -1,4 +1,4 @@
-# Scene 26
+# 🤐 Scene 26
 
 ![Scene 26: **Source:** `../README.md#scene-26`](assets/scenes/scene-26.jpg)
 *However, I must not say anything against women, for some folks may not like it.*

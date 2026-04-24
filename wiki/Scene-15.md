@@ -1,4 +1,4 @@
-# Scene 15
+# 💊 Scene 15
 
 ![Scene 15: **Source:** `../README.md#scene-15`](assets/scenes/scene-15.jpg)
 *Partlet said, "Or else perhaps human are bilious when they go to bed and then they have black dreams. The dreamers often cries out loud in their sleep in fear of black bears that are going to toss him with their horns, or their black devil are going eat them up and carry him off altogether. "I could give you many instances if bodily ailments which cause horrible dreams, but I do not care to dwell on this topic. Cato, who is said to have been a very wise man, told us to take no account of dreams. As you, I dare say, may remember, my love. So you had better take some medicine to delete these black dreams out of your head, then you will be able to sleep well. Well, have you taken any medicine to clear these black dreams out of your head? "You must take some medicine at once, and as there is no doctor living in this village, I am giving you the best advice. I will myself prescribe two herbs which grow in this village and which do a deal of good."*

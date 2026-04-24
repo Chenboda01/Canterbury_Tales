@@ -1,4 +1,4 @@
-# Scene 24
+# 🦊 Scene 24
 
 ![Scene 24: **Source:** `../README.md#scene-24`](assets/scenes/scene-24.jpg)
 *A wicked fox, a sly old sinner, who had been prowling about the neighboring wood for the last 3 years, had that very night burst though the hedge to the yard where Chanticleer and his wives were to take their exercise, and lay hidden in a bed of nettles until the evening, waiting for a good time to fall on Chanticleer. That is the mean way with these wicked foxes, always lie in wait to murder men.*

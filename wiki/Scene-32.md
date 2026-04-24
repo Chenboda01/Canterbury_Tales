@@ -1,4 +1,4 @@
-# Scene 32
+# 🏃 Scene 32
 
 ![Scene 32: **Source:** `../README.md#scene-32`](assets/scenes/scene-32.jpg)
 *They all cried out, "Mercy on us! Hi! the fox! the fox!" and of they went after him*

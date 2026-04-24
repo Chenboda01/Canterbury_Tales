@@ -1,4 +1,4 @@
-# Scene 34
+# 📄 Scene 34
 
 ![Scene 34: **Source:** `../README.md#scene-34`](assets/scenes/scene-34.jpg)
 *README provides no narrative prose under this heading and transitions directly into source citations.*

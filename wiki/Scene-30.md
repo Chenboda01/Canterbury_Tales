@@ -1,4 +1,4 @@
-# Scene 30
+# 😱 Scene 30
 
 ![Scene 30: **Source:** `../README.md#scene-30`](assets/scenes/scene-30.jpg)
 *He stood high on his toes and stretched out his neck and shut his eyes tight, and began to crow loudly enough - and Mr. Renard, the fox, took opportunity to catch him by the throat, towards the wood close by ; for as yet not a soul had seen him.*

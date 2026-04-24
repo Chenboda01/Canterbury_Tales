@@ -1,4 +1,4 @@
-# Scene 5
+# 🪶 Scene 5
 
 ![Scene 05: **Source:** `../README.md#scene-5`](assets/scenes/scene-05.jpg)
 *Chanticleer was very beautiful and proud of his feathers. His comb was redder than the reddest coral, and indented like the leaves of a tree. His wattles were redder than the reddest coral, and his beak was sharper than the sharpest knife. He had a long neck, and his legs were long and slender.*

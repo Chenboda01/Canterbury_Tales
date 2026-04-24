@@ -1,4 +1,4 @@
-# Scene 9
+# 🗣️ Scene 9
 
 ![Scene 09: **Source:** `../README.md#scene-9`](assets/scenes/scene-09.jpg)
 *In old days beasts and birds, can talk, speak, sing, and communicate. They could understand each other, and they could understand human language as well. Chanticleer could speak and understand human language, and he could also speak and understand the language of the hens and the lady-loves. He would always talk to them and tell them stories, and they would always listen to him and enjoy his stories.*

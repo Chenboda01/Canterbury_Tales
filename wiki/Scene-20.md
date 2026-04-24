@@ -1,4 +1,4 @@
-# Scene 20
+# 📜 Scene 20
 
 ![Scene 20: **Source:** `../README.md#scene-20`](assets/scenes/scene-20.jpg)
 *"I would give my spurs for you to read the legend of St. Kenelm as I have -" Said Chanticleer, ". I may tell you too, Dame Partlet, that Macrobius, who wrote the account of the vision of worthy Scipio in Africa, believes in dreams, and says they are warnings."*

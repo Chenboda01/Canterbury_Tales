@@ -1,4 +1,4 @@
-# Scene 14
+# 🤒 Scene 14
 
 ![Scene 14: **Source:** `../README.md#scene-14`](assets/scenes/scene-14.jpg)
 *"Dear! Dear! And frightened at a dream too! Dreams are not real, and come from being not quite well. You eat too much for supper or drink more than is good for you ; there is a rush of blood to your head, and things that have to do with blood, such as arrows and red flashes of fire, and red beasts going to bite you, and fights, and dogs, great dogs and little dogs, such as come and bark at us sometimes."*

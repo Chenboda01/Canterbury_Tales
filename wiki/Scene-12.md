@@ -1,4 +1,4 @@
-# Scene 12
+# 😤 Scene 12
 
 ![Scene 12: **Source:** `../README.md#scene-12`](assets/scenes/scene-12.jpg)
 *"Shame on you," said Dame Partlet, "Shame on you for a coward I tell you straitforwardly that you almost lost my love. I will never love a milk-sop. Whatever we women say, we all wish to have husbands who are brave, wise, and generous, and who know how to hold their tongues. We despite a man who is stupid, or frighted at the least thing that they could ever think of in their whole entire lives. How dare you for shame tell your lady-love that you are afraid of anything?"*
