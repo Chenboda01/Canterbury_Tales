@@ -50,15 +50,45 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       sortFn: (a, b) => {
-        if (a.slugSegment === "0-Introduction") return -1
-        if (b.slugSegment === "0-Introduction") return 1
-        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
-          return a.displayName.localeCompare(b.displayName, undefined, {
-            numeric: true,
-            sensitivity: "base",
-          })
+        const slug = (n: typeof a) => n.slugSegment
+
+        const PROJECT_PAGES = [
+          "Project-Overview", "Story-Outline", "Characters-and-Roles",
+          "Source-Notes", "Schema", "Log", "Scene-Index",
+        ]
+        const CHARACTER_PAGES = [
+          "Chaucer", "Chanticleer", "Pertelote", "Fox",
+          "Widow", "Daughters", "Hens", "Farm-Animals",
+        ]
+        const OPERATIONS_PAGES = [
+          "Chatbot", "Quiz-Test", "prompt-template",
+          "scene-summary-checklist", "Lessons-Learned",
+        ]
+
+        const category = (s: string): number => {
+          if (s === "0-Introduction") return 0
+          if (s === "Home") return 1
+          if (PROJECT_PAGES.includes(s)) return 2
+          if (s.startsWith("Scene-")) return 3
+          if (CHARACTER_PAGES.includes(s)) return 4
+          if (OPERATIONS_PAGES.includes(s)) return 5
+          return 6
         }
-        return !a.isFolder && b.isFolder ? 1 : -1
+
+        const aCat = category(slug(a))
+        const bCat = category(slug(b))
+        if (aCat !== bCat) return aCat - bCat
+
+        if (aCat === 3) {
+          const aNum = parseInt(slug(a).replace("Scene-", ""), 10)
+          const bNum = parseInt(slug(b).replace("Scene-", ""), 10)
+          return aNum - bNum
+        }
+
+        return a.displayName.localeCompare(b.displayName, undefined, {
+          numeric: true,
+          sensitivity: "base",
+        })
       },
     }),
   ],
@@ -86,15 +116,45 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       sortFn: (a, b) => {
-        if (a.slugSegment === "0-Introduction") return -1
-        if (b.slugSegment === "0-Introduction") return 1
-        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
-          return a.displayName.localeCompare(b.displayName, undefined, {
-            numeric: true,
-            sensitivity: "base",
-          })
+        const slug = (n: typeof a) => n.slugSegment
+
+        const PROJECT_PAGES = [
+          "Project-Overview", "Story-Outline", "Characters-and-Roles",
+          "Source-Notes", "Schema", "Log", "Scene-Index",
+        ]
+        const CHARACTER_PAGES = [
+          "Chaucer", "Chanticleer", "Pertelote", "Fox",
+          "Widow", "Daughters", "Hens", "Farm-Animals",
+        ]
+        const OPERATIONS_PAGES = [
+          "Chatbot", "Quiz-Test", "prompt-template",
+          "scene-summary-checklist", "Lessons-Learned",
+        ]
+
+        const category = (s: string): number => {
+          if (s === "0-Introduction") return 0
+          if (s === "Home") return 1
+          if (PROJECT_PAGES.includes(s)) return 2
+          if (s.startsWith("Scene-")) return 3
+          if (CHARACTER_PAGES.includes(s)) return 4
+          if (OPERATIONS_PAGES.includes(s)) return 5
+          return 6
         }
-        return !a.isFolder && b.isFolder ? 1 : -1
+
+        const aCat = category(slug(a))
+        const bCat = category(slug(b))
+        if (aCat !== bCat) return aCat - bCat
+
+        if (aCat === 3) {
+          const aNum = parseInt(slug(a).replace("Scene-", ""), 10)
+          const bNum = parseInt(slug(b).replace("Scene-", ""), 10)
+          return aNum - bNum
+        }
+
+        return a.displayName.localeCompare(b.displayName, undefined, {
+          numeric: true,
+          sensitivity: "base",
+        })
       },
     }),
   ],
