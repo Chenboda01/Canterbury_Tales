@@ -50,7 +50,8 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       sortFn: (a, b) => {
-        const slug = (n: typeof a) => n.slugSegment
+        const slugA = a.slugSegment
+        const slugB = b.slugSegment
 
         const PROJECT_PAGES = [
           "Project-Overview", "Story-Outline", "Characters-and-Roles",
@@ -65,23 +66,25 @@ export const defaultContentPageLayout: PageLayout = {
           "scene-summary-checklist", "Lessons-Learned",
         ]
 
-        const category = (s: string): number => {
-          if (s === "0-Introduction") return 0
-          if (s === "Home") return 1
-          if (PROJECT_PAGES.includes(s)) return 2
-          if (s.startsWith("Scene-")) return 3
-          if (CHARACTER_PAGES.includes(s)) return 4
-          if (OPERATIONS_PAGES.includes(s)) return 5
-          return 6
-        }
-
-        const aCat = category(slug(a))
-        const bCat = category(slug(b))
+        const aCat = slugA === "0-Introduction" ? 0 :
+          slugA === "Home" ? 1 :
+          PROJECT_PAGES.includes(slugA) ? 2 :
+          slugA.startsWith("Scene-") ? 3 :
+          CHARACTER_PAGES.includes(slugA) ? 4 :
+          OPERATIONS_PAGES.includes(slugA) ? 5 :
+          6
+        const bCat = slugB === "0-Introduction" ? 0 :
+          slugB === "Home" ? 1 :
+          PROJECT_PAGES.includes(slugB) ? 2 :
+          slugB.startsWith("Scene-") ? 3 :
+          CHARACTER_PAGES.includes(slugB) ? 4 :
+          OPERATIONS_PAGES.includes(slugB) ? 5 :
+          6
         if (aCat !== bCat) return aCat - bCat
 
         if (aCat === 3) {
-          const aNum = parseInt(slug(a).replace("Scene-", ""), 10)
-          const bNum = parseInt(slug(b).replace("Scene-", ""), 10)
+          const aNum = parseInt(slugA.replace("Scene-", ""), 10)
+          const bNum = parseInt(slugB.replace("Scene-", ""), 10)
           return aNum - bNum
         }
 
@@ -116,7 +119,8 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       sortFn: (a, b) => {
-        const slug = (n: typeof a) => n.slugSegment
+        const slugA = a.slugSegment
+        const slugB = b.slugSegment
 
         const PROJECT_PAGES = [
           "Project-Overview", "Story-Outline", "Characters-and-Roles",
@@ -131,23 +135,25 @@ export const defaultListPageLayout: PageLayout = {
           "scene-summary-checklist", "Lessons-Learned",
         ]
 
-        const category = (s: string): number => {
-          if (s === "0-Introduction") return 0
-          if (s === "Home") return 1
-          if (PROJECT_PAGES.includes(s)) return 2
-          if (s.startsWith("Scene-")) return 3
-          if (CHARACTER_PAGES.includes(s)) return 4
-          if (OPERATIONS_PAGES.includes(s)) return 5
-          return 6
-        }
-
-        const aCat = category(slug(a))
-        const bCat = category(slug(b))
+        const aCat = slugA === "0-Introduction" ? 0 :
+          slugA === "Home" ? 1 :
+          PROJECT_PAGES.includes(slugA) ? 2 :
+          slugA.startsWith("Scene-") ? 3 :
+          CHARACTER_PAGES.includes(slugA) ? 4 :
+          OPERATIONS_PAGES.includes(slugA) ? 5 :
+          6
+        const bCat = slugB === "0-Introduction" ? 0 :
+          slugB === "Home" ? 1 :
+          PROJECT_PAGES.includes(slugB) ? 2 :
+          slugB.startsWith("Scene-") ? 3 :
+          CHARACTER_PAGES.includes(slugB) ? 4 :
+          OPERATIONS_PAGES.includes(slugB) ? 5 :
+          6
         if (aCat !== bCat) return aCat - bCat
 
         if (aCat === 3) {
-          const aNum = parseInt(slug(a).replace("Scene-", ""), 10)
-          const bNum = parseInt(slug(b).replace("Scene-", ""), 10)
+          const aNum = parseInt(slugA.replace("Scene-", ""), 10)
+          const bNum = parseInt(slugB.replace("Scene-", ""), 10)
           return aNum - bNum
         }
 
