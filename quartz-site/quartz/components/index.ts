@@ -25,6 +25,7 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import Chatbot from "./Chatbot"
 import CommentRelay from "./CommentRelay"
+import PageNavigation from "./PageNavigation"
 import Quiz from "./Quiz"
 
 export {
@@ -55,5 +56,6 @@ export {
   ConditionalRender,
   Chatbot,
   CommentRelay,
+  PageNavigation,
   Quiz,
 }

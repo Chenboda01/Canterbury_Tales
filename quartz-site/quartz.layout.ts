@@ -6,6 +6,7 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
+    Component.PageNavigation(),
     Component.CommentRelay({ relayPort: 3333 }),
     Component.ConditionalRender({
       component: Component.Quiz(),

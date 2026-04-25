@@ -1,0 +1,44 @@
+.page-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--gray);
+  gap: 1rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--dark);
+    border-radius: 6px;
+    background: var(--light);
+    color: var(--dark);
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: background 0.15s, border-color 0.15s;
+    max-width: 45%;
+
+    &:hover {
+      background: var(--gray);
+      border-color: var(--secondary);
+    }
+
+    .page-nav-arrow {
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+
+    .page-nav-label {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+
+  .page-nav-next {
+    margin-left: auto;
+  }
+}
