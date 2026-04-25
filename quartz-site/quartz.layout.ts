@@ -56,7 +56,7 @@ export const defaultContentPageLayout: PageLayout = {
 
         const PROJECT_PAGES = [
           "Project-Overview", "Story-Outline", "Characters-and-Roles",
-          "Source-Notes", "Schema", "Log", "Scene-Index",
+          "Source-Notes", "Schema", "Log", "Scene-Index", "Short-Scenes",
         ]
         const CHARACTER_PAGES = [
           "Chaucer", "Chanticleer", "Pertelote", "Fox",
@@ -125,7 +125,7 @@ export const defaultListPageLayout: PageLayout = {
 
         const PROJECT_PAGES = [
           "Project-Overview", "Story-Outline", "Characters-and-Roles",
-          "Source-Notes", "Schema", "Log", "Scene-Index",
+          "Source-Notes", "Schema", "Log", "Scene-Index", "Short-Scenes",
         ]
         const CHARACTER_PAGES = [
           "Chaucer", "Chanticleer", "Pertelote", "Fox",

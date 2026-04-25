@@ -1,0 +1,41 @@
+---
+title: "📋 Short Scenes"
+---
+
+# 📋 Short Scenes
+
+- 🎭 **Scene 0** — Chaucer rides a lean horse while the Host coaxes a merry story from him.
+- 🏡 **Scene 1** — A poor widow lives with her 2 daughters and a proud rooster named Chanticleer.
+- 🔥 **Scene 2** — The widow's cottage has only two soot-blackened rooms and an outdoor kitchen.
+- 🐷 **Scene 3** — The widow sells bacon, milk, and wool from her farm animals at market.
+- 🐓 **Scene 4** — Chanticleer lives in a dry, dusty yard enclosed by a wooden fence.
+- 🪶 **Scene 5** — Chanticleer is beautiful with a coral-red comb, sharp beak, and long slender legs.
+- 🌅 **Scene 6** — Chanticleer crows each morning to wake the household and each evening to close the day.
+- ❤️ **Scene 7** — Chanticleer loves and protects his 7 hens, warning them of danger.
+- 💕 **Scene 8** — Chanticleer's favorite lady-love is the beautiful and polite Dame Partlet.
+- 🗣️ **Scene 9** — In those days beasts and birds could talk and understand human language.
+- 😰 **Scene 10** — Chanticleer groans in his sleep and wakes in fright from a terrible dream.
+- 😴 **Scene 11** — Pertelote wakes and Chanticleer confesses he dreamed of a hungry fox chasing him.
+- 😤 **Scene 12** — Pertelote scolds Chanticleer for cowardice and threatens to withdraw her love.
+- 💪 **Scene 13** — Chanticleer insists he is no coward and must prove his courage to her.
+- 🤒 **Scene 14** — Pertelote argues that dreams are just bodily disturbances, not warnings.
+- 💊 **Scene 15** — Pertelote cites Cato and prescribes herbs to clear Chanticleer's bad dreams.
+- 📚 **Scene 16** — Chanticleer rejects medicine and claims books and Scripture know more than Cato.
+- 📖 **Scene 17** — Pertelote accuses Chanticleer of reading the Bible without understanding it.
+- 🙄 **Scene 18** — Chanticleer refuses to argue further and stands by his own mind.
+- 🏛️ **Scene 19** — Chanticleer tells a story of two friends where a prophetic dream reveals a murder.
+- 📜 **Scene 20** — Chanticleer invokes St. Kenelm and Macrobius as authorities that dreams are warnings.
+- 🌙 **Scene 21** — Chanticleer cites history like Hector's wife dreaming of his death before it happened.
+- 🐓 **Scene 22** — Morning comes and Chanticleer flies down from the beam with all his hens.
+- 🌽 **Scene 23** — Chanticleer struts proudly in the sunny May yard, crowing in joy.
+- 🦊 **Scene 24** — A sly fox has crept in from the wood and hides among the nettles.
+- 😈 **Scene 25** — The narrator condemns the fox and laments that Chanticleer ignored his dream.
+- 🤐 **Scene 26** — The narrator pulls back from criticizing women.
+- 🎵 **Scene 27** — Chanticleer spots the fox crouching in the nettles while the hens dust themselves.
+- 🎭 **Scene 28** — The fox flatters Chanticleer by praising his well-known parents.
+- 🎤 **Scene 29** — The fox begs to hear Chanticleer sing, appealing to his vanity.
+- 😱 **Scene 30** — Chanticleer shuts his eyes to crow and the fox seizes him by the throat.
+- 😔 **Scene 31** — A lament: poor Chanticleer should have stayed on his perch.
+- 🏃 **Scene 32** — The yard erupts in cries of "the fox!" as everyone gives chase.
+- 🧠 **Scene 33** — The fox tries more flattery but Chanticleer refuses, having learned his lesson.
+- 📄 **Scene 34** — The story closes with Chanticleer wiser after the fox's deception.
