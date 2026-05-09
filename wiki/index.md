@@ -9,8 +9,10 @@ This index lists all pages currently maintained in the project wiki.
 ## Project pages
 
 - [[Home]] — entry point and context.
+- [[0-Introduction]] — image-based opening page.
 - [[Project-Overview]] — goals, scope, and assumptions.
 - [[Story-Outline]] — scene-level progression and structure.
+- [[Short-Scenes]] — compact one-line summary of each scene.
 - [[Characters-and-Roles]] — entities, traits, and relationships.
 - [[Source-Notes]] — provenance and editorial notes.
 - [[Schema]] — how this wiki is maintained.
